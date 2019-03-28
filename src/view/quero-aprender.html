@@ -11,27 +11,28 @@
   <title>Landing Page - Start Bootstrap Theme</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
     type="text/css">
 
   <!-- Custom styles for this template -->
-  <link href="src/css/landing-page.min.css" rel="stylesheet">
-  <!-- INDEX CSS -->
-  <link href="src/css/index.css" rel="stylesheet">
+  <link href="../css/landing-page.min.css" rel="stylesheet">
   <!-- AUTOCOMPLETE CSS -->
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <!-- CSS -->
+  <link href="../css/soucliente.css" rel="stylesheet">
 </head>
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light text-center header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
     <a class="navbar-brand" href="#">
-      <div><img width="35" height="35" src="img/icone_topo.png" /></div>
+      <div><img width="35" height="35" src="../../img/icone_topo.png" /></div>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,11 +45,11 @@
           <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="src/view/sou-cliente.html">sou cliente</a>
+          <a class="nav-link" href="sou-cliente.html">sou cliente</a>
         </li>
         <li class="nav-item">
           <button type="button" class="btn btn-light headerButton">
-            <a class="nav-link" href="souprofissional.html">sou profissional</a>
+            <a class="nav-link" href="sou-profissional.html">sou profissional</a>
           </button>
 
         </li>
@@ -72,34 +73,19 @@
   <!-- END HEADER -->
 
   <!-- CONTENT -->
-  <header class="text-white text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto logo">
-          <img class="img-fluid" src="img/logo_nome_prinicipal.png" />
-        </div>
-        <!-- SEARCH -->
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mySearch">
-          <div class="form-row text-center">
-            <div class="input-group mb-3">
-              <input id="tags" type="text" class="form-control text-center buscar searchBox"
-                placeholder="buscar profissional" aria-label="buscar profissional" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary buscar searchButton" type="button">
-                  <img width="20" height="20" class="buscar" src="img/icone_branco_fundo_transparente.png" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="row myRowBar">
-            <div class="text-left col-auto mr-auto"><i class="fas fa-compass"></i> ver locais
-              próximos</div>
-            <div class="text-right col-auto">quero anunciar</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+  <div class="container">
+
+    <img src="../../img/banner-soucliente.png" class="img-fluid" alt="Responsive image"><br><br>
+
+    <p style="text-align:center; color:#009DBE;">Vá aonde seu cliente está!<br><br>
+
+      Torne-se um Profissional Independente Jobex e comece a multiplicar clientes.<br><br>
+
+      #SeuTempoValeOuro!<br><br>
+
+      É fácil se tornar um Profissional Independente Jobex.</p>
+  </div>
+
   <!-- END CONTENT -->
 
   <!-- FOOTER -->
@@ -108,7 +94,7 @@
       <div class="row myFooter grid">
         <!-- APP DOWNLOAD -->
         <div class="col-lg-4 myList">
-          <img src="img/logo-jobex-completa-cinza-claro.png" alt="">
+          <img src="../../img/logo-jobex-completa-cinza-claro.png" alt="">
           <p class="downloadText">Baixe grátis o APP</p>
           <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
             <i class="fab fa-apple mr-1"></i>App Store
@@ -175,11 +161,11 @@
         <p class="text-muted text-center mt-4 mb-4 mb-lg-0 jobex">&copy; 2019 - Jobex</p>
       </div>
   </footer>
-  <!-- END FOOTER -->  
-  
+  <!-- END FOOTER -->
+
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../vendor/jquery/jquery.min.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="js/index.js"></script>
 </body>

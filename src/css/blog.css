@@ -1,0 +1,18 @@
+.blogContainer{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media screen and (max-width: 900px){
+    .blogContainer{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .blogContainer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

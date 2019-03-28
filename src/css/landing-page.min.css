@@ -6,6 +6,7 @@
  
  body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #F3F3F3;
   }
   
   h1,
@@ -236,4 +237,16 @@
 
 .logo{
   margin: 60px 40px 40px 40px;
+}
+
+.container{
+  padding-top: 20px;
+}
+
+.navbar{
+  background-color: #FFFFFF !important;
+}
+
+.footer{
+  background-color: #FAFAFA !important;
 }

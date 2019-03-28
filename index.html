@@ -20,6 +20,8 @@
   <link href="css/landing-page.min.css" rel="stylesheet">
   <!-- INDEX CSS -->
   <link href="css/index.css" rel="stylesheet">
+  <!-- AUTOCOMPLETE CSS -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 
 <body>
@@ -76,7 +78,7 @@
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mySearch">
           <div class="form-row text-center">
             <div class="input-group mb-3">
-              <input type="text" class="form-control text-center buscar searchBox" placeholder="buscar profissional"
+              <input id="tags" type="text" class="form-control text-center buscar searchBox" placeholder="buscar profissional"
                 aria-label="buscar profissional" aria-describedby="basic-addon2">
               <div class="input-group-append">
                 <button class="btn btn-outline-secondary buscar searchButton" type="button">
@@ -172,5 +174,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>

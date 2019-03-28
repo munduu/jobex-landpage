@@ -1,0 +1,27 @@
+.searchBox{
+    letter-spacing: .4rem; 
+    border-radius: 25px 0 0 25px;
+}
+
+.searchButton{
+    padding-left: 25px; 
+    padding-right: 25px; 
+    background-image: linear-gradient(#31B1CB, #2D3C6A); 
+    border: 0px; 
+    border-radius: 0px 25px 25px 0px;
+}
+
+.searchButton img{
+    margin-top: -7px;
+}
+
+.myRowBar{
+    color: #009DBE;
+}
+
+.downloadText{
+    padding-left: 0;
+    margin-top: 2.5em; 
+    color:#009DBE; 
+    font-size: 20px;
+}

@@ -1,0 +1,61 @@
+.jobexJuniorSubtitle{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F89425;
+    margin-bottom: 0 !important;
+}
+
+.learnButton{
+    font-weight: bolder;
+    background-color: #F89425;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.learnButton:hover{
+    font-weight: bolder;
+    background-color: #ffb055;
+    color: #ffffff;
+}
+
+.effectText{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    color: #919191;
+    text-align: justify;
+}
+
+.observationText{
+    font-size: 13px;
+    color: #919191;
+}
+
+.textBlock{
+    margin-top: 1.5rem;
+    text-align: justify;
+}
+
+.myContent{
+    padding: 0 15% 0 15%;
+}
+
+@media (max-width: 600px){
+    .myContent{
+        padding: 0 5% 0 5%;
+    }
+
+    .icoContainer{
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px){
+    .myContent{
+        padding: 0 !important;
+    }
+    .effectText{
+        font-size: 13px;
+    }
+}

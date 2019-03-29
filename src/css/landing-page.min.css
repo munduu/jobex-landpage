@@ -121,7 +121,7 @@
   }
   
   footer.footer {
-    padding-top: 4rem;
+    padding-top: 0.5rem;
     padding-bottom: 4rem;
   }
   
@@ -241,6 +241,7 @@
 
 .container{
   padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .navbar{

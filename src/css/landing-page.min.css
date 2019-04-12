@@ -18,6 +18,11 @@
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
   }
+
+  .BlueBigText{
+    font-size: 30px;
+    color: #359FC2;
+  }
   
   header.masthead {
     position: relative;
@@ -131,8 +136,7 @@
 
  .buscar::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     opacity: 1; /* Firefox */
-  }
-  
+ }
   .buscar:-ms-input-placeholder { /* Internet Explorer 10-11 */ }
   
   .buscar::-ms-input-placeholder { /* Microsoft Edge */ }

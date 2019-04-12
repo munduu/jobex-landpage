@@ -1,0 +1,39 @@
+.formRegister{
+    max-width: 640px;
+    padding: 0 !important;
+    background-color: #ebe8e8;
+}
+
+.formHeader{
+    background-color: #02BACD;   
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.headerTitle{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.formContent{
+    width: 100%;
+    padding: 20px;
+}
+
+.formContent input, textarea{
+    padding: 1px !important;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.formContent label{
+    color: #868686;
+    margin-bottom: 0;
+}
+.sendButton{
+    background-color: #02BACD !important;   
+    color: #ffffff !important;
+}

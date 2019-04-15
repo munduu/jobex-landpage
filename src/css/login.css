@@ -1,0 +1,22 @@
+.formLogin input{
+    width: 100%;
+    
+}
+.formLogin{
+    max-width: 350px;
+}
+.btnJoin{
+    width: 100%;
+}
+.registerLink{
+    margin-top: 50px;
+    font-size: 28px;
+    color: #646464;
+    font-weight: bolder;
+    text-align: center;
+}
+.textLoginSocial{
+    margin-top: 50px;
+    color: #646464;
+    font-size: 14px;
+}

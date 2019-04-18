@@ -1,0 +1,12 @@
+
+.planosLink {
+    border-radius: 10px;
+}
+.planosLink a {
+    color: #333;
+    background: #CCC;
+}
+.planosLink a:hover {
+    color: white;
+    background-image: linear-gradient(to right, blue , white);
+}

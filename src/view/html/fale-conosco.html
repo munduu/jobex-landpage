@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<!-- HEADER-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Landing Page - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+    type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/landing-page.min.css" rel="stylesheet">
+  <!-- AUTOCOMPLETE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+  <!-- PAGE CSS -->
+  <link rel="stylesheet" href="../css/fale-conosco.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light text-center header">
+    <a class="navbar-brand" href="#">
+      <div><img width="35" height="35" src="../../img/icone_topo.png" /></div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../../index.html">home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sou-cliente.html">sou cliente</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light headerButton">
+            <a class="nav-link" href="sou-profissional.html">sou profissional</a>
+          </button>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">quero aprender</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="app.html"><strong>APP Jobex</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link myAccountButton" href="login.html" style="color: #009DBE;">minha conta <i
+              class="far fa-user"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+  <!-- END HEADER -->
+
+  <!-- CONTENT -->
+  <div class="container">
+    <!-- CONTACT FORM -->
+    <form class="formRegister row m-auto">
+      <div class="formHeader text-center">
+        <div class="headerTitle">FALE CONOSCO</div>
+        <span>Para entrar em contato conosco, basta preencher o formulário abaixo:</span>
+      </div>
+      <div class="formContent">
+        <label for="name" class="mt-1">Nome*</label>
+        <input type="text" name="name" class="form-control formInput" placeholder="Nome">
+        <label for="name" class="mt-1">Email*</label>
+        <input type="text" name="email" class="form-control formInput" placeholder="Email">
+        <label for="name" class="mt-1">Celular*</label>
+        <input type="text" name="phone" class="form-control formInput" placeholder="Celular">
+        <label for="name" class="mt-1">Cidade*</label>
+        <input type="text" name="city" class="form-control formInput" placeholder="Cidade">
+        <!-- COMBO BOX -->
+        <label for="name" class="mt-1">Assunto*</label>
+        <select id="assunto" class="form-control" name="content" >
+            <option selected disabled><strong>SELECIONE*</strong></option>
+            <option>Sugestão/ Reclamação</option>
+            <option>Dúvida</option>
+            <option>Comercial</option>
+            <option>Proposta  </option>
+        </select>
+        <label for="name" class="mt-1">Mensagem*</label>
+        <!-- MESSAGE  -->
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
+        <!-- SEND BUTTON -->
+        <button type="submit" class="w-100 btn sendButton mt-3">Enviar</button>
+      </div>
+    </form>
+
+  </div>
+
+  <!-- END CONTENT -->
+
+  <!-- FOOTER -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row myFooter grid">
+        <!-- APP DOWNLOAD -->
+        <div class="col-lg-4 myList">
+          <img src="../../img/logo-jobex-completa-cinza-claro.png" alt="">
+          <p class="downloadText">Baixe grátis o APP</p>
+          <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
+            <i class="fab fa-apple mr-1"></i>App Store
+          </button>
+          <button type="button" class="btn btn-light btn-sm downloadAppButton">
+            <i class="fab fa-apple mr-1"></i>Google Play
+          </button>
+        </div>
+        <!-- FOOTER MENU -->
+        <div class="col-lg-2">
+          <ul class="myList mt-md">
+            <li>
+              <a href="#">Quem Somos</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+            <li>
+              <a href="jobex-junior.html">Jobex Junior</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul class="myList">
+            <li>
+              <a href="#">Política de Privacidade</a>
+            </li>
+            <li>
+              <a href="termos-de-uso.html">Termos de Uso</a>
+            </li>
+            <li>
+              <a href="#">Segurança</a>
+            </li>
+          </ul>
+        </div>
+        <!-- FOOTER REGISTER -->
+        <div class="col-lg-4 mt-md">
+          <ul class="myList text-center">
+            <li>
+              <a href="#">Cadastre seu e-mail para receber novidades</a>
+            </li>
+            <li>
+              <input type="text" class="form-control buscar formInput" placeholder="*nome">
+            </li>
+            <li>
+              <input type="email" class="form-control buscar formInput" placeholder="*e-mail">
+            </li>
+            <li>
+              <button type="button" class="btn btn-primary registerButton">cadastrar</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- SOCIAL BAR -->
+      <div class="col-12 text-center socialBar">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <p class="text-muted text-center mt-4 mb-4 mb-lg-0 jobex">&copy; 2019 - Jobex</p>
+      </div>
+  </footer>
+  <!-- END FOOTER -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../../vendor/jquery/jquery.min.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+
+</html>

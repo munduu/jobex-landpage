@@ -1,0 +1,199 @@
+.backgroundImage{
+    width: 100%;
+}
+.blueSubtitle{
+    color: #0759BF;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.content{
+    position: relative;
+}
+.myHeader{
+    position: absolute;
+    top: 3%;
+    left: 0;
+    z-index: 100;
+    margin: 0 !important;
+} 
+.infoContainer{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 70%;
+}
+.infoContainer p{
+    text-align: justify;
+    padding: 0;
+}
+.myMenuHeader{
+    margin: 0;
+}
+.specialText{
+    font-size: 30px;
+    color: #0DC5E6;
+    font-weight: bolder;
+}
+.specialText span{
+    font-size: 30px;
+    color: #000000 !important;
+}
+.master{
+    font-size: 18px;
+    font-weight: bold;
+}
+.masterCircle{
+    height: 130px;
+    width: 130px;
+    background-color: #FF6B00;
+    border-radius: 100%;
+    
+}
+.masterLink{
+    color: #0759BF;
+    font-size: 14px;
+}
+.plans{
+    background-color: #101BAA;
+    padding: 34px 200px 34px 200px;
+}
+.plansTitle{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.planCard{
+    background-color: #EDEDEE;
+    width: 250px;
+    border-radius: 2%;
+    text-align: center;
+    padding: 20px;
+}
+.cardTitle{
+    color: #707076;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.cardIcon{
+    position:relative;
+    background-color: #ffffff;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.cardIcon img{
+    position:absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+
+
+.cardDesc{
+    font-size: 14px;
+    color: #707076;
+}
+.miniTextCard{
+    font-size: 10px;
+}
+.cardPriceContainer{
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.cardPrice{
+    font-size: 18px;
+    line-height: 22px;
+    padding: 5px;
+}
+.cardPrice span{
+    font-size: 26px;
+    line-height: 22px;
+}
+.cardPriceBlueText{
+    line-height: 18px;
+    font-size: 22px !important;
+    color: #00A1FE;
+    margin: 0;
+}
+@media (max-width: 500px){
+    .backgroundTextBlock{
+        visibility: hidden;
+    }
+    .infoContainer{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .myHeader{
+        text-align: left !important;
+    }
+}
+@media (max-width: 720px){
+    .headerLogo {
+        text-align: left !important;
+    }
+    .myMenuHeader{
+        margin-top: 40px;
+    }
+    .myMenuHeader a{
+        color: #ffffff !important;
+        letter-spacing: 3px !important;
+    }
+    .myMenuHeader a:hover{
+        color: #dadada !important;
+    }
+    .backgroundTextBlock h1{
+        font-size: 24px !important;
+        letter-spacing: 2px !important;
+    }
+    .backgroundTextBlock p{
+        font-size: 14px !important;
+        letter-spacing: 0px !important;
+    }
+    .myHeader{
+        top: 15px;
+    }
+    .infoContainer{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+}
+@media (min-width: 684px) and (max-width: 1000px){
+    .infoContainer{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+}
+.myMenuHeader a{
+    color: #000000;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.myMenuHeader a:hover{
+    color: #313131;
+    text-decoration: none;
+    letter-spacing: 3px !important;
+}
+.headerLogo {
+    text-align: center;
+}
+.headerLogo img{
+    max-width: 160px;
+}
+.backgroundTextBlock{
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 100%;
+}
+.backgroundTextBlock h1{
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.backgroundTextBlock p{
+    font-size: 24px;
+    letter-spacing: 0px;
+}

@@ -1,4 +1,4 @@
-<?php include('../src/controller/config.php'); ?>
+<?php include('../../src/controller/config.php'); ?>
 <?php $pageName = 'app'; ?>
 <!DOCTYPE html>
 <html lang="pt-BR">

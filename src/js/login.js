@@ -23,13 +23,13 @@ $(function() {
     var settings = {
       "async": true,
       "crossDomain": true,
-      "url": url_geral+"auth",
+      "url": "http://v22.soujobex.com.br/auth",
       "method": "GET",
       "headers": {
-        "email": email,
-        "senha": senha,
+        "email": "suporte@munduu.com",
+        "senha": "123456",
         "Content-Type": "application/json",
-        "cache-control": "no-cache",
+        "cache-control": "no-cache"      
       }
     }
     

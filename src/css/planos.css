@@ -1,12 +1,14 @@
 
 .planosLink {
     border-radius: 10px;
-}
-.planosLink a {
+    padding: 25px;
+    width: 100%;
     color: #333;
-    background: #CCC;
+    background: rgb(219, 217, 217);
+    margin-top:20px;
+    text-align: left;
 }
-.planosLink a:hover {
+.planosLink:hover {
     color: white;
-    background-image: linear-gradient(to right, blue , white);
+    background-image: linear-gradient(to right, #003366, blue);
 }

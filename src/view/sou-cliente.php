@@ -27,12 +27,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
   <!-- PAGE CSS -->
   <link rel="stylesheet" href="../css/sou-cliente.css">
+  <link rel="stylesheet" href="../css/menu-topo.css">
 </head>
 
 <body>
   
   <?php include('../controller/menu_topo.php'); ?>
-
   <!-- CONTENT -->
   <div class="container">
 

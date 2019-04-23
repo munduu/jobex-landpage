@@ -28,4 +28,17 @@ $(function() {
     } 
   });
 
+  $(document).on('keypress',function(e) {
+    console.log(e);
+    if(e.which == 13 || e.which == 168) {
+      var tag = $('#tagid').val();
+      var name = $('#tags').val();
+      if(tag !== ''){
+        window.location.href = './src/view/search.php?tag=' + tag + '&name=' + name + '';
+      } else {
+        alert('Selecione Pelo menos uma Profissão');
+      } 
+    }
+  });
+
 });

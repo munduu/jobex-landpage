@@ -21,7 +21,7 @@ $(function() {
   $.post(url_geral+"proposta/selecionar-profissional-land", { grupo: $.urlParam('tag') }, function(result){
     for(var i = 0; i < result.result.list.data.length; i++) {
 
-      let stars = (result.result.list.data[i].media_stars != null) ? result.result.list.data[i].media_stars : 0;
+      let stars = (result.result.list.data[i].media_stars != null) ? result.result.list.data[i].media_stars : 1;
 
       let id = result.result.list.data[i].id;
 
@@ -94,7 +94,7 @@ $(function() {
 
         var i = 0;
 
-        let stars = (result.result.perfil[i].media_stars != null) ? result.result.perfil[i].media_stars : 0;
+        let stars = (result.result.perfil[i].media_stars != null) ? result.result.perfil[i].media_stars : 1;
         let id = result.result.perfil[i].id_user;
 
         if(result.result.perfil[i].aceita_cartao == 1) { var aceita_cartao = "sim"; } else { var aceita_cartao = "não"; }
@@ -205,10 +205,22 @@ $(function() {
     var tag = $('#tagid').val();
     var name = $('#tags').val();
     if(tag !== ''){
-      window.location.href = './search.html?tag=' + tag + '&name=' + name + '';
+      window.location.href = './search.php?tag=' + tag + '&name=' + name + '';
     } else {
       alert('Selecione Pelo menos uma Profissão');
     } 
+  });
+
+  $(document).on('keypress',function(e) {
+    if(e.which == 13 || e.which == 168) {
+      var tag = $('#tagid').val();
+      var name = $('#tags').val();
+      if(tag !== ''){
+        window.location.href = './search.php?tag=' + tag + '&name=' + name + '';
+      } else {
+        alert('Selecione Pelo menos uma Profissão');
+      } 
+    }
   });
 
   $.get("https://ddd.pricez.com.br/estados.json",  function(result){

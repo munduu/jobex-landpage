@@ -58,7 +58,7 @@
             <div class="text-left col-auto mr-auto">
               <a href="#"><i class="fas fa-compass"></i> ver locais próximos</a>
             </div>
-            <div class="text-right col-auto"><a href="./quero-anunciar">quero anunciar</a></div>
+            <div class="text-right col-auto"><a href="./quero-anunciar">Quero Anunciar</a></div>
           </div>
         </div>
         

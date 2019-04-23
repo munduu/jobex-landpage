@@ -1,5 +1,5 @@
 <?php include('../../src/controller/config.php'); ?>
-<?php $pageName = 'search'; ?>
+<?php $pageName = 'perfil'; ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -49,6 +49,8 @@
           <div id="searchDetail" style="margin-top: 40px; display: none;"></div>
     
         </div>
+
+        <p style="text-align:center; margin-top:50px;"><button type="button" class="btn btn-warning logout">Sair</button></p>
   </div>
 
   <!-- END CONTENT -->

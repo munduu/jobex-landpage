@@ -10,6 +10,17 @@ $(function() {
     return decodeURI(results[1]) || 0;
   }
 
+  function createCookie(name, value, days) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        var expires = "; expires=" + date.toGMTString();
+    }
+    else var expires = "";               
+
+    document.cookie = name + "=" + value + expires + "; path=/";
+  }
+
   function eraseCookie(name) {
     createCookie(name, "", -1);
   }
@@ -49,8 +60,7 @@ $(function() {
               '<i id="star5_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
             '</p>'+
           '</div>'+
-        '</div>'+
-        '<p style="text-align:center; margin-top:50px;"><button type="button" class="btn btn-warning logout">Sair</button></p>');
+        '</div>');
 
         if(result.result.perfil[i].img_url != null) {
           $( "#img_perfil_detail" + id ).html('<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="'+ url_geral +'jobex-api/public/'+ result.result.perfil[i].img_url +'" />');
@@ -105,5 +115,6 @@ $(function() {
     eraseCookie('id_user');
     eraseCookie('mail');
     eraseCookie('pass');
+    window.location.href = "../../login";
   });
 });

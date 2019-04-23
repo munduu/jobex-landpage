@@ -88,12 +88,15 @@
             <div class="text-center w-100">
               AQUI VAI O CARROUSEL!
             </div>
-            <div class="specialText mt-3 w-100">Os melhores mestres <span>farão de você um(a)</span> expert <span>!</span></div>
+            <div class="specialText mt-3 w-100 text-center text-sm-left">Os melhores mestres <span>farão de você um(a)</span> expert <span>!</span></div>
             <!-- MASTER -->
-            <div class="master text-center">
-              <div class="masterCircle mt-3"></div>
-              <div class="masterTitle">Betina Santos</div>
-              <div class="masterLink">Saiba mais -></div>
+            <div class="master text-center text-md-left w-100">
+              <div>
+                <div class="masterCircle mt-3"></div>
+                <div class="masterTitle">Betina Santos</div>
+                <div class="masterLink">Saiba mais -></div>
+              </div>
+
             </div>
           </div>
 
@@ -102,7 +105,7 @@
         <!-- END NEXT CONTENT -->
 
         <!-- PLANS -->
-        <div class="plans w-100 mt-3">
+        <div class="plans w-100 mt-3 text-center text-md-left">
           <div class="plansTitle mt-3">Meus Planos e Cursos</div>
           <!-- PLAN CARD -->
           <div class="planCard">
@@ -118,8 +121,8 @@
             </div>
             <div class="cardPriceContainer">
               <div class="cardPrice">
-                R$ <span>49,00<span><br>
-                    <span class="cardPriceBlueText">contratar</span>
+                R$ <span>49,00</span><br>
+                <a href="#" class="cardPriceBlueText">contratar</a>
               </div>
             </div>
           </div>
@@ -134,8 +137,54 @@
         <span class="sr-only">Próximo</span>
       </a>
     </div>
-
-
+    <!-- FOOTER -->
+    <div class="myFooter text-center">
+      <div class="row">
+        <div class="col-3 col-sm-3"></div>
+        <div class="col-12 col-sm-12 col-md-6">
+          <div class="w-100 footerSubscribeText">Cadastre seu e-mail e receba novidades</div>
+          <!-- INPUT EMAIL -->
+          <input type="email" class="form-control inputEmail" id="email" placeholder="nome@exemplo.com.br">
+          <!-- SUBSCRIBE BUTTON -->
+          <button type="button" class="btn btn-primary btn-lg subscribeButton">
+            <i class="fas fa-check"></i>
+          </button>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 text-center mt-md-0 mt-3 text-md-left">
+          <button type="button" class="btn btn-light btn-sm downloadAppButton mb-2">
+            <i class="fab fa-apple mr-1"></i>App Store
+          </button><br>
+          <button type="button" class="btn btn-light btn-sm downloadAppButton">
+            <i class="fab fa-apple mr-1"></i>Google Play
+          </button>
+        </div>
+      </div>
+      <!-- SOCIAL BAR -->
+      <div class="col-12 text-center socialBar">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <div class="mt-3 mb-3 mb-lg-0">
+          &copy; 2019 - Jobex -
+          <a href="<?php if ($pageName == 'index') {
+                      echo './contato';
+                    } else {
+                      echo '../../contato';
+                    } ?>#"> Contato </a> |
+          <a href="<?php if ($pageName == 'index') {
+                      echo './politica-de-privacidade';
+                    } else {
+                      echo '../../politica-de-privacidade';
+                    } ?>  "> Política de Privacidade </a> |
+          <a href="<?php if ($pageName == 'index') {
+                      echo './termos-de-uso';
+                    } else {
+                      echo '../../termos-de-uso';
+                    } ?>"> Termos e Condições </a>
+        </div>
+      </div>
+    </div>
+    <!-- END FOOTER -->
   </div>
   <!-- END CONTENT -->
 

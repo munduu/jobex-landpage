@@ -1,80 +1,97 @@
-.backgroundImage{
+.backgroundImage {
     width: 100%;
 }
-.blueSubtitle{
+
+.blueSubtitle {
     color: #0759BF;
     font-size: 24px;
     margin-bottom: 12px;
 }
-.content{
+
+.content {
     position: relative;
 }
-.myHeader{
+
+.myHeader {
     position: absolute;
     top: 3%;
     left: 0;
     z-index: 100;
     margin: 0 !important;
-} 
-.infoContainer{
+}
+
+.infoContainer {
     padding-left: 200px;
     padding-right: 200px;
     margin-top: 70%;
 }
-.infoContainer p{
+
+.infoContainer p {
     text-align: justify;
     padding: 0;
 }
-.myMenuHeader{
+
+.myMenuHeader {
     margin: 0;
 }
-.specialText{
+
+.specialText {
     font-size: 30px;
     color: #0DC5E6;
     font-weight: bolder;
 }
-.specialText span{
+
+.specialText span {
     font-size: 30px;
     color: #000000 !important;
 }
-.master{
+
+.master {
     font-size: 18px;
     font-weight: bold;
 }
-.masterCircle{
+
+.masterCircle {
+    display: inline-block !important;
     height: 130px;
     width: 130px;
     background-color: #FF6B00;
     border-radius: 100%;
-    
 }
-.masterLink{
+
+.masterLink {
     color: #0759BF;
     font-size: 14px;
 }
-.plans{
+
+.plans {
     background-color: #101BAA;
     padding: 34px 200px 34px 200px;
 }
-.plansTitle{
+
+.plansTitle {
     color: #ffffff;
     font-weight: bolder;
     font-size: 30px;
 }
-.planCard{
+
+.planCard {
+    display: inline-block;
     background-color: #EDEDEE;
     width: 250px;
     border-radius: 2%;
     text-align: center;
     padding: 20px;
 }
-.cardTitle{
+
+.cardTitle {
     color: #707076;
     font-weight: bolder;
     font-size: 18px;
 }
-.cardIcon{
-    position:relative;
+
+.cardIcon {
+    position: relative;
     background-color: #ffffff;
     border-radius: 100%;
     height: 150px;
@@ -82,118 +99,177 @@
     text-align: center;
 }
 
-.cardIcon img{
-    position:absolute;
+.cardIcon img {
+    position: absolute;
     left: 0;
     right: 0;
-    top:0;
-    bottom:0;
+    top: 0;
+    bottom: 0;
     margin: auto;
 }
 
-
-.cardDesc{
+.cardDesc {
     font-size: 14px;
     color: #707076;
 }
-.miniTextCard{
+
+.miniTextCard {
     font-size: 10px;
 }
-.cardPriceContainer{
+
+.cardPriceContainer {
     border-radius: 25px;
     background-color: #ffffff;
 }
-.cardPrice{
+
+.cardPrice {
     font-size: 18px;
     line-height: 22px;
     padding: 5px;
 }
-.cardPrice span{
+
+.cardPrice span {
     font-size: 26px;
     line-height: 22px;
 }
-.cardPriceBlueText{
+
+.cardPriceBlueText {
     line-height: 18px;
     font-size: 22px !important;
     color: #00A1FE;
     margin: 0;
 }
-@media (max-width: 500px){
-    .backgroundTextBlock{
+
+@media (max-width: 500px) {
+    .backgroundTextBlock {
         visibility: hidden;
     }
-    .infoContainer{
+    .infoContainer, .plans {
         padding-left: 10px !important;
         padding-right: 10px !important;
     }
-    .myHeader{
+    
+    .myHeader {
         text-align: left !important;
     }
 }
-@media (max-width: 720px){
+
+@media (max-width: 720px) {
     .headerLogo {
         text-align: left !important;
     }
-    .myMenuHeader{
+    .myMenuHeader {
         margin-top: 40px;
     }
-    .myMenuHeader a{
+    .myMenuHeader a {
         color: #ffffff !important;
         letter-spacing: 3px !important;
     }
-    .myMenuHeader a:hover{
+    .myMenuHeader a:hover {
         color: #dadada !important;
     }
-    .backgroundTextBlock h1{
+    .backgroundTextBlock h1 {
         font-size: 24px !important;
         letter-spacing: 2px !important;
     }
-    .backgroundTextBlock p{
+    .backgroundTextBlock p {
         font-size: 14px !important;
         letter-spacing: 0px !important;
     }
-    .myHeader{
+    .myHeader {
         top: 15px;
     }
-    .infoContainer{
+    .infoContainer, .plans {
         padding-left: 40px !important;
         padding-right: 40px !important;
     }
 }
-@media (min-width: 684px) and (max-width: 1000px){
-    .infoContainer{
+
+@media (min-width: 684px) and (max-width: 1000px) {
+    .infoContainer, .plans {
         padding-left: 100px !important;
         padding-right: 100px !important;
     }
 }
-.myMenuHeader a{
+
+.myMenuHeader a {
     color: #000000;
     font-weight: bolder;
     letter-spacing: 1px;
 }
-.myMenuHeader a:hover{
+
+.myMenuHeader a:hover {
     color: #313131;
     text-decoration: none;
     letter-spacing: 3px !important;
 }
+
 .headerLogo {
     text-align: center;
 }
-.headerLogo img{
+
+.headerLogo img {
     max-width: 160px;
 }
-.backgroundTextBlock{
+
+.backgroundTextBlock {
     color: #ffffff;
     position: absolute;
     top: 40%;
     left: 15%;
     width: 100%;
 }
-.backgroundTextBlock h1{
+
+.backgroundTextBlock h1 {
     font-size: 42px;
     letter-spacing: 2px;
 }
-.backgroundTextBlock p{
+
+.backgroundTextBlock p {
     font-size: 24px;
     letter-spacing: 0px;
+}
+
+.myFooter {
+    background-color: #0096F3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center !important;
+}
+.socialBar {
+    margin-top: 1em;
+    color: #ffffff !important;
+}
+.socialBar i {
+    color: #359FC2;
+    background-color: #ffffff;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+.socialBar i:hover {
+    color: #49d1ff;
+    background-color: #ffffff;
+}
+.socialBar a{
+    color: #ffffff !important;
+}
+.footerSubscribeText{
+    color: #ffffff;
+}
+.subscribeButton{
+    background-color: #0C0CB9;
+}
+.inputEmail{
+    display: inline-block;
+    text-align: center;
+    max-width: 300px !important;
+}
+.downloadAppButton{
+    color: #ffffff;
+    background-color: #000000;
+    border: 0 !important;
+    width: 110px !important;
+    border-radius: 5px;
 }

@@ -51,6 +51,8 @@
         <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
       </div>
       <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary btn-block">Entrar</div></div>
+      <div class="mt-4 col-md-12 text-center"><a href="../../cadastrar/">Cadastre-se Grátis</a></div>
+
     </div>
   </div>
   <!-- END CONTENT -->

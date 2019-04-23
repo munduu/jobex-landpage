@@ -1,17 +1,20 @@
 <!-- FOOTER -->
-<footer class="footer bg-light">
+<link rel="stylesheet" href="<?php if ($pageName=='index'){ echo 'src/css/footer.css'; }else{ echo '../css/footer.css';} ?>">
+<footer class="footer bg-dark myFooter">
     <div class="container">
-      <div class="row myFooter grid">
+      <div class="row grid">
         <!-- APP DOWNLOAD -->
         <div class="col-lg-4 myList">
-          <img src="<?php if ($pageName=='index'){ echo './img/logo-jobex-completa-cinza-claro.png'; }else{ echo '../../img/logo-jobex-completa-cinza-claro.png';} ?>" alt="">
-          <p class="downloadText">Baixe grátis o APP</p>
-          <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
-            <i class="fab fa-apple mr-1"></i>App Store
-          </button>
-          <button type="button" class="btn btn-light btn-sm downloadAppButton">
-            <i class="fab fa-apple mr-1"></i>Google Play
-          </button>
+          <img class="myLogo" src="<?php if ($pageName=='index'){ echo './img/logo-dark.png'; }else{ echo '../../img/logo-dark.png';} ?>" alt="">
+          <div class="downloadContainer text-center">
+            <p class="downloadText">Baixe grátis o APP</p>
+            <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
+              <i class="fab fa-apple mr-1"></i>App Store
+            </button>
+            <button type="button" class="btn btn-light btn-sm downloadAppButton">
+              <i class="fab fa-google-play mr-1"></i>Google Play
+            </button>
+          </div>
         </div>
         <!-- FOOTER MENU -->
         <div class="col-lg-2">
@@ -61,12 +64,7 @@
       <!-- SOCIAL BAR -->
       <div class="col-12 text-center socialBar">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fa-google-plus-g"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
         <a href="#"><i class="fab fa-youtube"></i></a>
         <p class="text-muted text-center mt-4 mb-4 mb-lg-0 jobex">&copy; 2019 - Jobex</p>
       </div>

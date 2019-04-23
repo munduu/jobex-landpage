@@ -1,6 +1,6 @@
 <!-- Navigation -->
 <!-- INDEX CSS -->
-<link href="../src/css/menu-topo.css" rel="stylesheet">
+<link href="<?php if ($pageName=='index'){ echo './src/css/menu-topo.css'; }else{ echo '../src/css/menu-topo.css';} ?>" rel="stylesheet">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center header darkTheme">
     <a class="navbar-brand" href="<?php if ($pageName=='index'){ echo '#'; }else{ echo '../../';} ?>">

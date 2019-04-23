@@ -106,7 +106,6 @@ $(function() {
           '<div class="card-body">'+
             '<h5 class="card-title">'+ result.result.perfil[i].nome +'</h5>'+
             '<p class="card-text">Telefone: ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
-            '<p class="card-text">E-mail: '+ result.result.perfil[i].email +'</p>'+
             '<p class="card-text">Observação: '+ result.result.perfil[i].obs +'</p>'+
             '<p class="card-text">Aceita Cartão: '+ aceita_cartao +'</p>'+
             '<p class="card-text">Cobra Visita? '+ cobra_visita +'</p>'+

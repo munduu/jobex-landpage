@@ -22,7 +22,7 @@ $(function() {
     var tag = $('#tagid').val();
     var name = $('#tags').val();
     if(tag !== ''){
-      window.location.href = './src/view/search.html?tag=' + tag + '&name=' + name + '';
+      window.location.href = './src/view/search.php?tag=' + tag + '&name=' + name + '';
     } else {
       alert('Selecione Pelo menos uma Profissão');
     } 

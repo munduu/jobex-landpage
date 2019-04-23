@@ -1,5 +1,5 @@
 <?php include('../../src/controller/config.php'); ?>
-<?php $pageName = 'login'; ?>
+<?php $pageName = 'search'; ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
   <!-- PAGE CSS -->
   <link rel="stylesheet" href="../css/app.css">
+  <!-- INDEX CSS -->
+  <link href="../css/index.css" rel="stylesheet">
 </head>
 
 <body>
@@ -34,24 +36,20 @@
   <?php include('../controller/menu_topo.php'); ?>
 
   <!-- CONTENT -->
-  <div class="container col-md-8 col-lg-6 col-xl-5 mx-auto">
+  <div class="container">
 
-    <div id="alertLogin" class="alert alert-danger alert-dismissible fade hide" role="alert">
-    </div>
+    
+      <div class="container marketing">
 
-    <div class="form-signin">
-      <div class="mt-4 col-md-12"><h2 class="form-signin-heading">Acessar sua Conta</h2></div>
-      <div class="mt-4 col-md-12">
-        <label for="inputEmail" class="sr-only">E-mail</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required="" autofocus="">
-      </div>
-      <div class="mt-4 col-md-12">
-        <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
-      </div>
-      <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary btn-block">Entrar</div></div>
-    </div>
+          <!-- Three columns of text below the carousel -->
+          <div id="search" class="row" style="margin-top: 40px; display: none;">
+          </div><!-- /.row -->
+
+          <div id="searchDetail" style="margin-top: 40px; display: none;"></div>
+    
+        </div>
   </div>
+
   <!-- END CONTENT -->
 
     <!-- FOOTER -->
@@ -61,7 +59,7 @@
     <script src="../../vendor/jquery/jquery.min.js"></script>
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="../js/perfil.js"></script>
   </body>
   
 </html>

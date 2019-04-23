@@ -10,18 +10,22 @@ $(function() {
     return decodeURI(results[1]) || 0;
   }
 
+  $('#buscaProfissao').click(function() {
+    $('#buscaProfissao').val('');
+  });
+
   $('#tags').val($.urlParam('name'));
 
   $('#buscaProfissao').val($.urlParam('name'));
 
-  $.post("http://v22.soujobex.com.br/proposta/selecionar-profissional-land", { grupo: $.urlParam('tag') }, function(result){
+  $.post(url_geral+"proposta/selecionar-profissional-land", { grupo: $.urlParam('tag') }, function(result){
     for(var i = 0; i < result.result.list.data.length; i++) {
 
       let stars = (result.result.list.data[i].media_stars != null) ? result.result.list.data[i].media_stars : 0;
 
       let id = result.result.list.data[i].id;
 
-      $( "#search" ).append('<a href="./search.html?id_user=' + id + '"><div class="col-lg-4">'+
+      $( "#search" ).append('<a href="./search.php?id_user=' + id + '"><div class="col-lg-4">'+
         '<p id="img_perfil' + id + '" style="text-align: center; margin: 5px;"></p>'+
         '<h4 style="text-align: center; margin: 5px;">'+ result.result.list.data[i].nome +'</h4>'+
         '<p style="text-align: center; margin: 5px;">'+
@@ -84,7 +88,7 @@ $(function() {
 
   if($.urlParam('id_user')){
 
-    $.get("http://v22.soujobex.com.br/perfil-profissional-land", { id_user: $.urlParam('id_user') }, function(result){
+    $.get(url_geral+"perfil-profissional-land", { id_user: $.urlParam('id_user') }, function(result){
 
         console.log(result);
 
@@ -235,6 +239,4 @@ $(function() {
       }
     });
   }
-
-
 });

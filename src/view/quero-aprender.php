@@ -36,7 +36,7 @@
     <!-- HEADER -->
     <div class="myHeader row w-100">
       <div class="col-12 col-sm-12 col-md-4 headerLogo">
-        <img src="../../../img/logo-quero-aprender.jpg">
+        <a href="../../"><img src="../../img/logo-quero-aprender.jpg"></a>
       </div>
       <div class="col-12 col-sm-12 col-md-8 row myMenuHeader">
         <div class="col-12 col-sm-12 col-md-3">
@@ -108,7 +108,7 @@
             <div class="cardTitle">
               Jardinagem
             </div>
-            <div class="cardIcon mx-auto"><img src="../../../img/job-ico.jpg"></div>
+            <div class="cardIcon mx-auto"><img src="../../img/job-ico.jpg"></div>
             <div class="cardDesc">
               Aqui a descrição do plano, informações
             </div>

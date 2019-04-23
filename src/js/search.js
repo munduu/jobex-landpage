@@ -18,6 +18,7 @@ $(function() {
 
   $('#buscaProfissao').val($.urlParam('name'));
 
+
   $.post(url_geral+"proposta/selecionar-profissional-land", { grupo: $.urlParam('tag') }, function(result){
     for(var i = 0; i < result.result.list.data.length; i++) {
 
@@ -45,7 +46,7 @@ $(function() {
       }
 
       if(stars == 0){
-        $('#star1'+id).css({"color": "#666"}); 
+        $('#star1'+id).css({"color": "#ffc107"}); 
         $('#star2'+id).css({"color": "#666"}); 
         $('#star3'+id).css({"color": "#666"}); 
         $('#star4'+id).css({"color": "#666"}); 

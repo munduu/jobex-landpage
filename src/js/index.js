@@ -5,7 +5,8 @@ $(function() {
   var e = []
   $.post("http://v22.soujobex.com.br/servicosLand", function(result){
     for(var i = 0; i < result.result.list.data.length; i++) {
-      e[i] = {"label": result.result.list.data[i].nome,"value": result.result.list.data[i].id}
+      let nome = result.result.list.data[i].nome[0].toUpperCase() + result.result.list.data[i].nome.substring(1);
+      e[i] = {"label": nome,"value": result.result.list.data[i].id}
     }
     $("#tags").autocomplete({
         source: e,select: function( event, ui ) {

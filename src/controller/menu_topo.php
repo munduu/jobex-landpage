@@ -11,27 +11,27 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto myMenu">
-        <li class="nav-item">
+    <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+      <ul class="navbar-nav myMenu">
+        <li class="nav-item mx-auto">
           <a class="nav-link <?php if ($pageName=='index'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo '#'; }else{ echo '../../';} ?>">home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-auto">
           <a class="nav-link <?php if ($pageName=='sou-cliente'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './sou-cliente'; }else{ echo '../../sou-cliente';} ?>">sou cliente</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-auto">
           <a class="nav-link <?php if ($pageName=='sou-profissional'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './sou-profissional'; }else{ echo '../../sou-profissional';} ?>">sou profissional</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-auto">
           <a class="nav-link <?php if ($pageName=='quero-aprender'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './quero-aprender'; }else{ echo '../../quero-aprender';} ?>">quero aprender</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-auto">
           <a class="nav-link <?php if ($pageName=='blog'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './blog'; }else{ echo '../../blog';} ?>">blog</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-auto">
           <a class="nav-link <?php if ($pageName=='app'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './app'; }else{ echo '../../app';} ?>"><strong>APP Jobex</strong></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mx-auto">
           <a class="nav-link myAccountButton <?php if ($pageName=='login'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='login'){ echo './login'; }else{ echo '../../login';} ?>" style="color: #009DBE;">minha conta <i
               class="far fa-user"></i></a>
         </li>

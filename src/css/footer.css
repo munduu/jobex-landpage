@@ -20,6 +20,10 @@
     width: fit-content;
 }
 
+.jobex{
+    color: #ffffff !important;  
+}
+
 @media (max-width: 940px){
     .downloadContainer{
         width: 100% !important;

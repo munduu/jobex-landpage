@@ -34,28 +34,35 @@
   
   <?php include('../controller/menu_topo.php'); ?>
 
-  <!-- CONTENT -->
-  <div class="container col-md-8 col-lg-6 col-xl-5 mx-auto">
+    <!-- CONTENT -->
+    <div class="container">
+      
+      <!-- REGISTER FORM -->
+      <div class="formLogin text-center m-auto">
+        <p class="BlueBigText text-center">Faça seu login</p>
+        <input id="inputEmail" type="text" class="form-control formInput mt-2" placeholder="Email">
+        <input id="inputPassword" type="text" class="form-control formInput mt-2" placeholder="Senha">
 
-    <div id="alertLogin" class="alert alert-danger alert-dismissible fade hide" role="alert">
-    </div>
+        <!-- REGISTER BUTTON -->
+        <div class="w-100 text-center mt-3">
+          <button id="enterLogin" type="submit" class="btn btn-primary btnJoin">Entrar</button>
+        </div>
 
-    <div class="form-signin">
-      <div class="mt-4 col-md-12"><h2 class="form-signin-heading">Acessar sua Conta</h2></div>
-      <div class="mt-4 col-md-12">
-        <label for="inputEmail" class="sr-only">E-mail</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required="" autofocus="">
+        <div class="text-left mt-2"><a href="#">Esqueci minha senha</a></div>
+
+        <div class="textLoginSocial text-center mb-1">- Ou faça login usando -</div>
+        <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
+          <i class="fab fa-facebook-f mr-2"></i>Facebook
+        </button>
+        <button type="button" class="btn btn-light btn-sm downloadAppButton">
+          <i class="fab fa-google-plus-g mr-2"></i>Google+
+        </button>
+        <!-- REGISTER LINK -->
+        <div class="registerLink"><a href="../../cadastrar/">Cadastre-se grátis</a></div>
       </div>
-      <div class="mt-4 col-md-12">
-        <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
-      </div>
-      <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary btn-block">Entrar</div></div>
-      <div class="mt-4 col-md-12 text-center"><a href="../../cadastrar/">Cadastre-se Grátis</a></div>
-
+      
     </div>
-  </div>
-  <!-- END CONTENT -->
+    <!-- END CONTENT -->
 
     <!-- FOOTER -->
     <?php include('../controller/footer.php'); ?>

@@ -32,7 +32,7 @@
           <a class="nav-link <?php if ($pageName=='app'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './app'; }else{ echo '../../app';} ?>"><strong>APP Jobex</strong></a>
         </li>
         <li class="nav-item mx-auto">
-          <a class="nav-link myAccountButton <?php if ($pageName=='login'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='login'){ echo './login'; }else{ echo '../../login';} ?>" style="color: #009DBE;">minha conta <i
+          <a class="nav-link myAccountButton <?php if ($pageName=='login'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './login'; }else{ echo '../../login';} ?>" style="color: #009DBE;">minha conta <i
               class="far fa-user"></i></a>
         </li>
       </ul>

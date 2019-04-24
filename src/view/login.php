@@ -34,35 +34,35 @@
   
   <?php include('../controller/menu_topo.php'); ?>
 
-    <!-- CONTENT -->
-    <div class="container">
-      
-      <!-- REGISTER FORM -->
-      <div class="formLogin text-center m-auto">
-        <p class="BlueBigText text-center">Faça seu login</p>
-        <input id="inputEmail" type="text" class="form-control formInput mt-2" placeholder="Email">
-        <input id="inputPassword" type="text" class="form-control formInput mt-2" placeholder="Senha">
+  <!-- CONTENT -->
+  <div class="container">
+    
+    <!-- REGISTER FORM -->
+    <div class="formLogin text-center m-auto">
+      <p class="BlueBigText text-center">Faça seu login</p>
+      <input id="inputEmail" type="text" class="form-control formInput mt-2" placeholder="Email">
+      <input id="inputPassword" type="password" class="form-control formInput mt-2" placeholder="Senha">
 
-        <!-- REGISTER BUTTON -->
-        <div class="w-100 text-center mt-3">
-          <button id="enterLogin" type="submit" class="btn btn-primary btnJoin">Entrar</button>
-        </div>
-
-        <div class="text-left mt-2"><a href="#">Esqueci minha senha</a></div>
-
-        <div class="textLoginSocial text-center mb-1">- Ou faça login usando -</div>
-        <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
-          <i class="fab fa-facebook-f mr-2"></i>Facebook
-        </button>
-        <button type="button" class="btn btn-light btn-sm downloadAppButton">
-          <i class="fab fa-google-plus-g mr-2"></i>Google+
-        </button>
-        <!-- REGISTER LINK -->
-        <div class="registerLink"><a href="../../cadastrar/">Cadastre-se grátis</a></div>
+      <!-- REGISTER BUTTON -->
+      <div class="w-100 text-center mt-3">
+        <button id="enterLogin" type="button" class="btn btn-primary btnJoin">Entrar</button>
       </div>
-      
+
+      <div class="text-left mt-2"><a href="#">Esqueci minha senha</a></div>
+
+      <div class="textLoginSocial text-center mb-1">- Ou faça login usando -</div>
+      <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
+        <i class="fab fa-facebook-f mr-2"></i>Facebook
+      </button>
+      <button type="button" class="btn btn-light btn-sm downloadAppButton">
+        <i class="fab fa-google-plus-g mr-2"></i>Google+
+      </button>
+      <!-- REGISTER LINK -->
+      <div class="registerLink"><a href="../../cadastrar/">Cadastre-se grátis</a></div>
     </div>
-    <!-- END CONTENT -->
+    
+  </div>
+  <!-- END CONTENT -->
 
     <!-- FOOTER -->
     <?php include('../controller/footer.php'); ?>

@@ -44,37 +44,37 @@ $(function() {
       } else {
         $( "#img_perfil" + id ).html('<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>');
       }
-
+      let starColor = "#b3b3b3";
       if(stars == 0){
         $('#star1'+id).css({"color": "#ffc107"}); 
-        $('#star2'+id).css({"color": "#666"}); 
-        $('#star3'+id).css({"color": "#666"}); 
-        $('#star4'+id).css({"color": "#666"}); 
-        $('#star5'+id).css({"color": "#666"});
+        $('#star2'+id).css({"color": starColor}); 
+        $('#star3'+id).css({"color": starColor}); 
+        $('#star4'+id).css({"color": starColor}); 
+        $('#star5'+id).css({"color": starColor});
       } else if( stars == 1){
         $('#star1'+id).css({"color": "#ffc107"});
-        $('#star2'+id).css({"color": "#666"});
-        $('#star3'+id).css({"color": "#666"});
-        $('#star4'+id).css({"color": "#666"});
-        $('#star5'+id).css({"color": "#666"});
+        $('#star2'+id).css({"color": starColor});
+        $('#star3'+id).css({"color": starColor});
+        $('#star4'+id).css({"color": starColor});
+        $('#star5'+id).css({"color": starColor});
       } else if( stars == 2){
         $('#star1'+id).css({"color": "#ffc107"});
         $('#star2'+id).css({"color": "#ffc107"});
-        $('#star3'+id).css({"color": "#666"});
-        $('#star4'+id).css({"color": "#666"});
-        $('#star5'+id).css({"color": "#666"});
+        $('#star3'+id).css({"color": starColor});
+        $('#star4'+id).css({"color": starColor});
+        $('#star5'+id).css({"color": starColor});
       } else if( stars == 3){
         $('#star1'+id).css({"color": "#ffc107"});
         $('#star2'+id).css({"color": "#ffc107"});
         $('#star3'+id).css({"color": "#ffc107"});
-        $('#star4'+id).css({"color": "#666"});
-        $('#star5'+id).css({"color": "#666"});
+        $('#star4'+id).css({"color": starColor});
+        $('#star5'+id).css({"color": starColor});
       } else if( stars == 4){
         $('#star1'+id).css({"color": "#ffc107"});
         $('#star2'+id).css({"color": "#ffc107"});
         $('#star3'+id).css({"color": "#ffc107"});
         $('#star4'+id).css({"color": "#ffc107"});
-        $('#star5'+id).css({"color": "#666"});
+        $('#star5'+id).css({"color": starColor});
       } else if( stars == 5){
         $('#star1'+id).css({"color": "#ffc107"});
         $('#star2'+id).css({"color": "#ffc107"});
@@ -130,35 +130,35 @@ $(function() {
         }
 
         if(stars == 0){
-          $('#star1_detail'+id).css({"color": "#666"}); 
-          $('#star2_detail'+id).css({"color": "#666"}); 
-          $('#star3_detail'+id).css({"color": "#666"}); 
-          $('#star4_detail'+id).css({"color": "#666"}); 
-          $('#star5_detail'+id).css({"color": "#666"});
+          $('#star1_detail'+id).css({"color": starColor}); 
+          $('#star2_detail'+id).css({"color": starColor}); 
+          $('#star3_detail'+id).css({"color": starColor}); 
+          $('#star4_detail'+id).css({"color": starColor}); 
+          $('#star5_detail'+id).css({"color": starColor});
         } else if( stars == 1){
           $('#star1_detail'+id).css({"color": "#ffc107"});
-          $('#star2_detail'+id).css({"color": "#666"});
-          $('#star3_detail'+id).css({"color": "#666"});
-          $('#star4_detail'+id).css({"color": "#666"});
-          $('#star5_detail'+id).css({"color": "#666"});
+          $('#star2_detail'+id).css({"color": starColor});
+          $('#star3_detail'+id).css({"color": starColor});
+          $('#star4_detail'+id).css({"color": starColor});
+          $('#star5_detail'+id).css({"color": starColor});
         } else if( stars == 2){
           $('#star1_detail'+id).css({"color": "#ffc107"});
           $('#star2_detail'+id).css({"color": "#ffc107"});
-          $('#star3_detail'+id).css({"color": "#666"});
-          $('#star4_detail'+id).css({"color": "#666"});
-          $('#star5_detail'+id).css({"color": "#666"});
+          $('#star3_detail'+id).css({"color": starColor});
+          $('#star4_detail'+id).css({"color": starColor});
+          $('#star5_detail'+id).css({"color": starColor});
         } else if( stars == 3){
           $('#star1_detail'+id).css({"color": "#ffc107"});
           $('#star2_detail'+id).css({"color": "#ffc107"});
           $('#star3_detail'+id).css({"color": "#ffc107"});
-          $('#star4_detail'+id).css({"color": "#666"});
-          $('#star5_detail'+id).css({"color": "#666"});
+          $('#star4_detail'+id).css({"color": starColor});
+          $('#star5_detail'+id).css({"color": starColor});
         } else if( stars == 4){
           $('#star1_detail'+id).css({"color": "#ffc107"});
           $('#star2_detail'+id).css({"color": "#ffc107"});
           $('#star3_detail'+id).css({"color": "#ffc107"});
           $('#star4_detail'+id).css({"color": "#ffc107"});
-          $('#star5_detail'+id).css({"color": "#666"});
+          $('#star5_detail'+id).css({"color": starColor});
         } else if( stars == 5){
           $('#star1_detail'+id).css({"color": "#ffc107"});
           $('#star2_detail'+id).css({"color": "#ffc107"});

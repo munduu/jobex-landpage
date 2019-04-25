@@ -7,7 +7,6 @@
     border: 1px solid #5c5c5c;
     border-radius: 5px;
     line-height: 30px;
-    background-color: #696969 !important;
 }
 
 .activeHeader:hover {
@@ -15,7 +14,6 @@
     border: 1px solid #5c5c5c;
     border-radius: 5px;
     line-height: 30px;
-    background-color: #696969 !important;
 }
 
 .headerLogo {
@@ -38,7 +36,6 @@
 .myMenu a:hover {
     margin-right: 10px;
     margin-left: 10px;
-    background-color: #3b3b3b;
     border: 1px solid #353535;
     border-radius: 5px;
     font-weight: bolder;

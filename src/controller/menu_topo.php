@@ -14,25 +14,25 @@
     <div class="collapse navbar-collapse menuContainer" id="navbarSupportedContent">
       <ul class="navbar-nav myMenu">
         <li class="nav-item mr-3">
-          <a class="nav-link <?php if ($pageName=='index'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo '#'; }else{ echo '../../';} ?>">home <span class="sr-only">(current)</span></a>
+          <a class="nav-link <?php if ($pageName=='index'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo '#'; }else{ echo '../../';} ?>">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item mr-3">
-          <a class="nav-link <?php if ($pageName=='sou-cliente'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './sou-cliente'; }else{ echo '../../sou-cliente';} ?>">sou cliente</a>
+          <a class="nav-link <?php if ($pageName=='sou-cliente'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './sou-cliente'; }else{ echo '../../sou-cliente';} ?>">Sou Cliente</a>
         </li>
         <li class="nav-item mr-3">
-          <a class="nav-link <?php if ($pageName=='sou-profissional'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './sou-profissional'; }else{ echo '../../sou-profissional';} ?>">sou profissional</a>
+          <a class="nav-link <?php if ($pageName=='sou-profissional'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './sou-profissional'; }else{ echo '../../sou-profissional';} ?>">Sou Profissional</a>
         </li>
         <li class="nav-item mr-3">
-          <a class="nav-link <?php if ($pageName=='quero-aprender'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './quero-aprender'; }else{ echo '../../quero-aprender';} ?>">quero aprender</a>
+          <a class="nav-link <?php if ($pageName=='quero-aprender'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './quero-aprender'; }else{ echo '../../quero-aprender';} ?>">Quero Aprender</a>
         </li>
         <li class="nav-item mr-3">
-          <a class="nav-link <?php if ($pageName=='blog'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './blog'; }else{ echo '../../blog';} ?>">blog</a>
+          <a class="nav-link <?php if ($pageName=='blog'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './blog'; }else{ echo '../../blog';} ?>">Blog</a>
         </li>
         <li class="nav-item mr-3">
           <a class="nav-link <?php if ($pageName=='app'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo './app'; }else{ echo '../../app';} ?>"><strong>APP Jobex</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link myAccountButton <?php if ($pageName=='login'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='login'){ echo './login'; }else{ echo '../../login';} ?>" style="color: #009DBE;">minha conta <i
+          <a class="nav-link myAccountButton <?php if ($pageName=='login'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='login'){ echo './login'; }else{ echo '../../login';} ?>" style="color: #009DBE;">Minha Conta <i
               class="far fa-user"></i></a>
         </li>
       </ul>

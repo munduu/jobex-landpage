@@ -44,12 +44,12 @@ $(function() {
           '<div id="img_perfil_detail'+ result.result.perfil[i].id_user +'" class="card-header"></div>'+
           '<div class="card-body">'+
             '<h5 class="card-title">'+ result.result.perfil[i].nome +'</h5>'+
-            '<p class="card-text"><strong>Telefone:</strong> ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
-            '<p class="card-text"><strong>E-mail:</strong> '+ result.result.perfil[i].email +'</p>'+
-            '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
-            '<p class="card-text"><strong>Aceita Cartão:</strong> '+ aceita_cartao +'</p>'+
-            '<p class="card-text"><strong>Cobra Visita?</strong> '+ cobra_visita +'</p>'+
-            '<p class="card-text"><strong>Emite Nota?</strong> '+ mei +'</p>'+
+            '<p class="card-text">Telefone: ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
+            '<p class="card-text">E-mail: '+ result.result.perfil[i].email +'</p>'+
+            '<p class="card-text">Observação: '+ result.result.perfil[i].obs +'</p>'+
+            '<p class="card-text">Aceita Cartão: '+ aceita_cartao +'</p>'+
+            '<p class="card-text">Cobra Visita? '+ cobra_visita +'</p>'+
+            '<p class="card-text">Emite Nota? '+ mei +'</p>'+
           '</div>'+
           '<div class="card-footer text-muted">'+
             '<p style="text-align: center; margin: 5px;">'+
@@ -69,35 +69,35 @@ $(function() {
         }
 
         if(stars == 0){
-          $('#star1_detail'+id).css({"color": "#ffc107"}); 
-          $('#star2_detail'+id).css({"color": "#CCCCCC"}); 
-          $('#star3_detail'+id).css({"color": "#CCCCCC"}); 
-          $('#star4_detail'+id).css({"color": "#CCCCCC"}); 
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
+          $('#star1_detail'+id).css({"color": "#666"}); 
+          $('#star2_detail'+id).css({"color": "#666"}); 
+          $('#star3_detail'+id).css({"color": "#666"}); 
+          $('#star4_detail'+id).css({"color": "#666"}); 
+          $('#star5_detail'+id).css({"color": "#666"});
         } else if( stars == 1){
           $('#star1_detail'+id).css({"color": "#ffc107"});
-          $('#star2_detail'+id).css({"color": "#CCCCCC"});
-          $('#star3_detail'+id).css({"color": "#CCCCCC"});
-          $('#star4_detail'+id).css({"color": "#CCCCCC"});
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
+          $('#star2_detail'+id).css({"color": "#666"});
+          $('#star3_detail'+id).css({"color": "#666"});
+          $('#star4_detail'+id).css({"color": "#666"});
+          $('#star5_detail'+id).css({"color": "#666"});
         } else if( stars == 2){
           $('#star1_detail'+id).css({"color": "#ffc107"});
           $('#star2_detail'+id).css({"color": "#ffc107"});
-          $('#star3_detail'+id).css({"color": "#CCCCCC"});
-          $('#star4_detail'+id).css({"color": "#CCCCCC"});
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
+          $('#star3_detail'+id).css({"color": "#666"});
+          $('#star4_detail'+id).css({"color": "#666"});
+          $('#star5_detail'+id).css({"color": "#666"});
         } else if( stars == 3){
           $('#star1_detail'+id).css({"color": "#ffc107"});
           $('#star2_detail'+id).css({"color": "#ffc107"});
           $('#star3_detail'+id).css({"color": "#ffc107"});
-          $('#star4_detail'+id).css({"color": "#CCCCCC"});
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
+          $('#star4_detail'+id).css({"color": "#666"});
+          $('#star5_detail'+id).css({"color": "#666"});
         } else if( stars == 4){
           $('#star1_detail'+id).css({"color": "#ffc107"});
           $('#star2_detail'+id).css({"color": "#ffc107"});
           $('#star3_detail'+id).css({"color": "#ffc107"});
           $('#star4_detail'+id).css({"color": "#ffc107"});
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
+          $('#star5_detail'+id).css({"color": "#666"});
         } else if( stars == 5){
           $('#star1_detail'+id).css({"color": "#ffc107"});
           $('#star2_detail'+id).css({"color": "#ffc107"});

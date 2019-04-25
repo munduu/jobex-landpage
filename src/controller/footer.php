@@ -8,10 +8,10 @@
           <img class="myLogo" src="<?php if ($pageName=='index'){ echo './img/logo-dark.png'; }else{ echo '../../img/logo-dark.png';} ?>" alt="">
           <div class="downloadContainer text-center">
             <p class="downloadText">Baixe grátis o APP</p>
-            <button type="button" onclick='window.location.href = "https://itunes.apple.com/br/app/jobex-brasil/id1330159005?mt=8"' formtarget="_blank" class="btn btn-light btn-sm mr-2 downloadAppButton">
+            <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
               <i class="fab fa-apple mr-1"></i>App Store
             </button>
-            <button type="button" onclick='window.location.href = "https://play.google.com/store/apps/details?id=com.jobexbrasilmunduu&hl=pt_BR"' formtarget="_blank" class="btn btn-light btn-sm downloadAppButton">
+            <button type="button" class="btn btn-light btn-sm downloadAppButton">
               <i class="fab fa-google-play mr-1"></i>Google Play
             </button>
           </div>
@@ -63,9 +63,9 @@
       </div>
       <!-- SOCIAL BAR -->
       <div class="col-12 text-center socialBar">
-        <a href="https://www.facebook.com/jobexbrasil/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/jobexbrasil/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.youtube.com/channel/UCHl9ABZePT2XUIAg2OIrRSA" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
         <p class="text-muted text-center mt-4 mb-4 mb-lg-0 jobex">&copy; 2019 - Jobex</p>
       </div>
   </footer>

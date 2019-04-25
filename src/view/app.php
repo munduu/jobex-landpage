@@ -44,12 +44,12 @@
     <p class="textBlack">Clique abaixo na platadorma de sua preferência:</p>
     <div class="row col-sm-12 col-12 appDownloadButton">
       <div class="col-6 col-sm-6 text-right">
-        <a href="#">
+        <a href="https://play.google.com/store/apps/details?id=com.jobexbrasilmunduu&hl=pt_BR">
           <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg">
         </a>
       </div>
       <div class="col-6 col-sm-6">
-        <a href="#">
+        <a href="https://itunes.apple.com/br/app/jobex-brasil/id1330159005?mt=8">
           <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg">
         </a>
       </div>

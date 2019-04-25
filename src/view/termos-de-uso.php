@@ -105,7 +105,7 @@
             </p>
             <div class="subtitle">CONDUTA E OBRIGAÇÕES DO USUÁRIO:</div>
             <p>
-                bbbbbO Serviço não está disponível para uso para indivíduos menores de 18 anos. Você não poderá autorizar
+                O Serviço não está disponível para uso para indivíduos menores de 18 anos. Você não poderá autorizar
                 terceiros(as) a usar sua Conta, você não poderá permitir que pessoas menores de 18 anos recebam Serviços
                 de consertos, reparos, instalação e/ou manutenção de Prestadores Terceiros, salvo se estiverem em sua
                 companhia. Você não poderá ceder, nem de qualquer outro modo transferir sua Conta a nenhuma outra
@@ -114,7 +114,7 @@
                 transtorno, aborrecimento, inconveniente ou danos à propriedade dos Prestadores Terceiros ou de qualquer
                 outro terceiro. Em determinadas situações, você poderá ser solicitado(a) a fornecer comprovante de
                 identidade para acessar ou usar os Serviços, e concorda que poderá ter seu acesso ou uso dos Serviços
-                negado caso você se recuse a fornecer comprovante de identidade.bb
+                negado caso você se recuse a fornecer comprovante de identidade.
             </p>
             <div class="subtitle">MENSAGEM DE TEXTO:</div>
             <p>

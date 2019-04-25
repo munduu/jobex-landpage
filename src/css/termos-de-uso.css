@@ -1,22 +1,85 @@
-.text{
-    margin-top: 30px;
-    padding: 0 40px 0 40px;
-}
-
-.textContent{
+.textContent {
     text-align: justify !important;
 }
 
-@media (max-width: 766px){
-    .text{
-        margin-top: 30px;
-        padding: 0 20px 0 20px;
+@media (max-width: 600px) {
+    .container {
+        padding: 0 !important;
+    }
+    .contract {
+        padding: 25px !important;
+    }
+    .jobexTitle {
+        font-size: 26px !important;
+    }
+    .term {
+        font-size: 18px !important;
+    }
+    .termDetail {
+        font-size: 18px !important;
+        margin-bottom: 30px !important;
+    }
+    .subsubtitle {
+        font-size: 16px;
     }
 }
 
-@media (max-width: 500px){
-    .text{
-        margin-top: 30px;
-        padding: 0 5px 0 5px;
+@media (min-width: 900px) {
+    .contract {
+        padding: 70px !important;
     }
+}
+
+.contract {
+    background-color: #ffffff;
+    padding: 50px 50px 40px 50px !important;
+    max-width: 1100px;
+}
+
+.formLogo {
+    text-align: center;
+}
+
+.formLogo img {
+    max-width: 140px;
+}
+
+.jobexTitle {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #696969;
+}
+
+.term {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.termDetail {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+
+.subtitle {
+    color: #696969;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.subsubtitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #696969;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+
+.formFooter {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
 }

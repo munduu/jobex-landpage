@@ -1,16 +1,18 @@
 var url_geral = 'http://v22.soujobex.com.br/';
 
-$(function() {
+$(function () {
 
-  $.urlParam = function(name){
+  $.urlParam = function (name) {
     var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-    if (results==null) {
-       return null;
+    if (results == null) {
+      return null;
     }
     return decodeURI(results[1]) || 0;
   }
 
-  $('#buscaProfissao').click(function() {
+  let starColor = "#b3b3b3";
+
+  $('#buscaProfissao').click(function () {
     $('#buscaProfissao').val('');
   });
 
@@ -19,8 +21,8 @@ $(function() {
   $('#buscaProfissao').val($.urlParam('name'));
 
 
-  $.post(url_geral+"proposta/selecionar-profissional-land", { grupo: $.urlParam('tag') }, function(result){
-    for(var i = 0; i < result.result.list.data.length; i++) {
+  $.post(url_geral + "proposta/selecionar-profissional-land", { grupo: $.urlParam('tag') }, function (result) {
+    for (var i = 0; i < result.result.list.data.length; i++) {
 
       let stars = (result.result.list.data[i].media_stars != null) ? result.result.list.data[i].media_stars : 1;
 
@@ -41,46 +43,47 @@ $(function() {
 
       if(result.result.list.data[i].img_url != null) {
         $( "#img_perfil" + id ).html('<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="'+ url_geral +'jobex-api/public/'+ result.result.list.data[i].img_url +'" />');
+
       } else {
-        $( "#img_perfil" + id ).html('<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>');
+        $("#img_perfil" + id).html('<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>');
       }
 
-      if(stars == 0){
-        $('#star1'+id).css({"color": "#ffc107"}); 
-        $('#star2'+id).css({"color": "#CCCCCC"}); 
-        $('#star3'+id).css({"color": "#CCCCCC"}); 
-        $('#star4'+id).css({"color": "#CCCCCC"}); 
-        $('#star5'+id).css({"color": "#CCCCCC"});
-      } else if( stars == 1){
-        $('#star1'+id).css({"color": "#ffc107"});
-        $('#star2'+id).css({"color": "#CCCCCC"});
-        $('#star3'+id).css({"color": "#CCCCCC"});
-        $('#star4'+id).css({"color": "#CCCCCC"});
-        $('#star5'+id).css({"color": "#CCCCCC"});
-      } else if( stars == 2){
-        $('#star1'+id).css({"color": "#ffc107"});
-        $('#star2'+id).css({"color": "#ffc107"});
-        $('#star3'+id).css({"color": "#CCCCCC"});
-        $('#star4'+id).css({"color": "#CCCCCC"});
-        $('#star5'+id).css({"color": "#CCCCCC"});
-      } else if( stars == 3){
-        $('#star1'+id).css({"color": "#ffc107"});
-        $('#star2'+id).css({"color": "#ffc107"});
-        $('#star3'+id).css({"color": "#ffc107"});
-        $('#star4'+id).css({"color": "#CCCCCC"});
-        $('#star5'+id).css({"color": "#CCCCCC"});
-      } else if( stars == 4){
-        $('#star1'+id).css({"color": "#ffc107"});
-        $('#star2'+id).css({"color": "#ffc107"});
-        $('#star3'+id).css({"color": "#ffc107"});
-        $('#star4'+id).css({"color": "#ffc107"});
-        $('#star5'+id).css({"color": "#CCCCCC"});
-      } else if( stars == 5){
-        $('#star1'+id).css({"color": "#ffc107"});
-        $('#star2'+id).css({"color": "#ffc107"});
-        $('#star3'+id).css({"color": "#ffc107"});
-        $('#star4'+id).css({"color": "#ffc107"});
-        $('#star5'+id).css({"color": "#ffc107"});
+      if (stars == 0) {
+        $('#star1' + id).css({ "color": "#ffc107" });
+        $('#star2' + id).css({ "color": starColor });
+        $('#star3' + id).css({ "color": starColor });
+        $('#star4' + id).css({ "color": starColor });
+        $('#star5' + id).css({ "color": starColor });
+      } else if (stars == 1) {
+        $('#star1' + id).css({ "color": "#ffc107" });
+        $('#star2' + id).css({ "color": starColor });
+        $('#star3' + id).css({ "color": starColor });
+        $('#star4' + id).css({ "color": starColor });
+        $('#star5' + id).css({ "color": starColor });
+      } else if (stars == 2) {
+        $('#star1' + id).css({ "color": "#ffc107" });
+        $('#star2' + id).css({ "color": "#ffc107" });
+        $('#star3' + id).css({ "color": starColor });
+        $('#star4' + id).css({ "color": starColor });
+        $('#star5' + id).css({ "color": starColor });
+      } else if (stars == 3) {
+        $('#star1' + id).css({ "color": "#ffc107" });
+        $('#star2' + id).css({ "color": "#ffc107" });
+        $('#star3' + id).css({ "color": "#ffc107" });
+        $('#star4' + id).css({ "color": starColor });
+        $('#star5' + id).css({ "color": starColor });
+      } else if (stars == 4) {
+        $('#star1' + id).css({ "color": "#ffc107" });
+        $('#star2' + id).css({ "color": "#ffc107" });
+        $('#star3' + id).css({ "color": "#ffc107" });
+        $('#star4' + id).css({ "color": "#ffc107" });
+        $('#star5' + id).css({ "color": starColor });
+      } else if (stars == 5) {
+        $('#star1' + id).css({ "color": "#ffc107" });
+        $('#star2' + id).css({ "color": "#ffc107" });
+        $('#star3' + id).css({ "color": "#ffc107" });
+        $('#star4' + id).css({ "color": "#ffc107" });
+        $('#star5' + id).css({ "color": "#ffc107" });
       }
     }
     $('#search').show();
@@ -121,131 +124,131 @@ $(function() {
           '</div>'+
         '</div>');
 
-        if(result.result.perfil[i].img_url != null) {
-          $( "#img_perfil_detail" + id ).html('<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="'+ url_geral +'jobex-api/public/'+ result.result.perfil[i].img_url +'" />');
-        } else {
-          $( "#img_perfil_detail" + id ).html('<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>');
-        }
+      if (result.result.perfil[i].img_url != null) {
+        $("#img_perfil_detail" + id).html('<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="' + url_geral + 'jobex-api/public/' + result.result.perfil[i].img_url + '" />');
+      } else {
+        $("#img_perfil_detail" + id).html('<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>');
+      }
 
-        if(stars == 0){
-          $('#star1_detail'+id).css({"color": "#CCCCCC"}); 
-          $('#star2_detail'+id).css({"color": "#CCCCCC"}); 
-          $('#star3_detail'+id).css({"color": "#CCCCCC"}); 
-          $('#star4_detail'+id).css({"color": "#CCCCCC"}); 
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
-        } else if( stars == 1){
-          $('#star1_detail'+id).css({"color": "#ffc107"});
-          $('#star2_detail'+id).css({"color": "#CCCCCC"});
-          $('#star3_detail'+id).css({"color": "#CCCCCC"});
-          $('#star4_detail'+id).css({"color": "#CCCCCC"});
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
-        } else if( stars == 2){
-          $('#star1_detail'+id).css({"color": "#ffc107"});
-          $('#star2_detail'+id).css({"color": "#ffc107"});
-          $('#star3_detail'+id).css({"color": "#CCCCCC"});
-          $('#star4_detail'+id).css({"color": "#CCCCCC"});
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
-        } else if( stars == 3){
-          $('#star1_detail'+id).css({"color": "#ffc107"});
-          $('#star2_detail'+id).css({"color": "#ffc107"});
-          $('#star3_detail'+id).css({"color": "#ffc107"});
-          $('#star4_detail'+id).css({"color": "#CCCCCC"});
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
-        } else if( stars == 4){
-          $('#star1_detail'+id).css({"color": "#ffc107"});
-          $('#star2_detail'+id).css({"color": "#ffc107"});
-          $('#star3_detail'+id).css({"color": "#ffc107"});
-          $('#star4_detail'+id).css({"color": "#ffc107"});
-          $('#star5_detail'+id).css({"color": "#CCCCCC"});
-        } else if( stars == 5){
-          $('#star1_detail'+id).css({"color": "#ffc107"});
-          $('#star2_detail'+id).css({"color": "#ffc107"});
-          $('#star3_detail'+id).css({"color": "#ffc107"});
-          $('#star4_detail'+id).css({"color": "#ffc107"});
-          $('#star5_detail'+id).css({"color": "#ffc107"});
-        }
+      if (stars == 0) {
+        $('#star1_detail' + id).css({ "color": starColor });
+        $('#star2_detail' + id).css({ "color": starColor });
+        $('#star3_detail' + id).css({ "color": starColor });
+        $('#star4_detail' + id).css({ "color": starColor });
+        $('#star5_detail' + id).css({ "color": starColor });
+      } else if (stars == 1) {
+        $('#star1_detail' + id).css({ "color": "#ffc107" });
+        $('#star2_detail' + id).css({ "color": starColor });
+        $('#star3_detail' + id).css({ "color": starColor });
+        $('#star4_detail' + id).css({ "color": starColor });
+        $('#star5_detail' + id).css({ "color": starColor });
+      } else if (stars == 2) {
+        $('#star1_detail' + id).css({ "color": "#ffc107" });
+        $('#star2_detail' + id).css({ "color": "#ffc107" });
+        $('#star3_detail' + id).css({ "color": starColor });
+        $('#star4_detail' + id).css({ "color": starColor });
+        $('#star5_detail' + id).css({ "color": starColor });
+      } else if (stars == 3) {
+        $('#star1_detail' + id).css({ "color": "#ffc107" });
+        $('#star2_detail' + id).css({ "color": "#ffc107" });
+        $('#star3_detail' + id).css({ "color": "#ffc107" });
+        $('#star4_detail' + id).css({ "color": starColor });
+        $('#star5_detail' + id).css({ "color": starColor });
+      } else if (stars == 4) {
+        $('#star1_detail' + id).css({ "color": "#ffc107" });
+        $('#star2_detail' + id).css({ "color": "#ffc107" });
+        $('#star3_detail' + id).css({ "color": "#ffc107" });
+        $('#star4_detail' + id).css({ "color": "#ffc107" });
+        $('#star5_detail' + id).css({ "color": starColor });
+      } else if (stars == 5) {
+        $('#star1_detail' + id).css({ "color": "#ffc107" });
+        $('#star2_detail' + id).css({ "color": "#ffc107" });
+        $('#star3_detail' + id).css({ "color": "#ffc107" });
+        $('#star4_detail' + id).css({ "color": "#ffc107" });
+        $('#star5_detail' + id).css({ "color": "#ffc107" });
+      }
 
-        $('#search').hide();
-        $('#searchDetail').show();
+      $('#search').hide();
+      $('#searchDetail').show();
     });
   }
 
-  $("#buscaPrevisao").change(function(){
-      console.log($(this).val());
+  $("#buscaPrevisao").change(function () {
+    console.log($(this).val());
 
-      var prev = $(this).val();
+    var prev = $(this).val();
 
-      if(prev == 'outro'){
-        $('#divBuscaData').show();
-      } else {
-        $('#divBuscaData').hide();
-      }
+    if (prev == 'outro') {
+      $('#divBuscaData').show();
+    } else {
+      $('#divBuscaData').hide();
+    }
   });
 
   //lista profissões
   var availableTags = []
   var e = []
-  $.post(url_geral+"servicosLand", function(result){
-    for(var i = 0; i < result.result.list.data.length; i++) {
-      e[i] = {"label": result.result.list.data[i].nome,"value": result.result.list.data[i].id}
+  $.post(url_geral + "servicosLand", function (result) {
+    for (var i = 0; i < result.result.list.data.length; i++) {
+      e[i] = { "label": result.result.list.data[i].nome, "value": result.result.list.data[i].id }
     }
     $("#tags").autocomplete({
-        source: e,select: function( event, ui ) {
-          event.preventDefault();
-          $('#tags').val(ui.item.label);
-          $('#tagid').val(ui.item.value);
-          console.log(ui.item.label);
-          console.log(ui.item.value);
-        }
+      source: e, select: function (event, ui) {
+        event.preventDefault();
+        $('#tags').val(ui.item.label);
+        $('#tagid').val(ui.item.value);
+        console.log(ui.item.label);
+        console.log(ui.item.value);
+      }
     });
   });
 
-  $('.searchButton').click(function() {
+  $('.searchButton').click(function () {
     var tag = $('#tagid').val();
     var name = $('#tags').val();
-    if(tag !== ''){
+    if (tag !== '') {
       window.location.href = './search.php?tag=' + tag + '&name=' + name + '';
     } else {
       alert('Selecione Pelo menos uma Profissão');
-    } 
+    }
   });
 
-  $(document).on('keypress',function(e) {
-    if(e.which == 13 || e.which == 168) {
+  $(document).on('keypress', function (e) {
+    if (e.which == 13 || e.which == 168) {
       var tag = $('#tagid').val();
       var name = $('#tags').val();
-      if(tag !== ''){
+      if (tag !== '') {
         window.location.href = './search.php?tag=' + tag + '&name=' + name + '';
       } else {
         alert('Selecione Pelo menos uma Profissão');
-      } 
+      }
     }
   });
 
-  $.get("https://ddd.pricez.com.br/estados.json",  function(result){
+  $.get("https://ddd.pricez.com.br/estados.json", function (result) {
     //console.log(result);
-    for(var i = 0; i < result.payload.length; i++) {
+    for (var i = 0; i < result.payload.length; i++) {
       //console.log(result.payload[i]);
-      $('#buscaEstado').append('<option value="'+ result.payload[i] +'">'+ result.payload[i] +'</option>')
+      $('#buscaEstado').append('<option value="' + result.payload[i] + '">' + result.payload[i] + '</option>')
     }
   });
 
-  $('#buscaEstado').change(function() {
-    $.get("https://ddd.pricez.com.br/estados/" + $(this).val().toLowerCase() + ".json",  function(result){
+  $('#buscaEstado').change(function () {
+    $.get("https://ddd.pricez.com.br/estados/" + $(this).val().toLowerCase() + ".json", function (result) {
       //console.log(result);
-      for(var i = 0; i < result.payload.length; i++) {
+      for (var i = 0; i < result.payload.length; i++) {
         //console.log(result.payload[i]);
-        $('#buscaCidade').append('<option value="'+ result.payload[i].cidade +'">'+ result.payload[i].cidade +'</option>')
+        $('#buscaCidade').append('<option value="' + result.payload[i].cidade + '">' + result.payload[i].cidade + '</option>')
       }
       $('#buscaCidadeList').show();
     });
   });
-  
-  if($.urlParam('tag')){
-    $.get(url_geral+"especialidades", {id_grupo: $.urlParam('tag')}, function(result){
-      for(var i = 0; i < result.result.list.length; i++) {
+
+  if ($.urlParam('tag')) {
+    $.get(url_geral + "especialidades", { id_grupo: $.urlParam('tag') }, function (result) {
+      for (var i = 0; i < result.result.list.length; i++) {
         //console.log(result.result.list[i].nome);
-        $('#buscaEspecialidades').append('<option value="'+ result.result.list[i].id +'">'+ result.result.list[i].nome +'</option>')
+        $('#buscaEspecialidades').append('<option value="' + result.result.list[i].id + '">' + result.result.list[i].nome + '</option>')
       }
     });
   }

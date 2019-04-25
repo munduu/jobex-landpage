@@ -14,15 +14,13 @@
     border: 1px solid #5c5c5c;
     border-radius: 5px;
     line-height: 30px;
-    background-color: #696969 !important;
 }
 
 .headerLogo {
     height: 50px;
 }
 
-.myMenu{
-    width: 80%;
+.myMenu{    
 }
 
 .myMenu a {
@@ -38,7 +36,6 @@
 .myMenu a:hover {
     margin-right: 10px;
     margin-left: 10px;
-    background-color: #3b3b3b;
     border: 1px solid #353535;
     border-radius: 5px;
     font-weight: bolder;
@@ -46,4 +43,28 @@
     -o-transition: all .6s;
     -moz-transition: all .6s;
     -webkit-transition: all .6s;
+}
+
+.menuContainer{
+    width: fit-content !important;
+}
+.navbar-brand{
+    text-align: center;
+}
+.navbar-nav{
+    flex-grow: 0 !important;
+    margin: 0 !important;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+    margin: 0 !important;
+}
+
+.logoContainer{
+    min-width: 35%;
+    text-align: center;
+}
+
+.menuContainer{
+    flex-grow: 1 !important;
 }

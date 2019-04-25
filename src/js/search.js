@@ -28,7 +28,7 @@ $(function() {
 
       $( "#search" ).append('<a href="./search.php?id_user=' + id + '"><div class="col-lg-4">'+
         '<p id="img_perfil' + id + '" style="text-align: center; margin: 5px;"></p>'+
-        '<h4 style="text-align: center; margin: 5px;">'+ result.result.list.data[i].nome +'</h4>'+
+        '<h2 style="text-align: center; margin: 5px;color:#0000ff;">'+ result.result.list.data[i].nome +'</h2>'+
         '<p style="text-align: center; margin: 5px;">'+
           '<i id="star1' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
           '<i id="star2' + id + '" class="fa fa-star" aria-hidden="true"></i>'+ 
@@ -105,14 +105,7 @@ $(function() {
         $( "#searchDetail" ).html('<div class="card text-center">'+
           '<div id="img_perfil_detail'+ result.result.perfil[i].id_user +'" class="card-header"></div>'+
           '<div class="card-body">'+
-            '<h5 class="card-title">'+ result.result.perfil[i].nome +'</h5>'+
-            '<p class="card-text"><strong>Telefone:</strong> ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
-            '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
-            '<p class="card-text"><strong>Aceita Cartão:</strong> '+ aceita_cartao +'</p>'+
-            '<p class="card-text"><strong>Cobra Visita?</strong> '+ cobra_visita +'</p>'+
-            '<p class="card-text"><strong>Emite Nota?</strong> '+ mei +'</p>'+
-          '</div>'+
-          '<div class="card-footer text-muted">'+
+            '<h2 class="card-title" style="color:#0000ff;">'+ result.result.perfil[i].nome +'</h2>'+
             '<p style="text-align: center; margin: 5px;">'+
               '<i id="star1_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
               '<i id="star2_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+ 
@@ -120,6 +113,11 @@ $(function() {
               '<i id="star4_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+ 
               '<i id="star5_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
             '</p>'+
+            '<p class="card-text"><strong>Telefone:</strong> ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
+            '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
+            '<p class="card-text"><strong>Aceita Cartão:</strong> '+ aceita_cartao +'</p>'+
+            '<p class="card-text"><strong>Cobra Visita?</strong> '+ cobra_visita +'</p>'+
+            '<p class="card-text"><strong>Emite Nota?</strong> '+ mei +'</p>'+
           '</div>'+
         '</div>');
 

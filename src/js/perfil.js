@@ -43,22 +43,32 @@ $(function() {
         $( "#searchDetail" ).html('<div class="card text-center">'+
           '<div id="img_perfil_detail'+ result.result.perfil[i].id_user +'" class="card-header"></div>'+
           '<div class="card-body">'+
-            '<h5 class="card-title">'+ result.result.perfil[i].nome +'</h5>'+
-            '<p class="card-text"><strong>Telefone:</strong> ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
-            '<p class="card-text"><strong>E-mail:</strong> '+ result.result.perfil[i].email +'</p>'+
-            '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
-            '<p class="card-text"><strong>Aceita Cartão:</strong> '+ aceita_cartao +'</p>'+
-            '<p class="card-text"><strong>Cobra Visita?</strong> '+ cobra_visita +'</p>'+
-            '<p class="card-text"><strong>Emite Nota?</strong> '+ mei +'</p>'+
+              '<h2 class="card-title" style="color:#0000ff;">'+ result.result.perfil[i].nome +'</h2>'+
+              '<div class="row">'+
+                '<div class="col-8">'+
+                  '<p class="card-text"><strong>Telefone:</strong> ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
+                  '<p class="card-text"><strong>E-mail:</strong> '+ result.result.perfil[i].email +'</p>'+
+                  '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
+                  '<p class="card-text"><strong>Aceita Cartão:</strong> '+ aceita_cartao +'</p>'+
+                  '<p class="card-text"><strong>Cobra Visita?</strong> '+ cobra_visita +'</p>'+
+                  '<p class="card-text"><strong>Emite Nota?</strong> '+ mei +'</p>'+
+                '</div>'+
+                '<div class="col-4">'+
+                  '<div class="card">'+
+                    '<div class="card-header">Saldo</div>'+
+                    '<ul class="list-group list-group-flush">'+
+                      '<li class="list-group-item">Valor J$ 10.00 = R$ 10.00</li>'+
+                      '<li class="list-group-item">Dias 30</li>'+
+                    '</ul>'+
+                  '</div>'+
+                '</div>'+
+              '</div>'+
           '</div>'+
           '<div class="card-footer text-muted">'+
-            '<p style="text-align: center; margin: 5px;">'+
-              '<i id="star1_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
-              '<i id="star2_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+ 
-              '<i id="star3_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
-              '<i id="star4_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+ 
-              '<i id="star5_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
-            '</p>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>'+
+            '<a class="btn btn-success" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>'+
           '</div>'+
         '</div>');
 

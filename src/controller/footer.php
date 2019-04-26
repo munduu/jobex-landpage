@@ -85,7 +85,7 @@
       </div>
     </div>
     <!-- DOWNLOAD BAR -->
-    <div class="downloadContainer text-left">
+    <div class="downloadContainer text-center text-sm-left text-md-left">
       <p class="downloadText">Baixe grátis o APP</p>
       <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
         <i class="fab fa-apple mr-1"></i>App Store

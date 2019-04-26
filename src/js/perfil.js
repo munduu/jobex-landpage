@@ -57,15 +57,15 @@ $(function() {
                   '<div class="card">'+
                     '<div class="card-header">Saldo</div>'+
                     '<ul class="list-group list-group-flush">'+
-                      '<li class="list-group-item">Valor J$ 10.00 = R$ 10.00</li>'+
-                      '<li class="list-group-item">Dias 30</li>'+
+                      '<li class="list-group-item">Valor J$ <span class="saldo"></span> = R$ <span class="saldo"></span></li>'+
+                      '<li class="list-group-item">Dias <span class="dias"></span></li>'+
                     '</ul>'+
                   '</div>'+
                 '</div>'+
               '</div>'+
           '</div>'+
           '<div class="card-footer text-muted">'+
-            '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>'+
             '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>'+
             '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>'+
             '<a class="btn btn-success" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>'+
@@ -127,4 +127,23 @@ $(function() {
     eraseCookie('pass');
     window.location.href = "../../login";
   });
+
+  function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+
+  $.post("../controller/saldo.php", { email: readCookie('mail'), senha: readCookie('pass') }, function(result){
+    console.log(result);
+    
+    $(".dias").html(result.dias);
+    $(".saldo").html(result.saldo);
+
+  },'json');
 });

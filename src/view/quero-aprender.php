@@ -26,8 +26,11 @@
   <!-- AUTOCOMPLETE CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
   <!-- PAGE CSS -->
-  <link rel="stylesheet" href="../css/quero-aprender.css">
   <link rel="stylesheet" href="../css/menu-topo.css">
+  <link rel="stylesheet" href="../css/quero-aprender.css">
+  <!-- SLICK CAROUSEL CSS -->
+  <link rel="stylesheet" type="text/css" href="../shared/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="../shared/slick/slick-theme.css" />
 </head>
 
 <body>
@@ -85,8 +88,16 @@
             </div>
             <!-- CONHEÇA NOSSOS CURSOS -->
             <div class="blueSubtitle text-center w-100 mt-3">Conheça nossos Cursos</div>
-            <div class="text-center w-100">
-              AQUI VAI O CARROUSEL!
+            <!-- CAROUSEL -->
+            <div class="courseCarousel w-100">
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVDwjKaMtXKn-jqXUj2IjzZzXm2hYEKwutunFlqi1CJwvANm4k7A"></div>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-lrOZb5TkujkMFzMopRQnXXFrA_9RrpdnRbjvp9h6ZoJ1fxAsQ"></div>
+              <div><img src="https://www.comschool.com.br/ext/form_variac/fotos/curso-de-seo-0-1547585943-n.jpg"></div>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv8G_8txmAwU_5JcfLwMBTAyQo9KMSFClAmFzxlpZubr9nReW1Ig"></div>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPn8NSNQkInzdwptHm7jf_JC6ZH-lOjQP5laCxu05lvk3VYd5u2w"></div>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIg-FOL1XILXctRb7Z-QGYozEblozk6FhsXyNkEd1lCwlPzU_C"></div>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-lrOZb5TkujkMFzMopRQnXXFrA_9RrpdnRbjvp9h6ZoJ1fxAsQ"></div>
+              <div><img src="https://www.comschool.com.br/ext/form_variac/fotos/curso-de-seo-0-1547585943-n.jpg"></div>
             </div>
             <div class="specialText mt-3 w-100 text-center text-sm-left">Os melhores mestres <span>farão de você um(a)</span> expert <span>!</span></div>
             <!-- MASTER -->
@@ -128,70 +139,64 @@
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
-    </div>
-    <!-- FOOTER -->
-    <div class="myFooter text-center">
-      <div class="row">
-        <div class="col-3 col-sm-3"></div>
-        <div class="col-12 col-sm-12 col-md-6">
-          <div class="w-100 footerSubscribeText">Cadastre seu e-mail e receba novidades</div>
-          <!-- INPUT EMAIL -->
-          <input type="email" class="form-control inputEmail" id="email" placeholder="nome@exemplo.com.br">
-          <!-- SUBSCRIBE BUTTON -->
-          <button type="button" class="btn btn-primary btn-lg subscribeButton">
-            <i class="fas fa-check"></i>
-          </button>
+      <!-- FOOTER -->
+      <div class="myFooter text-center">
+        <div class="row">
+          <div class="col-3 col-sm-3"></div>
+          <div class="col-12 col-sm-12 col-md-6">
+            <div class="w-100 footerSubscribeText">Cadastre seu e-mail e receba novidades</div>
+            <!-- INPUT EMAIL -->
+            <input type="email" class="form-control inputEmail" id="email" placeholder="nome@exemplo.com.br">
+            <!-- SUBSCRIBE BUTTON -->
+            <button type="button" class="btn btn-primary btn-lg subscribeButton">
+              <i class="fas fa-check"></i>
+            </button>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3 text-center mt-md-0 mt-3 text-md-left">
+            <button type="button" class="btn btn-light btn-sm downloadAppButton mb-2">
+              <i class="fab fa-apple mr-1"></i>App Store
+            </button><br>
+            <button type="button" class="btn btn-light btn-sm downloadAppButton">
+              <i class="fab fa-apple mr-1"></i>Google Play
+            </button>
+          </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-3 text-center mt-md-0 mt-3 text-md-left">
-          <button type="button" class="btn btn-light btn-sm downloadAppButton mb-2">
-            <i class="fab fa-apple mr-1"></i>App Store
-          </button><br>
-          <button type="button" class="btn btn-light btn-sm downloadAppButton">
-            <i class="fab fa-apple mr-1"></i>Google Play
-          </button>
-        </div>
-      </div>
-      <!-- SOCIAL BAR -->
-      <div class="col-12 text-center socialBar">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <div class="mt-3 mb-3 mb-lg-0">
-          &copy; 2019 - Jobex -
-          <a href="<?php if ($pageName == 'index') {
-                      echo './contato';
-                    } else {
-                      echo '../../contato';
-                    } ?>#"> Contato </a> |
-          <a href="<?php if ($pageName == 'index') {
-                      echo './politica-de-privacidade';
-                    } else {
-                      echo '../../politica-de-privacidade';
-                    } ?>  "> Política de Privacidade </a> |
-          <a href="<?php if ($pageName == 'index') {
-                      echo './termos-de-uso';
-                    } else {
-                      echo '../../termos-de-uso';
-                    } ?>"> Termos e Condições </a>
+        <!-- SOCIAL BAR -->
+        <div class="col-12 text-center socialBar">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <div class="mt-3 mb-3 mb-lg-0">
+            &copy; 2019 - Jobex -
+            <a href="<?php if ($pageName == 'index') {
+                        echo './contato';
+                      } else {
+                        echo '../../contato';
+                      } ?>#"> Contato </a> |
+            <a href="<?php if ($pageName == 'index') {
+                        echo './politica-de-privacidade';
+                      } else {
+                        echo '../../politica-de-privacidade';
+                      } ?>  "> Política de Privacidade </a> |
+            <a href="<?php if ($pageName == 'index') {
+                        echo './termos-de-uso';
+                      } else {
+                        echo '../../termos-de-uso';
+                      } ?>"> Termos e Condições </a>
+          </div>
         </div>
       </div>
+      <!-- END FOOTER -->
     </div>
-    <!-- END FOOTER -->
-  </div>
-  <!-- END CONTENT -->
+    <!-- END CONTENT -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="../../vendor/jquery/jquery.min.js"></script>
-  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../shared/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../js/quero-aprender.js"></script>
 </body>
 
 </html>

@@ -23,7 +23,7 @@
 .infoContainer {
     padding-left: 200px;
     padding-right: 200px;
-    margin-top: 70%;
+    margin-top: 65%;
 }
 
 .infoContainer p {
@@ -272,4 +272,10 @@
     border: 0 !important;
     width: 110px !important;
     border-radius: 5px;
+}
+
+
+/* Carousel */
+.courseCarousel img{
+    width: 200px;
 }

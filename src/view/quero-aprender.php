@@ -44,7 +44,7 @@
       </div>
       <div class="col-12 col-sm-12 col-md-8 row myMenuHeader">
         <div class="col-12 col-sm-12 col-md-3">
-          <a href="#">Home</a>
+          <a href="../../">Home</a>
         </div>
         <div class="col-12 col-sm-12 col-md-3">
           <a href="#">Cursos</a>
@@ -57,10 +57,7 @@
         </div>
       </div>
     </div>
-    <div id="myCarousel" style="width:100%" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      </ol>
+    <div style="width:100%" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="backgroundImage" src="../../img/fundo_jobex_quero_aprender.png">
@@ -89,110 +86,104 @@
             <!-- CONHEÇA NOSSOS CURSOS -->
             <div class="blueSubtitle text-center w-100 mt-3 mb-3">Conheça nossos Cursos</div>
             <!-- CAROUSEL -->
-            <div class="courseCarousel w-100 mb-3">
+            <div class="courseCarousel w-100 mb-3 text-center">
               <!-- CAROUSEL CARD -->
               <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText text-left">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                <div class="cardContainer text-center">
+                  <img src="../../img/1.jpg">
+                  <div class="courseText">
+                    <div class="courseName">Limpeza de Caixa D'água</div>
+                    <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                  </div>
                 </div>
               </div>
               <!-- CAROUSEL CARD -->
               <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                <div class="cardContainer text-center">
+                  <img src="../../img/2.jpg">
+                  <div class="courseText">
+                    <div class="courseName">Cuidador de Idosos</div>
+                    <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                  </div>
                 </div>
               </div>
               <!-- CAROUSEL CARD -->
               <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                <div class="cardContainer text-center">
+                  <img src="../../img/3.jpg">
+                  <div class="courseText">
+                    <div class="courseName">Piscineiro</div>
+                    <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                  </div>
                 </div>
               </div>
               <!-- CAROUSEL CARD -->
               <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                <div class="cardContainer text-center">
+                  <img src="../../img/4.jpg">
+                  <div class="courseText">
+                    <div class="courseName">Cuidador de Animais</div>
+                    <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                  </div>
                 </div>
               </div>
               <!-- CAROUSEL CARD -->
               <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                <div class="cardContainer text-center">
+                  <img src="../../img/1.jpg">
+                  <div class="courseText">
+                    <div class="courseName">Limpeza de Caixa D'água</div>
+                    <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                  </div>
                 </div>
               </div>
               <!-- CAROUSEL CARD -->
               <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                <div class="cardContainer text-center">
+                  <img src="../../img/2.jpg">
+                  <div class="courseText">
+                    <div class="courseName">Cuidador de Idosos</div>
+                    <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                  </div>
                 </div>
               </div>
               <!-- CAROUSEL CARD -->
               <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                <div class="cardContainer text-center">
+                  <img src="../../img/3.jpg">
+                  <div class="courseText">
+                    <div class="courseName">Piscineiro</div>
+                    <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                  </div>
                 </div>
               </div>
               <!-- CAROUSEL CARD -->
               <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
-                </div>
-              </div>
-              <!-- CAROUSEL CARD -->
-              <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
-                </div>
-              </div>
-              <!-- CAROUSEL CARD -->
-              <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
-                </div>
-              </div>
-              <!-- CAROUSEL CARD -->
-              <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
-                </div>
-              </div>
-              <!-- CAROUSEL CARD -->
-              <div class="carouselCard">
-                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
-                <div class="courseText">
-                  <div class="courseName">Limpeza de Caixa D'água</div>
-                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                <div class="cardContainer text-center">
+                  <img src="../../img/4.jpg">
+                  <div class="courseText">
+                    <div class="courseName">Cuidador de Animais</div>
+                    <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="specialText mt-3 w-100 text-center text-sm-left mb-3">Os melhores mestres <span>farão de você um(a)</span> expert <span>!</span></div>
             <!-- MASTER -->
-            <div class="text-center text-md-left w-100 mb-3">
-              <div class="text-center master">
-                <div class="masterCircle mt-3"></div>
-                <div class="masterTitle">Betina Santos</div>
+            <div class="mb-3 row w-100">
+              <div class="text-center master col-sm-4 col-12">
+                <div class="masterCircle mt-3 betina"></div>
+                <div class="masterTitle ">Betina Santos</div>
+                <div class="masterLink"><a href="#">Saiba mais -></a></div>
+              </div>
+              <div class="text-center master col-sm-4 col-12">
+                <div class="masterCircle mt-3 rafael"></div>
+                <div class="masterTitle">Rafael Onório</div>
+                <div class="masterLink"><a href="#">Saiba mais -></a></div>
+              </div>
+              <div class="text-center master col-sm-4 col-12">
+                <div class="masterCircle mt-3 otavio"></div>
+                <div class="masterTitle">Otávio Lamartine</div>
                 <div class="masterLink"><a href="#">Saiba mais -></a></div>
               </div>
             </div>
@@ -201,24 +192,65 @@
         <!-- END NEXT CONTENT -->
 
         <!-- PLANS -->
-        <div class="plans w-100 text-center text-md-left">
+        <div class="plans container-fluid text-center text-md-left">
           <div class="plansTitle">Meus Planos e Cursos</div>
-          <!-- PLAN CARD -->
-          <div class="planCard">
-            <div class="cardTitle">
-              Jardinagem
-            </div>
-            <div class="cardIcon mx-auto"><img src="../../img/job-ico.jpg"></div>
-            <div class="cardDesc">
-              Aqui a descrição do plano, informações
-            </div>
-            <div class="miniTextCard">
-              curso completo por apenas:
-            </div>
-            <div class="cardPriceContainer">
-              <div class="cardPrice">
-                R$ <span>49,00</span><br>
+
+          <div class="planContainer row">
+            <!-- PLAN CARD -->
+            <div class="planCard m-auto">
+              <div class="cardTitle">
+                Jardinagem
+              </div>
+              <div class="cardIcon mx-auto"><img src="../../img/job-ico.jpg"></div>
+              <div class="cardDesc">
+                Aqui a descrição do plano, informações
+              </div>
+              <div class="miniTextCard">
+                curso completo por apenas:
+              </div>
+              <div class="cardPriceContainer">
+                <div class="cardPrice">
+                  R$ <span>49,00</span><br>
+                </div>
                 <a href="#" class="cardPriceBlueText">contratar</a>
+              </div>
+            </div>
+            <!-- PLAN CARD -->
+            <div class="planCard m-auto">
+              <div class="cardTitle">
+                Jardinagem
+              </div>
+              <div class="cardIcon mx-auto"><img src="../../img/job-ico.jpg"></div>
+              <div class="cardDesc">
+                Aqui a descrição do plano, informações
+              </div>
+              <div class="miniTextCard">
+                curso completo por apenas:
+              </div>
+              <div class="cardPriceContainer">
+                <div class="cardPrice">
+                  R$ <span>49,00</span><br>
+                  <a href="#" class="cardPriceBlueText">contratar</a>
+                </div>
+              </div>
+            </div>
+            <!-- PLAN CARD -->
+            <div class="planCard m-auto">
+              <div class="cardTitle">
+                Jardinagem
+              </div>
+              <div class="cardIcon mx-auto"><img src="../../img/job-ico.jpg"></div>
+              <div class="cardDesc">
+                Aqui a descrição do plano, informações
+              </div>
+              <div class="miniTextCard">
+                curso completo por apenas:
+              </div>
+              <div class="cardPriceContainer">
+                <div class="cardPrice">
+                  R$ <span>49,00</span><br>
+                  <a href="#" class="cardPriceBlueText">contratar</a>
+                </div>
               </div>
             </div>
           </div>
@@ -230,20 +262,30 @@
           <div class="col-3 col-sm-3"></div>
           <div class="col-12 col-sm-12 col-md-6">
             <div class="w-100 footerSubscribeText">Cadastre seu e-mail e receba novidades</div>
-            <!-- INPUT EMAIL -->
-            <input type="email" class="form-control inputEmail" id="email" placeholder="nome@exemplo.com.br">
-            <!-- SUBSCRIBE BUTTON -->
-            <button type="button" class="btn btn-primary btn-lg subscribeButton">
-              <i class="fas fa-check"></i>
-            </button>
+            <!-- SUBSCRIBE  -->
+            <div class="input-group mb-3 subscribeGroup m-auto">
+              <input type="email" class="form-control inputEmail" id="email" placeholder="nome@exemplo.com.br">
+              <div class="input-group-append">
+                <button type="button" class="btn btn-primary btn-lg subscribeButton">
+                  <i class="fas fa-check"></i>
+                </button>
+              </div>
+            </div>
+
+
           </div>
           <div class="col-12 col-sm-12 col-md-3 text-center mt-md-0 mt-3 text-md-left">
-            <button type="button" class="btn btn-light btn-sm downloadAppButton mb-2">
-              <i class="fab fa-apple mr-1"></i>App Store
-            </button><br>
-            <button type="button" class="btn btn-light btn-sm downloadAppButton">
-              <i class="fab fa-apple mr-1"></i>Google Play
-            </button>
+            <a href="https://itunes.apple.com/br/app/jobex-brasil/id1330159005?mt=8">
+              <button type="button" class="btn btn-light btn-sm downloadAppButton mb-2">
+                <i class="fab fa-apple mr-1"></i>App Store
+              </button>
+            </a>
+            <br>
+            <a href="https://play.google.com/store/apps/details?id=com.jobexbrasilmunduu&hl=pt_BR">
+              <button type="button" class="btn btn-light btn-sm downloadAppButton">
+                <i class="fab fa-apple mr-1"></i>Google Play
+              </button>
+            </a>
           </div>
         </div>
         <!-- SOCIAL BAR -->

@@ -13,7 +13,7 @@
 .content {
     position: relative;
     background-color: #ffffff;
-    
+    overflow: hidden;
 }
 
 .myHeader {
@@ -52,7 +52,7 @@
 }
 
 .master {
-    display: inline-block;
+    display: block !important;
     font-size: 18px;
     font-weight: bold;
     width: fit-content !important;
@@ -62,8 +62,22 @@
     display: inline-block !important;
     height: 130px;
     width: 130px;
-    background-color: #FF6B00;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 100%;
+}
+
+.betina {
+    background-image: url('https://abrilclaudia.files.wordpress.com/2019/03/bettina.jpg?quality=85&strip=info&w=502');
+}
+
+.rafael {
+    background-image: url('https://www.reedsmith.com/-/media/images/professionals/s/santoshernandez-rafael-a/highresolutionimage/santoshernandezra.jpg');
+}
+
+.otavio {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxa4QvUVf73wZEyNx1x9nmAc6H5FMNSb3UKPm7uGZBF4UWdAwz');
 }
 
 .masterLink {
@@ -74,6 +88,10 @@
 .plans {
     background-color: #101BAA;
     padding: 34px 200px 70px 200px;
+    background-image: url('../../img/fundo-azul-quero-aprender.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .plansTitle {
@@ -84,18 +102,24 @@
 }
 
 .planCard {
+    margin-bottom: 50px !important;
+    position: relative;
     display: inline-block;
     background-color: #EDEDEE;
     width: 250px;
     border-radius: 2%;
     text-align: center;
     padding: 20px;
+    -webkit-box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+    box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
 }
 
 .cardTitle {
     color: #707076;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 
 .cardIcon {
@@ -117,23 +141,43 @@
 }
 
 .cardDesc {
+    margin-top: 20px;
     font-size: 14px;
     color: #707076;
 }
 
 .miniTextCard {
-    font-size: 10px;
+    margin-top: 20px;
+    font-size: 11px;
 }
 
-.cardPriceContainer {
+.cardPriceBlueText {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    display: block;
+    margin-top: 40px !important;
     border-radius: 25px;
     background-color: #ffffff;
+    padding: 9px 40px 9px 40px;
+    -webkit-box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+    box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+}
+
+.cardPriceBlueText:hover {
+    background-color: #fafafa;
+    font-weight: bold !important;
+    text-decoration: none;
 }
 
 .cardPrice {
     font-size: 18px;
     line-height: 22px;
     padding: 5px;
+    font-weight: bold;
 }
 
 .cardPrice span {
@@ -148,19 +192,20 @@
     margin: 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .backgroundTextBlock {
-        visibility: hidden;
+        visibility: hidden !important;
     }
+}
+
+@media (max-width: 500px) {
     .infoContainer, .plans {
         padding-left: 10px !important;
         padding-right: 10px !important;
     }
-    
     .myHeader {
         text-align: left !important;
     }
-
     .infoContainer {
         margin-top: 65% !important;
     }
@@ -256,10 +301,12 @@
     padding-bottom: 25px;
     text-align: center !important;
 }
+
 .socialBar {
     margin-top: 1em;
     color: #ffffff !important;
 }
+
 .socialBar i {
     color: #359FC2;
     background-color: #ffffff;
@@ -268,25 +315,37 @@
     width: 30px;
     line-height: 30px;
 }
+
 .socialBar i:hover {
     color: #49d1ff;
     background-color: #ffffff;
 }
-.socialBar a{
+
+.socialBar a {
     color: #ffffff !important;
 }
-.footerSubscribeText{
+
+.footerSubscribeText {
     color: #ffffff;
 }
-.subscribeButton{
+
+.subscribeButton {
     background-color: #0C0CB9;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 94, 0);
 }
-.inputEmail{
+.subscribeGroup{
+    width: fit-content;
+}
+.inputEmail {
+    height: 45px;
+    line-height: 45px;
     display: inline-block;
     text-align: center;
     max-width: 300px !important;
 }
-.downloadAppButton{
+
+.downloadAppButton {
     color: #ffffff;
     background-color: #000000;
     border: 0 !important;
@@ -294,31 +353,44 @@
     border-radius: 5px;
 }
 
-
 /* Carousel */
-.courseCarousel img{
+
+@media (max-width: 600px){
+    .courseText {
+        position: absolute;
+        top: 75%;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+    }
+}
+.courseCarousel img {
     width: 300px;
     height: 200px;
     object-fit: cover;
 }
 
-
-
-.carouselCard{
+.carouselCard {
     position: relative;
+
 }
-.courseText{
+.cardContainer{
+    display: inline-block;
+    background-color: red;
+}
+
+.courseText {
     position: absolute;
     bottom: 13px;
     left: 26px;
 }
-.courseLink a{
+
+.courseLink a {
     color: #ffffff;
     font-size: 14px;
     font-weight: bold;
 }
 
-.courseName{
+.courseName {
     background-color: #0961AB;
     border-radius: 20px;
     padding-left: 10px;
@@ -327,7 +399,7 @@
     font-size: 14px;
 }
 
-.nextArrow{
+.nextArrow {
     position: absolute;
     font-size: 80px;
     top: 50%;
@@ -336,7 +408,8 @@
     transform: translate(-50%, -50%);
     /*-webkit-text-stroke: 7px #ffffff;*/
 }
-.previousArrow{
+
+.previousArrow {
     position: absolute;
     font-size: 80px;
     top: 50%;

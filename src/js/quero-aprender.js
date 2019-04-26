@@ -33,6 +33,7 @@ $(document).ready(function () {
                 settings: {
                     rows: 1,
                     arrows: false,
+                    centerMode: false,
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }

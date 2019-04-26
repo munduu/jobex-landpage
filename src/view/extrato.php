@@ -35,7 +35,7 @@
   <?php include('../controller/menu_topo.php'); ?>
 
   <!-- CONTENT -->
-  <div class="container col-md-8 col-lg-6 col-xl-5 mx-auto">
+  <div class="container">
     <h2>Meu Extrato</h2>
     <div class="list-group"></div>
   </div>

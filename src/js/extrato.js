@@ -14,8 +14,13 @@ $(function() {
     $.post("../controller/extrato.php", { email: readCookie('mail'), senha: readCookie('pass') }, function(result){
         console.log(result)
 
-        for(var i = 0; i < result.list.length; i++) {
-            $('.list-group').append('<a href="#" class="list-group-item list-group-item-action">'+ result.list.obs +'</a>');
+        for(var i = 0; i < result.result.list.length; i++) {
+            $('.list-group').append('<p class="list-group-item list-group-item-action">'+ 
+                result.result.list[i].obs +
+                '<br>'+
+                '<span style="margin-left:10px;"><i class="fa fa-calendar" aria-hidden="true"></i> '+ result.result.list[i].data_cad.substring(0, 10).split("-").reverse().join("/") +
+                '</span> <span><i class="fa fa-money" aria-hidden="true"></i> R$ '+ result.result.list[i].valor +
+            '</span></p>');
         }
     },'json');
 });

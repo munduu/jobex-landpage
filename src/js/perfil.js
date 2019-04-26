@@ -45,7 +45,14 @@ $(function() {
           '<div class="card-body">'+
               '<h2 class="card-title" style="color:#0000ff;">'+ result.result.perfil[i].nome +'</h2>'+
               '<div class="row">'+
-                '<div class="col-8">'+
+                '<div class="col-12">'+
+                  '<div class="card">'+
+                    '<div class="card-header">Saldo</div>'+
+                    '<ul class="list-group list-group-flush">'+
+                      '<li class="list-group-item">Valor J$ <span class="saldo"></span> = R$ <span class="saldo"></span><br> Dias: <span class="dias"></span></li>'+
+                    '</ul>'+
+                  '</div>'+
+                  '<br><br>'+
                   '<p class="card-text"><strong>Telefone:</strong> ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
                   '<p class="card-text"><strong>E-mail:</strong> '+ result.result.perfil[i].email +'</p>'+
                   '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
@@ -53,24 +60,23 @@ $(function() {
                   '<p class="card-text"><strong>Cobra Visita?</strong> '+ cobra_visita +'</p>'+
                   '<p class="card-text"><strong>Emite Nota?</strong> '+ mei +'</p>'+
                 '</div>'+
-                '<div class="col-4">'+
-                  '<div class="card">'+
-                    '<div class="card-header">Saldo</div>'+
-                    '<ul class="list-group list-group-flush">'+
-                      '<li class="list-group-item">Valor J$ <span class="saldo"></span> = R$ <span class="saldo"></span></li>'+
-                      '<li class="list-group-item">Dias <span class="dias"></span></li>'+
-                    '</ul>'+
-                  '</div>'+
-                '</div>'+
               '</div>'+
           '</div>'+
           '<div class="card-footer text-muted">'+
             '<a class="btn btn-primary" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>'+
-            '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>'+
-            '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>'+
-            '<a class="btn btn-success" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="../../saque" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="../../transferencia" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>'+
+            '<a class="btn btn-success" style="margin:15px;" href="../../planos" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>'+
           '</div>'+
         '</div>');
+
+        $.post("../controller/saldo.php", { email: readCookie('mail'), senha: readCookie('pass') }, function(result){
+          console.log(result);
+      
+          $(".dias").append(''+ Math.floor(result.result.dias) + '');
+          $(".saldo").append(''+ result.result.valor+ '');
+      
+        },'json');
 
         if(result.result.perfil[i].img_url != null) {
           $( "#img_perfil_detail" + id ).html('<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="'+ url_geral +'jobex-api/public/'+ result.result.perfil[i].img_url +'" />');
@@ -139,11 +145,4 @@ $(function() {
     return null;
   }
 
-  $.post("../controller/saldo.php", { email: readCookie('mail'), senha: readCookie('pass') }, function(result){
-    console.log(result);
-    
-    $(".dias").html(result.dias);
-    $(".saldo").html(result.saldo);
-
-  },'json');
 });

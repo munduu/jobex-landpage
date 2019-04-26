@@ -1,11 +1,42 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.courseCarousel').slick({
         rows: 2,
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 300,
-        slidesToShow: 1,
+        autoplay: true,
+        slidesToShow: 3,
         centerMode: true,
-        variableWidth: true
+        slidesToScroll: 1,
+        nextArrow: '<i class="fas fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="fas fa-chevron-left previousArrow"></i>',
+        responsive: [
+            {
+                breakpoint: 1300,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 850,
+                settings: {
+                    rows: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    rows: 1,
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
-  });
+});

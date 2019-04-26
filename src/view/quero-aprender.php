@@ -40,7 +40,7 @@
     <!-- HEADER -->
     <div class="myHeader row w-100">
       <div class="col-12 col-sm-12 col-md-4 headerLogo">
-        <a href="../../"><img src="../../img/logo-quero-aprender.jpg"></a>
+        <a href="../../"><img src="../../img/logo-white.png"></a>
       </div>
       <div class="col-12 col-sm-12 col-md-8 row myMenuHeader">
         <div class="col-12 col-sm-12 col-md-3">
@@ -70,7 +70,7 @@
           </div>
         </div>
         <!-- NEXT CONTENT -->
-        <div class="infoContainer">
+        <div class="infoContainer mx-auto">
           <!-- SUA OPORTUNIDADE CHEGOU -->
           <div class="blueSubtitle">Sua oportunidade chegou</div>
           <div class="row">
@@ -87,37 +87,122 @@
               </p>
             </div>
             <!-- CONHEÇA NOSSOS CURSOS -->
-            <div class="blueSubtitle text-center w-100 mt-3">Conheça nossos Cursos</div>
+            <div class="blueSubtitle text-center w-100 mt-3 mb-3">Conheça nossos Cursos</div>
             <!-- CAROUSEL -->
-            <div class="courseCarousel w-100">
-              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVDwjKaMtXKn-jqXUj2IjzZzXm2hYEKwutunFlqi1CJwvANm4k7A"></div>
-              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-lrOZb5TkujkMFzMopRQnXXFrA_9RrpdnRbjvp9h6ZoJ1fxAsQ"></div>
-              <div><img src="https://www.comschool.com.br/ext/form_variac/fotos/curso-de-seo-0-1547585943-n.jpg"></div>
-              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv8G_8txmAwU_5JcfLwMBTAyQo9KMSFClAmFzxlpZubr9nReW1Ig"></div>
-              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPn8NSNQkInzdwptHm7jf_JC6ZH-lOjQP5laCxu05lvk3VYd5u2w"></div>
-              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIg-FOL1XILXctRb7Z-QGYozEblozk6FhsXyNkEd1lCwlPzU_C"></div>
-              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-lrOZb5TkujkMFzMopRQnXXFrA_9RrpdnRbjvp9h6ZoJ1fxAsQ"></div>
-              <div><img src="https://www.comschool.com.br/ext/form_variac/fotos/curso-de-seo-0-1547585943-n.jpg"></div>
+            <div class="courseCarousel w-100 mb-3">
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText text-left">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
+              <!-- CAROUSEL CARD -->
+              <div class="carouselCard">
+                <img src="https://www.wosti.com.br/wp-content/uploads/2017/09/background_destaque_WOS.jpg">
+                <div class="courseText">
+                  <div class="courseName">Limpeza de Caixa D'água</div>
+                  <div class="courseLink"><a href="#">Saiba mais -></a></div>
+                </div>
+              </div>
             </div>
-            <div class="specialText mt-3 w-100 text-center text-sm-left">Os melhores mestres <span>farão de você um(a)</span> expert <span>!</span></div>
+            <div class="specialText mt-3 w-100 text-center text-sm-left mb-3">Os melhores mestres <span>farão de você um(a)</span> expert <span>!</span></div>
             <!-- MASTER -->
-            <div class="master text-center text-md-left w-100">
-              <div>
+            <div class="text-center text-md-left w-100 mb-3">
+              <div class="text-center master">
                 <div class="masterCircle mt-3"></div>
                 <div class="masterTitle">Betina Santos</div>
-                <div class="masterLink">Saiba mais -></div>
+                <div class="masterLink"><a href="#">Saiba mais -></a></div>
               </div>
-
             </div>
           </div>
-
-
         </div>
         <!-- END NEXT CONTENT -->
 
         <!-- PLANS -->
-        <div class="plans w-100 mt-3 text-center text-md-left">
-          <div class="plansTitle mt-3">Meus Planos e Cursos</div>
+        <div class="plans w-100 text-center text-md-left">
+          <div class="plansTitle">Meus Planos e Cursos</div>
           <!-- PLAN CARD -->
           <div class="planCard">
             <div class="cardTitle">
@@ -195,7 +280,7 @@
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="../shared/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../shared/slick/slick.js"></script>
     <script type="text/javascript" src="../js/quero-aprender.js"></script>
 </body>
 

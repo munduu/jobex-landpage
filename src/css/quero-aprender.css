@@ -4,26 +4,31 @@
 
 .blueSubtitle {
     color: #0759BF;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: bold;
     margin-bottom: 12px;
+    font-style: italic;
 }
 
 .content {
     position: relative;
+    background-color: #ffffff;
+    
 }
 
 .myHeader {
     position: absolute;
-    top: 3%;
+    top: 30px;
     left: 0;
     z-index: 100;
     margin: 0 !important;
 }
 
 .infoContainer {
-    padding-left: 200px;
-    padding-right: 200px;
-    margin-top: 65%;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 58%;
+    max-width: 1700px;
 }
 
 .infoContainer p {
@@ -47,8 +52,10 @@
 }
 
 .master {
+    display: inline-block;
     font-size: 18px;
     font-weight: bold;
+    width: fit-content !important;
 }
 
 .masterCircle {
@@ -66,13 +73,14 @@
 
 .plans {
     background-color: #101BAA;
-    padding: 34px 200px 34px 200px;
+    padding: 34px 200px 70px 200px;
 }
 
 .plansTitle {
     color: #ffffff;
     font-weight: bolder;
     font-size: 30px;
+    margin-bottom: 34px;
 }
 
 .planCard {
@@ -152,6 +160,10 @@
     .myHeader {
         text-align: left !important;
     }
+
+    .infoContainer {
+        margin-top: 65% !important;
+    }
 }
 
 @media (max-width: 720px) {
@@ -190,6 +202,14 @@
         padding-left: 100px !important;
         padding-right: 100px !important;
     }
+    .backgroundTextBlock h1 {
+        font-size: 24px !important;
+        letter-spacing: 2px !important;
+    }
+    .backgroundTextBlock p {
+        font-size: 14px !important;
+        letter-spacing: 0px !important;
+    }
 }
 
 .myMenuHeader a {
@@ -221,12 +241,12 @@
 }
 
 .backgroundTextBlock h1 {
-    font-size: 42px;
+    font-size: 48px;
     letter-spacing: 2px;
 }
 
 .backgroundTextBlock p {
-    font-size: 24px;
+    font-size: 26px;
     letter-spacing: 0px;
 }
 
@@ -277,5 +297,50 @@
 
 /* Carousel */
 .courseCarousel img{
-    width: 200px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+.carouselCard{
+    position: relative;
+}
+.courseText{
+    position: absolute;
+    bottom: 13px;
+    left: 26px;
+}
+.courseLink a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.courseName{
+    background-color: #0961AB;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.nextArrow{
+    position: absolute;
+    font-size: 80px;
+    top: 50%;
+    right: -85px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    /*-webkit-text-stroke: 7px #ffffff;*/
+}
+.previousArrow{
+    position: absolute;
+    font-size: 80px;
+    top: 50%;
+    left: -40px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
 }

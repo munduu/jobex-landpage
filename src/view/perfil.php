@@ -50,7 +50,7 @@
     
         </div>
 
-        <p style="text-align:center; margin-top:50px;"><button type="button" class="btn btn-warning logout">Sair</button></p>
+        <p style="text-align:center;"><button type="button" class="btn btn-warning bt-lg logout">Sair</button></p>
   </div>
 
   <!-- END CONTENT -->

@@ -20,9 +20,9 @@
         <ul class="myList mt-md">
           <li>
             <a href="<?php if ($pageName == 'index') {
-                        echo './cadastrar';
+                        echo './quem-somos';
                       } else {
-                        echo '../../cadastrar';
+                        echo '../../quem-somos';
                       } ?>">Quem Somos</a>
           </li>
           <li>

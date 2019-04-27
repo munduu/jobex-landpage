@@ -49,10 +49,10 @@ $(function() {
                   '<div class="card">'+
                     '<div class="card-header">Saldo</div>'+
                     '<ul class="list-group list-group-flush">'+
-                      '<li class="list-group-item">Valor J$ <span class="saldo"></span> = R$ <span class="saldo"></span><br> Dias: <span class="dias"></span></li>'+
+                      '<li class="list-group-item">J$ <span class="saldo"></span> = R$ <span class="saldo"></span><br> Dias: <span class="dias"></span></li>'+
                     '</ul>'+
                   '</div>'+
-                  '<br><br>'+
+                  '<br>'+
                   '<p class="card-text"><strong>Telefone:</strong> ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
                   '<p class="card-text"><strong>E-mail:</strong> '+ result.result.perfil[i].email +'</p>'+
                   '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
@@ -65,7 +65,7 @@ $(function() {
           '<div class="card-footer text-muted">'+
             '<a class="btn btn-primary" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>'+
             '<a class="btn btn-primary" style="margin:15px;" href="../../saque" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>'+
-            '<a class="btn btn-primary" style="margin:15px;" href="../../transferencia" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="../../transferir" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>'+
             '<a class="btn btn-success" style="margin:15px;" href="../../planos" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>'+
           '</div>'+
         '</div>');

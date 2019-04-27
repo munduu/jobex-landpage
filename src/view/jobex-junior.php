@@ -47,7 +47,7 @@
                     querem chegar."</p>
                 <!-- JOBEX ICON -->
                 <div class="icoContainer">
-                    <img src="../../img/jobex-junior-ico.jpg">
+                    <img src="../../img/jobex-junior-ico.png">
                 </div>
                 <!-- TEXT BLOCK -->
                 <p class="textBlock">
@@ -60,7 +60,7 @@
                     é.
                 </p>
                 <!-- LEARN BUTTON -->
-                <button type="button" class="btn btn-lg learnButton">Quero Aprender</button>
+                <a href="../../quero-aprender" class="btn btn-lg learnButton">Quero Aprender</a>
                 <hr>
                 <!-- OBSERVATION -->
                 <p class="observationText">*Para se cadastrar como <strong>Jobex Jr.</strong> é necessário estar

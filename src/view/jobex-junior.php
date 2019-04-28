@@ -51,13 +51,8 @@
                 </div>
                 <!-- TEXT BLOCK -->
                 <p class="textBlock">
-                    Mussum Ipsum, cacilds vidis litro abertis. Detraxit consequat et quo num tendi nada. Não sou faixa
-                    preta cumpadi, sou preto inteiris, inteiris. Atirei o pau no gatis, per gatis num morreus. Praesent
-                    vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.
-
-                    Diuretics paradis num copo é motivis de denguis. Mais vale um bebadis conhecidiss, que um alcoolatra
-                    anonimis. Suco de cevadiss deixa as pessoas mais interessantis. Quem num gosta di mé, boa gentis num
-                    é.
+                Estudantes, jovens, sonhadores, dispostos a conquistar seus sonhos com trabalho honesto. Paralelo à jornada estudantil, trabalham em meio período, em atividades que são qualificados. Assim, ganham seu próprio dinheiro e recursos para alcançar a meta gloriosa.
+                <strong>Então, você já sabe: além de sorridentes, eles prestam serviços com profissionalismo!</strong>
                 </p>
                 <!-- LEARN BUTTON -->
                 <a href="../../quero-aprender" class="btn btn-lg learnButton">Quero Aprender</a>
@@ -79,6 +74,7 @@
     <script src="../../vendor/jquery/jquery.min.js"></script>
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../js/minha-conta.js"></script>
 </body>
 
 </html>

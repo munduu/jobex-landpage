@@ -35,7 +35,7 @@
   <?php include('../controller/menu_topo.php'); ?>
 
   <!-- CONTENT -->
-  <div class="container"><img src="../../img/banner-soucliente.png" class="img-fluid" alt="Responsive image"></div>
+  <div class="container"></div>
 
   <div class="container col-md-8 col-lg-6 col-xl-5 mx-auto">
     <div id="planos"></div>
@@ -50,6 +50,7 @@
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../js/planos.js"></script>
+    <script src="../js/minha-conta.js"></script>
   </body>
   
 </html>

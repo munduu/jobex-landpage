@@ -35,9 +35,8 @@
   <?php include('../controller/menu_topo.php'); ?>
   <!-- CONTENT -->
   <div class="container">
-
+    <!-- BANNER IMAGE -->
     <img src="../../img/banner-soucliente.png" class="img-fluid bannerImage" alt="Responsive image"><br><br>
-
     <p class="title">
       Encontre o Profissional certo e poupe seu tempo!
     </p>
@@ -50,19 +49,19 @@
       o que de fato lhe interessa. <strong>#SeuTempoValeOuro!</strong>
     </p>
     <h4>É fácil usar o App Jobex</h4>
-
+    <!-- LIST -->
     <ul>
       <hr>
-      <li><i class="fas fa-mobile"></i>Baixe o App Jobex (disponível para Android e IOS)</li>
+      <li><i class="fas fa-mobile"></i><a href="../../app/">Baixe o App Jobex (disponível para Android e IOS)</a></li>
       <hr>
-      <li><i class="fas fa-pen-square"></i>Cadastre-se grátis</li>
+      <li><i class="fas fa-pen-square"></i><a href="../../cadastrar/">Cadastre-se grátis</a></li>
       <hr>
       <li><i class="fas fa-calendar-alt"></i>Bem poucos cliques você encontra um Profissional Independente. É você quem decide quando, onde e por quem deseja ser atendido(a).</li>
       <hr>
-      <li><i class="fas fa-clock"></i>BComece hoje a poupar tempo!</li>
+      <li><i class="fas fa-clock"></i>Comece hoje a poupar tempo!</li>
       <hr>
     </ul>
-
+    <!-- BUTTONS -->
     <a href="../../app/"><button type="submit" class="btn-lg btn btn-primary btDownload">Baixe o App Jobex</button></a>
   </div>
 

@@ -4,13 +4,14 @@
 <html lang="pt-BR">
 
 <!-- HEADER-->
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="<?php echo $pageDescription;?>">
-  <meta name="author" content="<?php echo $pageAuthor;?>">
-  <meta name="keywords"content="<?php echo $pageKeywords;?>">
-  <title><?php echo $pageTitle;?></title>
+  <meta name="description" content="<?php echo $pageDescription; ?>">
+  <meta name="author" content="<?php echo $pageAuthor; ?>">
+  <meta name="keywords" content="<?php echo $pageKeywords; ?>">
+  <title><?php echo $pageTitle; ?></title>
 
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,8 +19,7 @@
   <!-- Custom fonts for this template -->
   <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="../../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
-    type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Custom styles for this template -->
   <link href="../css/landing-page.min.css" rel="stylesheet">
@@ -38,14 +38,29 @@
   <div class="container">
 
     <img src="../../img/banner-souprofissional.png" class="img-fluid" alt="Responsive image"><br><br>
-
-    <p style="text-align:center; color:#009DBE;">Vá aonde seu cliente está!<br><br>
-
-      Torne-se um Profissional Independente Jobex e comece a multiplicar clientes.<br><br>
-
-      #SeuTempoValeOuro!<br><br>
-
-      É fácil se tornar um Profissional Independente Jobex.</p>
+    <p class="title">
+      Vá aonde seu cliente está!
+    </p>
+    <p>
+    Torne-se um <strong>Profissional Independente Jobex</strong> e comece a <strong>multiplicar clientes</strong>. <br>
+    <strong>#SeuTempoValeOuro!</strong>
+    </p>
+    <h4>É fácil se tornar um Profissional Independente Jobex.</h4>
+    <!-- LIST -->
+    <ul>
+      <hr>
+      <li><i class="fas fa-mobile"></i><a href="../../app/">Baixe o App Jobex (disponível para Android e IOS)</a></li>
+      <hr>
+      <li><i class="fas fa-pen-square"></i><a href="../../cadastrar/">Cadastre-se grátis</a></li>
+      <hr>
+      <li><i class="fas fa-calendar-alt"></i>Bem poucos cliques você encontra um Profissional Independente. É você quem decide quando, onde e por quem deseja ser atendido(a).</li>
+      <hr>
+      <li><i class="fas fa-clock"></i>Comece hoje a poupar tempo!</li>
+      <hr>
+    </ul>
+    <!-- BUTTONS -->
+    <a href="../../cadastrar/"><button type="submit" class="btn-lg btn btn-primary btDownload mr-2">Cadastre-se grátis</button></a>
+    <a href="../../app/"><button type="submit" class="btn-lg btn btn-primary btDownload">Baixe o App Jobex</button></a>
   </div>
   <!-- END CONTENT -->
 

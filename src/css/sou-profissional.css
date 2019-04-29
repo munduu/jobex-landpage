@@ -1,0 +1,51 @@
+.title {
+    color: #00AEC5;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.bannerImage {}
+
+ul {
+    padding-left: 0;
+}
+
+li i {
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    color: #ffffff;
+    box-shadow: 0px 0px 2px #00AEC5;
+    background-color: #00AEC5;
+    padding: 0.5em 0.6em;
+    margin-right: 16px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+li a {
+    color: #000000;
+}
+h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btDownload {
+    margin-top: 24px;
+    background-color: #00AEC5;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    height: 68px;
+    width: 200px;
+}
+
+p {
+    color: #535353;
+}

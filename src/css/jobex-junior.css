@@ -20,7 +20,7 @@
 }
 
 .effectText{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
     font-style: italic;
     color: #919191;
@@ -58,4 +58,8 @@
     .effectText{
         font-size: 13px;
     }
+}
+
+.icoContainer img{
+    max-width: 420px;
 }

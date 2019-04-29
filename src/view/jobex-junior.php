@@ -40,14 +40,14 @@
             <img src="../../img/jobex-junior.jpg" class="img-fluid" alt="Responsive image">
 
             <div class="text-left">
-                <p class="jobexJuniorSubtitle">
+                <p class="jobexJuniorSubtitle mt-3">
                     Nossa linda juventude
                 </p>
                 <p class="effectText">"O caminho do bem é estreito, mas esses jóvens são determinados e sabem aonde
                     querem chegar."</p>
                 <!-- JOBEX ICON -->
                 <div class="icoContainer">
-                    <img src="../../img/jobex-junior-ico.jpg">
+                    <img src="../../img/Jobex Jr - Logo 1 horizontal.png">
                 </div>
                 <!-- TEXT BLOCK -->
                 <p class="textBlock">

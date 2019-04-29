@@ -38,6 +38,36 @@
   <!-- CONTENT -->
   <div class="content">
     <!-- HEADER -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-lignt text-center header myHeader row">
+    <a class="navbar-brand text-left text-md-left text-lg-center topLogoContainer">
+      <div><img class="headerLogo" src="../../img/logo-white.png" /></div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse topMenuContainer" id="navbarSupportedContent">
+      <ul class="navbar-nav w-100 justify-content-center">
+        <li class="nav-item m-auto">
+          <a class="nav-link" href="../../">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item m-auto">
+          <a class="nav-link" href="../../">Cursos</a>
+        </li>
+        <li class="nav-item m-auto">
+          <a class="nav-link" href="../../">Professores</a>
+        </li>
+        <li class="nav-item m-auto">
+          <a class="nav-link" href="../../">Planos e Preços</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+  
+ <!--
     <div class="myHeader row w-100">
       <div class="col-12 col-sm-12 col-md-4 headerLogo">
         <a href="../../"><img src="../../img/logo-white.png"></a>
@@ -56,7 +86,10 @@
           <a href="#">Planos e Preços</a>
         </div>
       </div>
-    </div>
+    </div> -->
+
+
+
     <div style="width:100%" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">

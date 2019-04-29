@@ -50,7 +50,7 @@
         <label for="inputPassword" class="sr-only">Senha</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
       </div>
-      <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary btn-block">Entrar</div></div>
+      <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary w-100">Entrar</div></div>
       <div class="mt-4 col-md-12 text-center"><a href="../../esqueci-minha-senha/">Esqueci minha senha</a></div>
       <div class="mt-4 col-md-12 text-center registerText"><a href="../../cadastrar/">Cadastre-se grátis</a></div>
 

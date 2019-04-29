@@ -37,13 +37,39 @@
   <!-- CONTENT -->
   <div class="container">
 
-    <img src="../../img/banner-souprofissional.png" class="img-fluid" alt="Responsive image"><br><br>
+    <!-- CAROUSEL -->
+    <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1" class=""></li>
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view">
+            <img class="d-block w-100 img-fluid" src="../../img/profissionais_01-1.jpg" alt="First slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100 img-fluid" src="../../img/profissionais_02-1.jpg" alt="Second slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+        </div>
+      </div>
+      <!--/.Slides-->
+    </div>
+    <!-- END CAROUSEL -->
     <p class="title">
       Vá aonde seu cliente está!
     </p>
     <p>
-    Torne-se um <strong>Profissional Independente Jobex</strong> e comece a <strong>multiplicar clientes</strong>. <br>
-    <strong>#SeuTempoValeOuro!</strong>
+      Torne-se um <strong>Profissional Independente Jobex</strong> e comece a <strong>multiplicar clientes</strong>. <br>
+      <strong>#SeuTempoValeOuro!</strong>
     </p>
     <h4>É fácil se tornar um Profissional Independente Jobex.</h4>
     <!-- LIST -->

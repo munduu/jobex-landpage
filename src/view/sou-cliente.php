@@ -35,8 +35,33 @@
   <?php include('../controller/menu_topo.php'); ?>
   <!-- CONTENT -->
   <div class="container">
-    <!-- BANNER IMAGE -->
-    <img src="../../img/banner-soucliente.png" class="img-fluid bannerImage" alt="Responsive image"><br><br>
+    <!-- CAROUSEL -->
+    <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1" class=""></li>
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view">
+            <img class="d-block w-100 img-fluid" src="../../img/clientes_01-2.jpg" alt="First slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100 img-fluid" src="../../img/clientes_02-2.jpg" alt="Second slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+        </div>
+      </div>
+      <!--/.Slides-->
+    </div>
+    <!-- END CAROUSEL -->
     <p class="title">
       Encontre o Profissional certo e poupe seu tempo!
     </p>

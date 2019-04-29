@@ -8,7 +8,7 @@
   <div class="container">
     <div class="row grid">
       <!-- APP DOWNLOAD -->
-      <div class="col-lg-4 myList">
+      <div class="col-lg-4 myList mb-2">
         <img class="myLogo" src="<?php if ($pageName == 'index') {
                                     echo './img/logo-dark.png';
                                   } else {
@@ -41,6 +41,7 @@
           </li>
         </ul>
       </div>
+
       <div class="col-lg-2">
         <ul class="myList">
           <li>
@@ -66,6 +67,7 @@
           </li>
         </ul>
       </div>
+
       <!-- FOOTER REGISTER -->
       <div class="col-lg-4 mt-md">
         <ul class="myList text-center">
@@ -78,28 +80,43 @@
           <li>
             <input type="email" class="form-control buscar formInput" placeholder="*e-mail">
           </li>
-          <li>
-            <button type="button" class="btn btn-primary registerButton">cadastrar</button>
+          <li class="d-block d-lg-none">
+            <div class="text-center">
+              <button type="button" class="btn btn-primary registerButton">cadastrar</button>
+            </div>
           </li>
         </ul>
       </div>
     </div>
-    <!-- DOWNLOAD BAR -->
-    <div class="downloadContainer text-center text-sm-left text-md-left">
-      <p class="downloadText">Baixe grátis o APP</p>
-      <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
-        <i class="fab fa-apple mr-1"></i>App Store
-      </button>
-      <button type="button" class="btn btn-light btn-sm downloadAppButton">
-        <i class="fab fa-google-play mr-1"></i>Google Play
-      </button>
+    <div class="row" class="footerRow">
+      <!-- DOWNLOAD BAR -->
+      <div class="downloadContainer text-center text-sm-left text-md-left col-12 col-sm-4">
+        <p class="downloadText text-center text-sm-left w-100">Baixe grátis o APP</p>
+        <a href="http://bit.ly/jobex-applestore">
+          <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
+            <i class="fab fa-apple mr-1"></i>App Store
+          </button>
+        </a>
+        <a href="http://bit.ly/jobex-googleplay">
+          <button type="button" class="btn btn-light btn-sm downloadAppButton">
+            <i class="fab fa-google-play mr-1"></i>Google Play
+          </button>
+        </a>
+      </div>
+      <!-- SOCIAL BAR -->
+      <div class="col-12 text-center socialBar col-12 col-sm-4 mt-3">
+        <a href="https://www.facebook.com/jobexbrasil/"><i class="fab fa-facebook-f mr-2"></i></a>
+        <a href="https://www.instagram.com/jobexbrasil/"><i class="fab fa-instagram mr-2"></i></a>
+        <a href="https://www.youtube.com/results?search_query=JobexBrasil"><i class="fab fa-youtube"></i></a>
+      </div>
+      <!-- REGISTER BUTTON FOR LARGE RESOLUTIONS -->
+      <div class="col-lg-4 text-center d-none d-lg-block">
+        <button type="button" class="btn btn-primary registerButton">cadastrar</button>
+      </div>
+
     </div>
-    <!-- SOCIAL BAR -->
-    <div class="col-12 text-center socialBar">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-      <p class="text-muted text-center mt-4 mb-4 mb-lg-0 jobex">&copy; 2019 - Jobex</p>
-    </div>
+
+    <p class="text-muted text-center w-100 jobex mt-3">&copy; 2019 - Jobex</p>
+
 </footer>
 <!-- END FOOTER -->

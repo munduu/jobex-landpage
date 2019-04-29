@@ -327,8 +327,8 @@
         </div>
         <!-- SOCIAL BAR -->
         <div class="col-12 text-center socialBar">
-          <a href="https://www.facebook.com/jobexbrasil/"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/jobexbrasil/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/jobexbrasil/"><i class="fab fa-facebook-f mr-2"></i></a>
+          <a href="https://www.instagram.com/jobexbrasil/"><i class="fab fa-instagram mr-2"></i></a>
           <a href="https://www.youtube.com/results?search_query=JobexBrasil"><i class="fab fa-youtube"></i></a>
           <div class="mt-3 mb-3 mb-lg-0">
             &copy; 2019 - Jobex -

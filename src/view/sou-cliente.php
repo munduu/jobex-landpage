@@ -36,57 +36,15 @@
   <!-- CONTENT -->
   <div class="container">
 
-    <!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-2" data-slide-to="1"></li>
-  </ol>
-  <!--/.Indicators-->
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="view">
-        <img class="d-block w-100 img-fluid" src="../../img/clientes_01-2.jpg" alt="First slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100 img-fluid" src="../../img/clientes_02-2.jpg" alt="Second slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-    </div>
-  </div>
-  <!--/.Slides-->
-</div>
-<!--/.Carousel Wrapper-->
-    
-    <br><br>
+    <img src="../../img/banner-soucliente.png" class="img-fluid" alt="Responsive image"><br><br>
 
-      <div style="text-align:center;" class="wpb_wrapper">
-        <h3 style="color:#009DBE;">Encontre o Profissional certo e poupe seu tempo!</h3>
-        <p>&nbsp;</p>
-        <p>Você trabalha, estuda, cuida dos filhos, da casa, enfrenta trânsito, filas e outros compromissos…</p>
-        <p><strong>A Jobex pensa nisso!</strong>&nbsp;Respeitamos e <strong>valorizamos seu tempo</strong> e agenda.</p>
-        <p>&nbsp;</p>
-        <p>Selecione o Profissional e ele vai até você. Isso pode lhe render um tempo precioso para fazer</p>
-        <p>o que de fato lhe interessa. <strong>#SeuTempoValeOuro!</strong></p>
-      </div>
+    <p style="text-align:center; color:#009DBE;">Vá aonde seu cliente está!<br><br>
 
-      <div style="text-align:center;" class="wpb_wrapper">
-			  <h4>É fácil usar o App Jobex</h4>
-      </div>
+      Torne-se um Profissional Independente Jobex e comece a multiplicar clientes.<br><br>
 
-      <div style="text-align:center;" class="q_icon_list"><i class="fa fa-mobile" style="font-size: 21px;color: #ffffff;background-color: #00aec5;"></i>Baixe o App Jobex (disponível para Android e IOS)</div>
-      <div style="text-align:center;" class="q_icon_list"><i class="fa fa-pencil-square-o" style="font-size: 15px;color: #ffffff;background-color: #00aec5;"></i>Cadastre-se grátis</div>
-      <div style="text-align:center;" class="q_icon_list"><i class="fa fa-calendar" style="font-size: 15px;color: #ffffff;background-color: #00aec5;"></i>Em poucos cliques você encontra um Profissional Independente. É você quem decide quando, onde e por quem deseja ser atendido(a).</div>
-      <div style="text-align:center;" class="q_icon_list"><i class="fa fa-clock-o" style="font-size: 21px;color: #ffffff;background-color: #00aec5;"></i>Comece hoje a poupar tempo!</div>
+      #SeuTempoValeOuro!<br><br>
 
-      <p style="text-align:center; margin-top:50px;"><a href="../../app" style="background-color:#00aec5; border-radius:10px; padding:20px; 40px; color:#fff;">Baixar Aplicativo</a></p>
-
+      É fácil se tornar um Profissional Independente Jobex.</p>
   </div>
 
   <!-- END CONTENT -->
@@ -98,7 +56,6 @@
   <script src="../../vendor/jquery/jquery.min.js"></script>
   <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="../js/minha-conta.js"></script>
 </body>
 
 </html>

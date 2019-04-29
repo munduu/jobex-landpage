@@ -50,7 +50,7 @@
     
         </div>
 
-        <p style="text-align:center;"><button type="button" class="btn btn-warning bt-lg logout">Sair</button></p>
+        <p style="text-align:center; margin-top:50px;"><button type="button" class="btn btn-warning logout">Sair</button></p>
   </div>
 
   <!-- END CONTENT -->
@@ -63,7 +63,6 @@
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../js/perfil.js"></script>
-    <script src="../js/minha-conta.js"></script>
   </body>
   
 </html>

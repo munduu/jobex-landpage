@@ -20,9 +20,9 @@
         <ul class="myList mt-md">
           <li>
             <a href="<?php if ($pageName == 'index') {
-                        echo './quem-somos';
+                        echo './cadastrar';
                       } else {
-                        echo '../../quem-somos';
+                        echo '../../cadastrar';
                       } ?>">Quem Somos</a>
           </li>
           <li>
@@ -87,18 +87,18 @@
     <!-- DOWNLOAD BAR -->
     <div class="downloadContainer text-center text-sm-left text-md-left">
       <p class="downloadText">Baixe grátis o APP</p>
-      <a href="http://bit.ly/jobex-googleplay" style="color:#666" class="btn btn-light btn-sm mr-2 downloadAppButton">
+      <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
         <i class="fab fa-apple mr-1"></i>App Store
-                    </a>
-      <a href="http://bit.ly/jobex-applestore" style="color:#666" class="btn btn-light btn-sm downloadAppButton">
+      </button>
+      <button type="button" class="btn btn-light btn-sm downloadAppButton">
         <i class="fab fa-google-play mr-1"></i>Google Play
-                    </a>
+      </button>
     </div>
     <!-- SOCIAL BAR -->
     <div class="col-12 text-center socialBar">
-      <a href="https://www.facebook.com/jobexbrasil/"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/jobexbrasil/"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.youtube.com/channel/ UCHl9ABZePT2XUIAg2OIrRSA"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
       <p class="text-muted text-center mt-4 mb-4 mb-lg-0 jobex">&copy; 2019 - Jobex</p>
     </div>
 </footer>

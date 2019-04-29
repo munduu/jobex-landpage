@@ -52,6 +52,7 @@
       </div>
       <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary btn-block">Entrar</div></div>
       <div class="mt-4 col-md-12 text-center"><a href="../../cadastrar/">Cadastre-se Grátis</a></div>
+
     </div>
   </div>
   <!-- END CONTENT -->
@@ -64,7 +65,6 @@
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../js/login.js"></script>
-    <script src="../js/minha-conta.js"></script>
   </body>
   
 </html>

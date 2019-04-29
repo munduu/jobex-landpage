@@ -37,17 +37,15 @@
   <!-- CONTENT -->
   <div class="container">
 
-    <div style="text-align:center" class="wpb_wrapper">
-			<p>A Jobex trabalha com dedicação e transparência para lhe oferecer a melhor experiência possível na contratação de um Profissional.</p>
-      <p>&nbsp;</p>
-      <h3 style="color: #009DBE;">Vale lembrar que:</h3>
-      <p>&nbsp;</p>
-      <ol>
-      <li>Você pode “<strong>registrar chegada</strong>” do profissional, fazendo uma foto do mesmo e publicando em suas redes sociais (opcional);</li>
-      <li><strong>Nunca faça pagamentos antecipados</strong>. Durante a visita do Profissional, peça um orçamento por escrito (se for o caso) e, se necessário, exija o <strong>Contrato de Prestação de Serviços</strong>, onde conste todos os detalhes do orçamento.</li>
-      <li><strong>Não enviamos e-mail pedindo seus dados</strong>. O único tipo de e-mail que enviamos é sobre promoções temporárias e de nossos parceiros. Nesse caso, você deve observar que NÃO LHE PEDIMOS DADO ALGUM, apenas, se você interessar, deve acessar o site da Jobex para conhecer melhor tais ofertas. <span style="color: #0000ff;"><strong>Nossos sites oficiais na internet são:</strong></span> www.<strong>jobex.org</strong> e <strong>jobex.com.br</strong>.</li>
-      </ol>
-		</div>
+    <img src="../../img/banner-soucliente.png" class="img-fluid" alt="Responsive image"><br><br>
+
+    <p style="text-align:center; color:#009DBE;">Vá aonde seu cliente está!<br><br>
+
+      Torne-se um Profissional Independente Jobex e comece a multiplicar clientes.<br><br>
+
+      #SeuTempoValeOuro!<br><br>
+
+      É fácil se tornar um Profissional Independente Jobex.</p>
   </div>
 
   <!-- END CONTENT -->
@@ -59,7 +57,6 @@
   <script src="../../vendor/jquery/jquery.min.js"></script>
   <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="../js/minha-conta.js"></script>
 </body>
 
 </html>

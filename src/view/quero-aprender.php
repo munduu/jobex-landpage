@@ -71,16 +71,20 @@
           <!-- SUA OPORTUNIDADE CHEGOU -->
           <div class="blueSubtitle">Sua oportunidade chegou</div>
           <div class="row">
-            <div class="col-12 col-sm-6">
+            <div class="col-12">
               <p>
-                Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Mé faiz elementum girarzis, nisi eros vermeio. A ordem dos tratores não altera o pão duris.<br>
-                Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Mé faiz elementum girarzis, nisi eros vermeio. A ordem dos tratores não altera o pão duris.
+                Responsável por aproximadamente 60% do Produto Interno Bruto, o setor de serviços ganha a cada dia mais relevância no mercado de
+                trabalho, principalmente após a crise econômica internacional. Esta conclusão faz parte de um estudo produzido pela Divisão Econômica da
+                Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC).
+                Ao contrário dos setores primário (agropecuária) e secundário (indústria), que sofreram com a queda na demanda externa,
+                <b>os serviços, sempre intensivos em mão de obra</b>, beneficiaram-se do aquecimento do mercado interno nos últimos anos e impulsionaram
+                a geração de emprego.
+                Com a nova vigência da <b>CLT</b> (Consolidação das Leis trabalhistas), a demanda por mão de obra especializada só tende a crescer e gerar
+                renda e prosperidade num<b>ecossistema de oportunidades</b> e boas relações entre clientes e Profissionais Independentes.
+
               </p>
-            </div>
-            <div class="col-12 col-sm-6">
-              <p>
-                Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Mé faiz elementum girarzis, nisi eros vermeio. A ordem dos tratores não altera o pão duris.<br>
-                Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Mé faiz elementum girarzis, nisi eros vermeio. A ordem dos tratores não altera o pão duris.
+              <p class="OportunitySpecialText text-center">
+                Cursos rápidos e promissores <span>para você se formar e </span>ganhar dinheiro todo dia!
               </p>
             </div>
             <!-- CONHEÇA NOSSOS CURSOS -->
@@ -260,7 +264,7 @@
       <div class="myFooter text-center">
         <div class="row">
           <div class="col-3 col-sm-3"></div>
-          <div class="col-12 col-sm-12 col-md-6">
+          <div class="col-12 col-sm-12 col-md-6 center-block">
             <div class="w-100 footerSubscribeText">Cadastre seu e-mail e receba novidades</div>
             <!-- SUBSCRIBE  -->
             <div class="input-group mb-3 subscribeGroup m-auto">
@@ -275,15 +279,15 @@
 
           </div>
           <div class="col-12 col-sm-12 col-md-3 text-center mt-md-0 mt-3 text-md-left">
-            <a href="https://itunes.apple.com/br/app/jobex-brasil/id1330159005?mt=8">
+            <a href="http://bit.ly/jobex-applestore">
               <button type="button" class="btn btn-light btn-sm downloadAppButton mb-2">
                 <i class="fab fa-apple mr-1"></i>App Store
               </button>
             </a>
             <br>
-            <a href="https://play.google.com/store/apps/details?id=com.jobexbrasilmunduu&hl=pt_BR">
+            <a href="http://bit.ly/jobex-googleplay">
               <button type="button" class="btn btn-light btn-sm downloadAppButton">
-                <i class="fab fa-apple mr-1"></i>Google Play
+                <i class="fab fa-google-play   mr-1"></i>Google Play
               </button>
             </a>
           </div>
@@ -292,14 +296,14 @@
         <div class="col-12 text-center socialBar">
           <a href="https://www.facebook.com/jobexbrasil/"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/jobexbrasil/"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.youtube.com/channel/ UCHl9ABZePT2XUIAg2OIrRSA"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.youtube.com/results?search_query=JobexBrasil"><i class="fab fa-youtube"></i></a>
           <div class="mt-3 mb-3 mb-lg-0">
             &copy; 2019 - Jobex -
             <a href="<?php if ($pageName == 'index') {
                         echo './contato';
                       } else {
                         echo '../../contato';
-                      } ?>#"> Contato </a> |
+                      } ?>"> Contato </a> |
             <a href="<?php if ($pageName == 'index') {
                         echo './politica-de-privacidade';
                       } else {

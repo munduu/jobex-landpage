@@ -9,6 +9,16 @@
     margin-bottom: 12px;
     font-style: italic;
 }
+.OportunitySpecialText  {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #01B2F4;
+    font-size: 22px;
+    font-weight: bold;
+}
+.OportunitySpecialText span{
+    color: #000000 !important;
+}
 
 .content {
     position: relative;
@@ -198,6 +208,10 @@
     }
 }
 @media (max-width: 600px) {
+    .OportunitySpecialText  {
+        margin-top: 1em !important;
+        margin-bottom: 0 !important;
+    }
     .backgroundTextBlock {
         visibility: hidden !important;
     }
@@ -341,6 +355,9 @@
 }
 .subscribeGroup{
     width: fit-content;
+    margin: 0 auto !important;
+    float: none !important;
+    max-width: 350px !important;
 }
 .inputEmail {
     height: 45px;

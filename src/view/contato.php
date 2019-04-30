@@ -12,6 +12,8 @@
   <meta name="keywords"content="<?php echo $pageKeywords;?>">
   <title><?php echo $pageTitle;?></title>
 
+  <link rel="icon" href="../../img/logo_icon.png" />
+
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -40,17 +42,17 @@
       <div class="mt-4 col-md-12"><h2 class="form-signin-heading">Fale Conosco</h2></div>
       <div class="mt-4 col-md-12">
         <label for="inputEmail" class="sr-only">E-mail</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required="" autofocus="">
+        <input type="email" id="inputEmail" class="form-control formInput" placeholder="E-mail" required="" autofocus="">
       </div>
       <div class="mt-4 col-md-12">
         <label for="inputEmail" class="sr-only">Assunto</label>
-        <input type="text" id="inputEmail" class="form-control" placeholder="Assunto" required="" autofocus="">
+        <input type="text" id="inputEmail" class="form-control formInput" placeholder="Assunto" required="" autofocus="">
       </div>
       <div class="mt-4 col-md-12">
         <label for="inputPassword" class="sr-only">Mensagem</label>
-        <textarea class="form-control" rows="5" id="comment" placeholder="Mensagem..." required=""></textarea>
+        <textarea class="form-control formInput" rows="5" id="comment" placeholder="Mensagem..." required=""></textarea>
       </div>
-      <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary btn-block">Enviar</div></div>
+      <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary btn-block formInput">Enviar</div></div>
     </div>
   </div>
   <!-- END CONTENT -->

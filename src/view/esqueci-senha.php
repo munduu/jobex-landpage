@@ -1,5 +1,5 @@
 <?php include('../../src/controller/config.php'); ?>
-<?php $pageName = 'contato'; ?>
+<?php $pageName = 'login'; ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -28,7 +28,7 @@
   <!-- AUTOCOMPLETE CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
   <!-- PAGE CSS -->
-  <link rel="stylesheet" href="../css/planos.css">
+  <link rel="stylesheet" href="../css/login.css">
   <link rel="stylesheet" href="../css/menu-topo.css">
 </head>
 
@@ -37,10 +37,20 @@
   <?php include('../controller/menu_topo.php'); ?>
 
   <!-- CONTENT -->
-  <div class="container"><img src="../../img/banner-soucliente.png" class="img-fluid" alt="Responsive image"></div>
-
   <div class="container col-md-8 col-lg-6 col-xl-5 mx-auto">
-    <div id="planos"></div>
+
+    <div id="alertLogin" class="alert alert-danger alert-dismissible fade hide" role="alert">
+    </div>
+
+    <div class="form-signin">
+      <div class="mt-4 col-md-12"><h2 class="form-signin-heading">Resgatar sua Senha</h2></div>
+      <div class="mt-4 col-md-12">
+        <label for="inputEmail" class="sr-only">E-mail</label>
+        <input type="email" id="inputEmail" class="form-control formInput" placeholder="E-mail" required="" autofocus="">
+      </div>
+      <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary w-100 formInput">Enviar</div></div>
+
+    </div>
   </div>
   <!-- END CONTENT -->
 
@@ -51,7 +61,7 @@
     <script src="../../vendor/jquery/jquery.min.js"></script>
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="../js/planos.js"></script>
+    <script src="../js/esqueci-senha.js"></script>
     <script src="../js/minha-conta.js"></script>
   </body>
   

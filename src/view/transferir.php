@@ -12,6 +12,8 @@
   <meta name="keywords"content="<?php echo $pageKeywords;?>">
   <title><?php echo $pageTitle;?></title>
 
+  <link rel="icon" href="../../img/logo_icon.png" />
+
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -43,30 +45,30 @@
         <h2>Transferir Créditos</h2>
         <!-- Three columns of text below the carousel -->
         <div style="text-align:center;" class="card-footer text-muted">
-            <a class="btn btn-primary" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>
-            <a class="btn btn-primary" style="margin:15px;" href="../../saque" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>
-            <a class="btn btn-primary" style="margin:15px;" href="../../transferir" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>
-            <a class="btn btn-success" style="margin:15px;" href="../../planos" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>
+            <a class="btn btn-primary formInput" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>
+            <a class="btn btn-primary formInput" style="margin:15px;" href="../../saque" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>
+            <a class="btn btn-primary formInput" style="margin:15px;" href="../../transferir" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>
+            <a class="btn btn-success formInput" style="margin:15px;" href="../../planos" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>
         </div>
 
         <div style="text-align:center;"  class="card">
-        <div class="card-header">Saldo</div>
+        <div class="card-header"><h4>Saldo</h4></div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">J$ <span class="saldo"></span> = R$ <span class="saldo"></span><br> Dias: <span class="dias"></span></li>
+                <li class="list-group-item"><span style=" color: #009DBE"><strong>J$</strong></span> <span class="saldo"></span> = <span style=" color: #009DBE"><strong>R$</strong></span> <span class="saldo"></span><br> <span style=" color: #009DBE"><strong>Dias</strong></span>: <span class="dias"></span></li>
             </ul>
         </div>
 
         <div style="text-align:center;"  class="card">
             <div class="form-signin">
                 <div class="mt-4 col-md-12">
-                    <label for="inputValor" class="sr-only">Valor</label>
-                    <input type="text" id="inputValor" class="form-control" placeholder="0.00" required="" autofocus="">
+                    <label for="inputValor">Valor</label>
+                    <input type="text" id="inputValor" class="form-control formInput" placeholder="0.00" required="" autofocus="">
                 </div>
                 <div class="mt-4 col-md-12">
-                    <label for="inputID" class="sr-only">ID Favorecido</label>
-                    <input type="text" id="inputID" class="form-control" placeholder="Ex.: 111.111.1111" required="">
+                    <label for="inputID">ID Favorecido</label>
+                    <input type="text" id="inputID" class="form-control formInput" placeholder="Ex.: 111.111.1111" required="">
                 </div>
-                <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary btn-block">Enviar</div></div>
+                <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary btn-block formInput">Enviar</div></div>
             </div>  
         </div>
     

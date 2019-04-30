@@ -8,7 +8,7 @@ $(function() {
 
         console.log(result);
 
-        $('#perfil_nome').html('Olá, '+ result.result.perfil[0].nome +'');
+        $('#perfil_nome').html('Olá, '+ result.result.perfil[0].nome +' ');
 
     });
   } else {

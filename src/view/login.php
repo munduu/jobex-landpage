@@ -12,6 +12,8 @@
   <meta name="keywords"content="<?php echo $pageKeywords;?>">
   <title><?php echo $pageTitle;?></title>
 
+  <link rel="icon" href="../../img/logo_icon.png" />
+
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -37,8 +39,7 @@
   <!-- CONTENT -->
   <div class="container col-md-8 col-lg-6 col-xl-5 mx-auto">
 
-    <div id="alertLogin" class="alert alert-danger alert-dismissible fade hide" role="alert">
-    </div>
+    <div id="alertLogin" class="alert alert-danger alert-dismissible fade hide" role="alert"></div>
 
     <div class="form-signin">
       <div class="mt-4 col-md-12"><h2 class="form-signin-heading">Acessar sua Conta</h2></div>
@@ -51,7 +52,7 @@
         <input type="password" id="inputPassword" class="form-control formInput" placeholder="Senha" required="">
       </div>
       <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary w-100 formInput">Entrar</div></div>
-      <div class="mt-4 col-md-12 text-center"><a href="../../esqueci-minha-senha/">Esqueci minha senha</a></div>
+      <div class="mt-4 col-md-12 text-center"><a href="../../esqueci-senha/">Esqueci minha senha</a></div>
       <div class="mt-4 col-md-12 text-center registerText"><a href="../../cadastrar/">Cadastre-se grátis</a></div>
 
     </div>

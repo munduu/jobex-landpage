@@ -20,9 +20,9 @@
         <ul class="myList mt-md">
           <li>
             <a href="<?php if ($pageName == 'index') {
-                        echo './cadastrar';
+                        echo './quem-somos';
                       } else {
-                        echo '../../cadastrar';
+                        echo '../../quem-somos';
                       } ?>">Quem Somos</a>
           </li>
           <li>
@@ -105,9 +105,9 @@
       </div>
       <!-- SOCIAL BAR -->
       <div class="col-12 text-center socialBar col-12 col-sm-4 mt-3">
-        <a href="https://www.facebook.com/jobexbrasil/"><i class="fab fa-facebook-f mr-2"></i></a>
+        <a href="https://www.facebook.com/jobexbrasil/" style="margin-right:15px;"><i class="fab fa-facebook-f mr-2"></i></a>
         <a href="https://www.instagram.com/jobexbrasil/"><i class="fab fa-instagram mr-2"></i></a>
-        <a href="https://www.youtube.com/results?search_query=JobexBrasil"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.youtube.com/results?search_query=JobexBrasil" style="margin-left:15px;"><i class="fab fa-youtube"></i></a>
       </div>
       <!-- REGISTER BUTTON FOR LARGE RESOLUTIONS -->
       <div class="col-lg-4 text-center d-none d-lg-block">

@@ -12,6 +12,8 @@
     <meta name="keywords"content="<?php echo $pageKeywords;?>">
     <title><?php echo $pageTitle;?></title>
 
+    <link rel="icon" href="../../img/logo_icon.png" />
+
     <!-- Bootstrap core CSS -->
     <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -51,16 +53,10 @@
                 </div>
                 <!-- TEXT BLOCK -->
                 <p class="textBlock">
-                    Mussum Ipsum, cacilds vidis litro abertis. Detraxit consequat et quo num tendi nada. Não sou faixa
-                    preta cumpadi, sou preto inteiris, inteiris. Atirei o pau no gatis, per gatis num morreus. Praesent
-                    vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.
-
-                    Diuretics paradis num copo é motivis de denguis. Mais vale um bebadis conhecidiss, que um alcoolatra
-                    anonimis. Suco de cevadiss deixa as pessoas mais interessantis. Quem num gosta di mé, boa gentis num
-                    é.
+                Estudantes, jovens, sonhadores, dispostos a conquistar seus sonhos com trabalho honesto. Paralelo à jornada estudantil, trabalham em meio período, em atividades que são qualificados. Assim, ganham seu próprio dinheiro e recursos para alcançar a meta gloriosa. <strong>Então, você já sabe: além de sorridentes, eles prestam serviços com profissionalismo!</strong>
                 </p>
                 <!-- LEARN BUTTON -->
-                <button type="button" class="btn btn-lg learnButton">Quero Aprender</button>
+                <button onclick="window.location = '../../quero-aprender'" type="button" class="btn btn-lg learnButton">Quero Aprender</button>
                 <hr>
                 <!-- OBSERVATION -->
                 <p class="observationText">*Para se cadastrar como <strong>Jobex Jr.</strong> é necessário estar

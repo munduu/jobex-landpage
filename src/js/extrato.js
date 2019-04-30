@@ -15,12 +15,20 @@ $(function() {
         console.log(result)
 
         for(var i = 0; i < result.result.list.length; i++) {
-            $('.list-group').append('<p class="list-group-item list-group-item-action">'+ 
+            $('.listG').append('<div class="row" style="margin: 10px 0; padding: 5px;"><div class="col">'+ 
                 result.result.list[i].obs +
-                '<br>'+
-                '<span style="margin-left:20px; color: #009DBE;"><i class="fa fa-calendar" aria-hidden="true"></i> '+ result.result.list[i].data_cad.substring(0, 10).split("-").reverse().join("/") +
-                '</span> <span style="color: #009DBE;"><i class="fa fa-money" aria-hidden="true"></i> R$ '+ result.result.list[i].valor +
-            '</span></p>');
+                '</div><div class="col">'+
+                '<span style="color: #009DBE;"><i class="fa fa-calendar" aria-hidden="true"></i></span> '+ result.result.list[i].data_cad.substring(0, 10).split("-").reverse().join("/") +
+                '</div> <div class="col"><span style="color: #009DBE;"><i class="fa fa-money" aria-hidden="true"></i></span> R$ '+ result.result.list[i].valor +
+            '</div></div><hr>');
         }
+    },'json');
+
+    $.post("../controller/saldo.php", { email: readCookie('mail'), senha: readCookie('pass') }, function(result){
+        console.log(result);
+
+        $(".dias").append(''+ Math.floor(result.result.dias) + '');
+        $(".saldo").append(''+ result.result.valor+ '');
+
     },'json');
 });

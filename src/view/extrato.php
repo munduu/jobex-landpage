@@ -12,6 +12,8 @@
   <meta name="keywords"content="<?php echo $pageKeywords;?>">
   <title><?php echo $pageTitle;?></title>
 
+  <link rel="icon" href="../../img/logo_icon.png" />
+
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -38,12 +40,20 @@
   <div class="container">
     <h2>Meu Extrato</h2>
     <div style="text-align:center;" class="card-footer text-muted">
-        <a class="btn btn-primary" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>
-        <a class="btn btn-primary" style="margin:15px;" href="../../saque" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>
-        <a class="btn btn-primary" style="margin:15px;" href="../../transferir" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>
-        <a class="btn btn-success" style="margin:15px;" href="../../planos" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>
+        <a class="btn btn-primary formInput" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>
+        <a class="btn btn-primary formInput" style="margin:15px;" href="../../saque" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>
+        <a class="btn btn-primary formInput" style="margin:15px;" href="../../transferir" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>
+        <a class="btn btn-success formInput" style="margin:15px;" href="../../planos" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>
     </div>
-    <div class="list-group"></div>
+
+    <div style="text-align:center;"  class="card">
+      <div class="card-header"><h4>Saldo</h4></div>
+          <ul class="list-group list-group-flush">
+              <li class="list-group-item"><span style=" color: #009DBE"><strong>J$</strong></span> <span class="saldo"></span> = <span style=" color: #009DBE"><strong>R$</strong></span> <span class="saldo"></span><br> <span style=" color: #009DBE"><strong>Dias</strong></span>: <span class="dias"></span></li>
+          </ul>
+      </div>
+    <div class="list-group listG" style="background-color: #fff;"></div> 
+  </div>
   </div>
   <!-- END CONTENT -->
 

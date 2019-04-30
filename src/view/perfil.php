@@ -12,6 +12,8 @@
   <meta name="keywords"content="<?php echo $pageKeywords;?>">
   <title><?php echo $pageTitle;?></title>
 
+  <link rel="icon" href="../../img/logo_icon.png" />
+
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -50,7 +52,7 @@
     
         </div>
 
-        <p style="text-align:center; margin-top:50px;"><button type="button" class="btn btn-warning logout">Sair</button></p>
+        <p style="text-align:center; margin-top:-50px;"><button type="button" class="btn btn-lg btn-warning logout formInput">Sair</button></p>
   </div>
 
   <!-- END CONTENT -->

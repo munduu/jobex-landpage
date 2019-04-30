@@ -12,6 +12,8 @@
   <meta name="keywords"content="<?php echo $pageKeywords;?>">
   <title><?php echo $pageTitle;?></title>
 
+  <link rel="icon" href="../../img/logo_icon.png" />
+
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -37,7 +39,7 @@
   <!-- CONTENT -->
   <div class="container">
 
-    <div style="text-align:center;" class="wpb_wrapper">
+    <div style="text-align:left;" class="wpb_wrapper">
         <p>&nbsp;</p>
         <p>A <strong>Jobex</strong> promove conexões entre clientes e Profissionais Independentes, de forma dinâmica e intuitiva. Através do aplicativo, o cliente encontra o Profissional de sua preferência, enquanto que o Profissional preenche sua agenda sob demanda. Nascemos da vontade de valorizar e otimizar o tempo – a vida é feita de cooperação. Em nossa busca diária por lazer e qualidade de vida, é indispensável utilizarmos a tecnologia a favor do nosso tempo, para realizarmos o que de fato valorizamos.</p>
         <p><strong>#SeuTempoValeOuro!</strong></p>
@@ -49,7 +51,7 @@
             <div class="card-header" id="headingOne">
             <h5 class="mb-0">
                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <h2>MISSÃO</h2>
+                <h3><i class="fa fa-plus" aria-hidden="true"></i> MISSÃO</h3>
                 </button>
             </h5>
             </div>
@@ -64,7 +66,7 @@
             <div class="card-header" id="headingTwo">
             <h5 class="mb-0">
                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <h2>VISÃO</h2>
+                <h3><i class="fa fa-plus" aria-hidden="true"></i> VISÃO</h3>
                 </button>
             </h5>
             </div>
@@ -78,7 +80,7 @@
             <div class="card-header" id="headingThree">
             <h5 class="mb-0">
                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h2>VALORES</h2>
+                <h3><i class="fa fa-plus" aria-hidden="true"></i> VALORES</h3>
                 </button>
             </h5>
             </div>

@@ -2,6 +2,13 @@
     width: 100%;
     
 }
+
+.formInput{
+    text-align: center; 
+    border-radius: 25px 25px 25px 25px; 
+    font-weight: normal;
+}
+
 .formLogin{
     max-width: 350px;
 }

@@ -44,13 +44,13 @@
       <div class="mt-4 col-md-12"><h2 class="form-signin-heading">Acessar sua Conta</h2></div>
       <div class="mt-4 col-md-12">
         <label for="inputEmail" class="sr-only">E-mail</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required="" autofocus="">
+        <input type="email" id="inputEmail" class="form-control formInput" placeholder="E-mail" required="" autofocus="">
       </div>
       <div class="mt-4 col-md-12">
         <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
+        <input type="password" id="inputPassword" class="form-control formInput" placeholder="Senha" required="">
       </div>
-      <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary w-100">Entrar</div></div>
+      <div class="mt-4 col-md-12"><div id="enterLogin" class="btn btn-lg btn-primary w-100 formInput">Entrar</div></div>
       <div class="mt-4 col-md-12 text-center"><a href="../../esqueci-minha-senha/">Esqueci minha senha</a></div>
       <div class="mt-4 col-md-12 text-center registerText"><a href="../../cadastrar/">Cadastre-se grátis</a></div>
 
@@ -66,6 +66,7 @@
     <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../js/login.js"></script>
+    <script src="../js/minha-conta.js"></script>
   </body>
   
 </html>

@@ -65,10 +65,10 @@ $(function() {
               '</div>'+
           '</div>'+
           '<div class="card-footer text-muted">'+
-            '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>'+
-            '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>'+
-            '<a class="btn btn-primary" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>'+
-            '<a class="btn btn-success" style="margin:15px;" href="#" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="../../saque" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>'+
+            '<a class="btn btn-primary" style="margin:15px;" href="../../transferir" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>'+
+            '<a class="btn btn-success" style="margin:15px;" href="../../planos" role="button" aria-pressed="true"><i class="fa fa-credit-card"></i> Comprar</a>'+
           '</div>'+
         '</div>');
 

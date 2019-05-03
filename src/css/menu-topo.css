@@ -2,25 +2,20 @@
     background-color: #262626 !important;
 }
 
-.activeHeader {
-    padding: 0px;
-    border: 1px solid #eeeeee;
+.activeHeader { 
+    border: 1px solid #757575;
     border-radius: 5px;
-    line-height: 30px;
 }
 
 .activeHeader:hover {
-    padding: 0px;
-    border: 1px solid #5c5c5c;
-    border-radius: 5px;
-    line-height: 30px;
+    border: 1px solid #4b4b4b;
+    border-radius: 5px; 
 }
 
 .headerLogo {
     height: 50px;
+    margin-top: -4px;
 }
-
-.myMenu {}
 
 .myMenu a {
     color: #ffffff !important;
@@ -44,30 +39,25 @@
     -webkit-transition: all .6s;
 }
 
-.menuContainer {
-    width: fit-content !important;
-    margin: 0 auto;
+.myMenu{    
+    line-height: 50px;
 }
 
-.navbar-brand {
-    text-align: center;
+.navbar-nav > li{
+    margin-left:25px;
+    margin-right:25px;
 }
 
-.navbar-nav {
-    flex-grow: 0 !important;
-    margin: 0 !important;
+@media (max-width: 991px){
+    #logoCenter{
+        display: none !important;
+    }
 }
-
-.navbar-collapse {
-    flex-grow: 0 !important;
-    margin: 0 !important;
-}
-
-.logoContainer {
-    min-width: 30%;
-    margin: 0 !important;
-}
-
-.menuContainer {
-    flex-grow: 1 !important;
+@media (min-width: 992px){
+    #logoToggle{
+        display: none !important;
+    }
+    #navbarBrand{
+        display: none !important;
+    }
 }

@@ -94,7 +94,10 @@
                 <p>Oferecer tecnologia de ponta com fácil acesso;</p>
                 <p><strong>Segurança e privacidade:</strong></p>
                 <p>Proteger e respeitar os dados dos clientes e parceiros;</p>
-                <p><strong>Entusiasmo:&nbsp;</p>
+                <p><strong>Entusiasmo:</strong></p>
+                <p>Brilho nos olhos e dedicação aos nossos clientes e parceiros;</p>
+                <p><strong>Reconhecimento:</strong></p>
+                <p>Trabalhar com excelência e meritocracia.</p>
             </div>
             </div>
         </div>

@@ -47,7 +47,7 @@
           <div class="form-row text-center">
             <div class="input-group mb-3">
               <input id="tags" type="text" class="form-control text-center buscar searchBox" autocomplete="off" value=""
-                placeholder="buscar profissional" aria-label="buscar profissional" aria-describedby="basic-addon2">
+                placeholder="" aria-label="" aria-describedby="basic-addon2">
               <input id="tagid"type="hidden">
               <div class="input-group-append">
                 <button class="btn btn-outline-secondary buscar searchButton" type="button">
@@ -76,6 +76,7 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="src/js/index.js"></script>
+  <script src="src/js/minha-conta.js"></script>
 </body>
 
 </html>

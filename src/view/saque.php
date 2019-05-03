@@ -42,7 +42,7 @@
   <div class="container">
     
       <div class="container marketing">
-        <h2>Realizar Saque</h2>
+        <h2 class="text-center">Realizar Saque</h2>
         <!-- Three columns of text below the carousel -->
         <div style="text-align:center;" class="card-footer text-muted">
             <a class="btn btn-primary formInput" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>

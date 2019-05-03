@@ -54,7 +54,7 @@
       <div class="w-100 text-center mt-3 mb-3">
         <input type="checkbox" id="checkTerms">
         <label for="checkTerms">
-          Li e concordo com os <a href="termos-de-uso.html"><strong>Termos de Uso</strong></a> da Jobex.
+          Li e concordo com os <a href="../../termos-de-uso"><strong>Termos de Uso</strong></a> da Jobex.
         </label>
       </div>
       <!-- REGISTER BUTTON -->

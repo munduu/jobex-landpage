@@ -26,4 +26,11 @@ $(function() {
     return null;
   }
 
+  $.post("../controller/contato.php", { 
+    nome: $('#newsBottonNome').val(), 
+    email: $('#newsBottonEmail').val() 
+  }, function(result){
+    console.log(result);
+  },'json');
+
 });

@@ -43,7 +43,7 @@
     </div>
 
     <div class="form-signin">
-      <div class="mt-4 col-md-12"><h2 class="form-signin-heading">Resgatar sua Senha</h2></div>
+      <div class="mt-4 col-md-12"><h2 class="form-signin-heading text-center">Resgatar sua Senha</h2></div>
       <div class="mt-4 col-md-12">
         <label for="inputEmail" class="sr-only">E-mail</label>
         <input type="email" id="inputEmail" class="form-control formInput" placeholder="E-mail" required="" autofocus="">

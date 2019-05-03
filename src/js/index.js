@@ -19,9 +19,22 @@ $(function() {
     });
   });
 
+  function searchTag(tag){
+    $.post(url_geral + "servicosLand", {search: tag}, function (result) {
+      $('#tags').val(result.result.list.data[0].nome);
+      $('#tagid').val(result.result.list.data[i].id);
+      console.log(result);
+    });
+  }
+
   $('.searchButton').click(function() {
     var tag = $('#tagid').val();
     var name = $('#tags').val();
+
+    if(name.length > 0 && tag != '') {
+      setTimeout(searchTag(name), 3000);
+    }
+
     if(tag !== ''){
       window.location.href = './src/view/search.php?tag=' + tag + '&name=' + name + '';
     } else {
@@ -30,10 +43,14 @@ $(function() {
   });
 
   $(document).on('keypress',function(e) {
-    console.log(e);
     if(e.which == 13 || e.which == 168) {
       var tag = $('#tagid').val();
       var name = $('#tags').val();
+
+      if(name.length > 0 && tag != '') {
+        setTimeout(searchTag(name), 3000);
+      }
+
       if(tag !== ''){
         window.location.href = './src/view/search.php?tag=' + tag + '&name=' + name + '';
       } else {
@@ -41,5 +58,4 @@ $(function() {
       } 
     }
   });
-
 });

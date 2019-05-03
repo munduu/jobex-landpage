@@ -42,7 +42,7 @@
     <div id="alertLogin" class="alert alert-danger alert-dismissible fade hide" role="alert"></div>
 
     <div class="form-signin">
-      <div class="mt-4 col-md-12"><h2 class="form-signin-heading">Acessar sua Conta</h2></div>
+      <div class="mt-4 col-md-12"><h2 class="form-signin-heading text-center">Acessar sua Conta</h2></div>
       <div class="mt-4 col-md-12">
         <label for="inputEmail" class="sr-only">E-mail</label>
         <input type="email" id="inputEmail" class="form-control formInput" placeholder="E-mail" required="" autofocus="">

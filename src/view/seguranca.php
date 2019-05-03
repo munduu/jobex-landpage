@@ -46,7 +46,7 @@
       Vale lembrar que:
     </p>
     <!-- LIST -->
-    <ul class="securityList">
+    <ul class="securityList" style="padding: 15px;">
       <li>Você pode <strong>“registrar chegada”</strong> do profissional, fazendo uma foto do mesmo e publicando em suas redes sociais (opcional);</li>
       <li>
       <strong>Nunca faça pagamentos antecipados</strong>. Durante a visita do Profissional, peça um orçamento por escrito (se for o caso) e, se necessário, 
@@ -55,7 +55,9 @@
       <li>
       <strong>Não enviamos e-mail pedindo seus dados</strong>. O único tipo de e-mail que enviamos é sobre promoções temporárias e de nossos parceiros. 
         Nesse caso, você deve observar que NÃO LHE PEDIMOS DADO ALGUM, apenas, se você interessar, deve acessar o site da Jobex para 
-        conhecer melhor tais ofertas. <span>Nossos sites oficiais na internet são</span>: <a href="https://jobex.org"><strong>jobex.org</strong></a> e 
+        conhecer melhor tais ofertas. <span>
+        <br><br>
+        Nossos sites oficiais na internet são</span>: <a href="https://jobex.org"><strong>jobex.org</strong></a> e 
         <a href="https://www.jobex.com.br"><strong>www.jobex.com.br</strong></a>.
       </li>
     </ul>

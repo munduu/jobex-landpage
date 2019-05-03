@@ -56,6 +56,15 @@
     .registerButtonContainerSm{
         visibility: visible !important;
     }
+
+}
+
+@media (min-width: 576px) {
+
+    .downloadText {
+        padding-left: 40px;
+    }
+
 }
 
 @media (max-width: 600px) {

@@ -42,7 +42,7 @@
     <!-- CONTACT FORM -->
     <form class="formRegister row m-auto">
       <div class="formHeader text-center">
-        <div class="headerTitle">FALE CONOSCO</div>
+        <div class="headerTitle text-center">FALE CONOSCO</div>
         <span>Para entrar em contato conosco, basta preencher o formulário abaixo:</span>
       </div>
       <div class="formContent">

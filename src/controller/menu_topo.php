@@ -2,7 +2,7 @@
 <!-- INDEX CSS -->
 <link href="<?php if ($pageName=='index'){ echo './src/css/menu-topo.css'; }else{ echo '../css/menu-topo.css';} ?>" rel="stylesheet">
 
-<nav class="navbar navbar-center navbar-expand-lg navbar-dark bg-dark text-center header darkTheme">
+<nav class="navbar navbar-center navbar-expand-xl navbar-dark bg-dark text-center header darkTheme">
     
     <!-- navbar BRAND -->
     <a class="navbar-brand" id="navbarBrand" href="<?php if ($pageName=='index'){ echo '#'; }else{ echo '../../';} ?>">
@@ -31,7 +31,7 @@
         </li>
       </ul>
       <!-- CENTER -->
-      <ul class="navbar-nav navbar-center myMenu">
+      <ul class="navbar-center myMenu logoCenterContainer">
         <li class="nav-item" id="logoCenter">
           <a class="nav-link" href="<?php if ($pageName=='index'){ echo '#'; }else{ echo '../../';} ?>" id="headerMenu">
             <img class="headerLogo" src="<?php if($pageName=='index') { echo 'img/icone_topo_branca.png'; } else {  echo '../../img/icone_topo_branca.png'; } ?>" />

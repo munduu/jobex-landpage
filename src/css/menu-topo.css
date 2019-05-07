@@ -7,6 +7,16 @@
     border-radius: 5px;
 }
 
+.menuContainer{
+    position: relative;
+}
+.logoCenterContainer{
+    position: absolute !important;
+    left: calc(50% - 25px) !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
 .activeHeader:hover {
     border: 1px solid #4b4b4b;
     border-radius: 5px; 
@@ -48,12 +58,18 @@
     margin-right:25px;
 }
 
-@media (max-width: 991px){
+@media (max-width: 1199px){
     #logoCenter{
         display: none !important;
     }
 }
-@media (min-width: 992px){
+@media (max-width: 1400px){
+    .navbar-nav > li{
+        margin-left:10px !important;
+        margin-right:10px !important;
+    }
+}
+@media (min-width: 1200px){
     #logoToggle{
         display: none !important;
     }

@@ -20,77 +20,83 @@ $(function () {
 
   $('#buscaProfissao').val($.urlParam('name'));
 
+    if(!$.urlParam('id_user')){
 
-  $.post(url_geral + "proposta/selecionar-profissional-land", { grupo: $.urlParam('tag') }, function (result) {
-    for (var i = 0; i < result.result.list.data.length; i++) {
+      $('#search').show();
+      $('#searchDetail').hide();
 
-      let stars = (result.result.list.data[i].media_stars != null) ? result.result.list.data[i].media_stars : 1;
+      $.post(url_geral + "proposta/selecionar-profissional-land", { grupo: $.urlParam('tag') }, function (result) {
+      for (var i = 0; i < result.result.list.data.length; i++) {
 
-      let id = result.result.list.data[i].id;
+        let stars = (result.result.list.data[i].media_stars != null) ? result.result.list.data[i].media_stars : 1;
 
-      $( "#search" ).append('<a href="./search.php?id_user=' + id + '"><div class="col-lg-4">'+
-        '<p id="img_perfil' + id + '" style="text-align: center; margin: 5px;"></p>'+
-        '<h2 style="text-align: center; margin: 5px;color:#0000ff;">'+ result.result.list.data[i].nome +'</h2>'+
-        '<p style="text-align: center; margin: 5px;">'+
-          '<i id="star1' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
-          '<i id="star2' + id + '" class="fa fa-star" aria-hidden="true"></i>'+ 
-          '<i id="star3' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
-          '<i id="star4' + id + '" class="fa fa-star" aria-hidden="true"></i>'+ 
-          '<i id="star5' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
-        '</p>'+
-        '<p style="text-align: center; margin: 5px;"><a class="btn btn-secondary" href="#" role="button">Tel: ( '+ result.result.list.data[i].area +' ) '+ result.result.list.data[i].telefone +'</a></p>'+
-      '</div></a>');
+        let id = result.result.list.data[i].id;
 
-      if(result.result.list.data[i].img_url != null) {
-        $( "#img_perfil" + id ).html('<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="'+ url_geral +'jobex-api/public/'+ result.result.list.data[i].img_url +'" />');
+        $( "#search" ).append('<a href="./search.php?id_user=' + id + '"><div class="col-lg-4">'+
+          '<p id="img_perfil' + id + '" style="text-align: center; margin: 5px;"></p>'+
+          '<h2 style="text-align: center; margin: 5px;color:#0000ff;">'+ result.result.list.data[i].nome +'</h2>'+
+          '<p style="text-align: center; margin: 5px;">'+
+            '<i id="star1' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
+            '<i id="star2' + id + '" class="fa fa-star" aria-hidden="true"></i>'+ 
+            '<i id="star3' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
+            '<i id="star4' + id + '" class="fa fa-star" aria-hidden="true"></i>'+ 
+            '<i id="star5' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
+          '</p>'+
+          '<p style="text-align: center; margin: 5px;"><a class="btn btn-secondary" href="#" role="button">Tel: ( '+ result.result.list.data[i].area +' ) '+ result.result.list.data[i].telefone +'</a></p>'+
+        '</div></a>');
 
-      } else {
-        $("#img_perfil" + id).html('<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>');
+        if(result.result.list.data[i].img_url != null) {
+          $( "#img_perfil" + id ).html('<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="'+ url_geral +'jobex-api/public/'+ result.result.list.data[i].img_url +'" />');
+
+        } else {
+          $("#img_perfil" + id).html('<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>');
+        }
+
+        if (stars == 0) {
+          $('#star1' + id).css({ "color": "#ffc107" });
+          $('#star2' + id).css({ "color": starColor });
+          $('#star3' + id).css({ "color": starColor });
+          $('#star4' + id).css({ "color": starColor });
+          $('#star5' + id).css({ "color": starColor });
+        } else if (stars == 1) {
+          $('#star1' + id).css({ "color": "#ffc107" });
+          $('#star2' + id).css({ "color": starColor });
+          $('#star3' + id).css({ "color": starColor });
+          $('#star4' + id).css({ "color": starColor });
+          $('#star5' + id).css({ "color": starColor });
+        } else if (stars == 2) {
+          $('#star1' + id).css({ "color": "#ffc107" });
+          $('#star2' + id).css({ "color": "#ffc107" });
+          $('#star3' + id).css({ "color": starColor });
+          $('#star4' + id).css({ "color": starColor });
+          $('#star5' + id).css({ "color": starColor });
+        } else if (stars == 3) {
+          $('#star1' + id).css({ "color": "#ffc107" });
+          $('#star2' + id).css({ "color": "#ffc107" });
+          $('#star3' + id).css({ "color": "#ffc107" });
+          $('#star4' + id).css({ "color": starColor });
+          $('#star5' + id).css({ "color": starColor });
+        } else if (stars == 4) {
+          $('#star1' + id).css({ "color": "#ffc107" });
+          $('#star2' + id).css({ "color": "#ffc107" });
+          $('#star3' + id).css({ "color": "#ffc107" });
+          $('#star4' + id).css({ "color": "#ffc107" });
+          $('#star5' + id).css({ "color": starColor });
+        } else if (stars == 5) {
+          $('#star1' + id).css({ "color": "#ffc107" });
+          $('#star2' + id).css({ "color": "#ffc107" });
+          $('#star3' + id).css({ "color": "#ffc107" });
+          $('#star4' + id).css({ "color": "#ffc107" });
+          $('#star5' + id).css({ "color": "#ffc107" });
+        }
       }
-
-      if (stars == 0) {
-        $('#star1' + id).css({ "color": "#ffc107" });
-        $('#star2' + id).css({ "color": starColor });
-        $('#star3' + id).css({ "color": starColor });
-        $('#star4' + id).css({ "color": starColor });
-        $('#star5' + id).css({ "color": starColor });
-      } else if (stars == 1) {
-        $('#star1' + id).css({ "color": "#ffc107" });
-        $('#star2' + id).css({ "color": starColor });
-        $('#star3' + id).css({ "color": starColor });
-        $('#star4' + id).css({ "color": starColor });
-        $('#star5' + id).css({ "color": starColor });
-      } else if (stars == 2) {
-        $('#star1' + id).css({ "color": "#ffc107" });
-        $('#star2' + id).css({ "color": "#ffc107" });
-        $('#star3' + id).css({ "color": starColor });
-        $('#star4' + id).css({ "color": starColor });
-        $('#star5' + id).css({ "color": starColor });
-      } else if (stars == 3) {
-        $('#star1' + id).css({ "color": "#ffc107" });
-        $('#star2' + id).css({ "color": "#ffc107" });
-        $('#star3' + id).css({ "color": "#ffc107" });
-        $('#star4' + id).css({ "color": starColor });
-        $('#star5' + id).css({ "color": starColor });
-      } else if (stars == 4) {
-        $('#star1' + id).css({ "color": "#ffc107" });
-        $('#star2' + id).css({ "color": "#ffc107" });
-        $('#star3' + id).css({ "color": "#ffc107" });
-        $('#star4' + id).css({ "color": "#ffc107" });
-        $('#star5' + id).css({ "color": starColor });
-      } else if (stars == 5) {
-        $('#star1' + id).css({ "color": "#ffc107" });
-        $('#star2' + id).css({ "color": "#ffc107" });
-        $('#star3' + id).css({ "color": "#ffc107" });
-        $('#star4' + id).css({ "color": "#ffc107" });
-        $('#star5' + id).css({ "color": "#ffc107" });
-      }
-    }
-    $('#search').show();
-    $('#searchDetail').hide();
-  });
+    });
+  }
 
   if($.urlParam('id_user')){
+    
+    $('#search').hide();
+    $('#searchDetail').show();
 
     $.get(url_geral+"perfil-profissional-land", { id_user: $.urlParam('id_user') }, function(result){
 
@@ -103,7 +109,7 @@ $(function () {
 
         if(result.result.perfil[i].aceita_cartao == 1) { var aceita_cartao = "sim"; } else { var aceita_cartao = "não"; }
         if(result.result.perfil[i].cobra_visita == 1) { var cobra_visita = "sim"; } else { var cobra_visita = "não"; }
-        if(result.result.perfil[i].mei == 1) { var mei = "sim"; } else { var mei = "não"; }
+        if(result.result.perfil[i].fisica_juridica == 0) { var fisica_juridica = "sim"; } else { var fisica_juridica = "não"; }
 
         $( "#searchDetail" ).html('<div class="card text-center">'+
           '<div id="img_perfil_detail'+ result.result.perfil[i].id_user +'" class="card-header"></div>'+
@@ -120,7 +126,7 @@ $(function () {
             '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
             '<p class="card-text"><strong>Aceita Cartão:</strong> '+ aceita_cartao +'</p>'+
             '<p class="card-text"><strong>Cobra Visita?</strong> '+ cobra_visita +'</p>'+
-            '<p class="card-text"><strong>Emite Nota?</strong> '+ mei +'</p>'+
+            '<p class="card-text"><strong>Pessoa jurídica?</strong> '+ fisica_juridica +'</p>'+
           '</div>'+
         '</div>');
 
@@ -167,9 +173,6 @@ $(function () {
         $('#star4_detail' + id).css({ "color": "#ffc107" });
         $('#star5_detail' + id).css({ "color": "#ffc107" });
       }
-
-      $('#search').hide();
-      $('#searchDetail').show();
     });
   }
 
@@ -206,7 +209,8 @@ $(function () {
   function searchTag(tag){
     $.post(url_geral + "servicosLand", {search: tag}, function (result) {
       $('#tags').val(result.result.list.data[0].nome);
-      $('#tagid').val(result.result.list.data[i].id);
+      $('#tagid').val(result.result.list.data[0].id);
+      window.location.href = './search.php?tag=' + result.result.list.data[0].id + '&name=' + result.result.list.data[0].nome + '';
       console.log(result);
     });
   }
@@ -215,14 +219,10 @@ $(function () {
     var tag = $('#tagid').val();
     var name = $('#tags').val();
 
-    if(name.length > 0 && tag != '') {
-      setTimeout(searchTag(name), 3000);
-    }
+    if(name.length > 0 && tag == '') { searchTag(name); }
 
     if (tag !== '') {
       window.location.href = './search.php?tag=' + tag + '&name=' + name + '';
-    } else {
-      alert('Selecione Pelo menos uma Profissão');
     }
   });
 
@@ -231,15 +231,11 @@ $(function () {
       var tag = $('#tagid').val();
       var name = $('#tags').val();
 
-      if(name.length > 0 && tag != '') {
-        setTimeout(searchTag(name), 3000);
-      }
+      if(name.length > 0 && tag == '') { searchTag(name); }
 
       if (tag !== '') {
         window.location.href = './search.php?tag=' + tag + '&name=' + name + '';
-      } else {
-        alert('Selecione Pelo menos uma Profissão');
-      }
+      } 
     }
   });
 

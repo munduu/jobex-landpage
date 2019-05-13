@@ -22,7 +22,8 @@ $(function() {
   function searchTag(tag){
     $.post(url_geral + "servicosLand", {search: tag}, function (result) {
       $('#tags').val(result.result.list.data[0].nome);
-      $('#tagid').val(result.result.list.data[i].id);
+      $('#tagid').val(result.result.list.data[0].id);
+      window.location.href = './src/view/search.php?tag=' + result.result.list.data[0].id + '&name=' + result.result.list.data[0].nome + '';
       console.log(result);
     });
   }
@@ -31,14 +32,13 @@ $(function() {
     var tag = $('#tagid').val();
     var name = $('#tags').val();
 
-    if(name.length > 0 && tag != '') {
-      setTimeout(searchTag(name), 3000);
-    }
+    console.log(name.length);
+    console.log(tag);
+
+    if(name.length > 0 && tag == '') { searchTag(name); }
 
     if(tag !== ''){
       window.location.href = './src/view/search.php?tag=' + tag + '&name=' + name + '';
-    } else {
-      alert('Selecione Pelo menos uma Profissão');
     } 
   });
 
@@ -47,14 +47,13 @@ $(function() {
       var tag = $('#tagid').val();
       var name = $('#tags').val();
 
-      if(name.length > 0 && tag != '') {
-        setTimeout(searchTag(name), 3000);
-      }
+      console.log(name.length);
+      console.log(tag);
+
+      if(name.length > 0 && tag == '') { searchTag(name); }
 
       if(tag !== ''){
         window.location.href = './src/view/search.php?tag=' + tag + '&name=' + name + '';
-      } else {
-        alert('Selecione Pelo menos uma Profissão');
       } 
     }
   });

@@ -2,3 +2,19 @@
     font-size: 30px !important;
     color: rgb(0, 0, 255) !important;
 }
+
+h2 {
+    color: #00aec5 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

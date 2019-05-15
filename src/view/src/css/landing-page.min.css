@@ -1,0 +1,241 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.3 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+ 
+ body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #F3F3F3;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  .BlueBigText{
+    font-size: 30px;
+    color: #359FC2;
+  }
+  
+  header.masthead {
+    position: relative;
+    background-color: #ffffff;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  
+  header.masthead .overlay {
+    position: absolute;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  
+  header.masthead h1 {
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 6rem;
+      padding-bottom: 0rem;
+    }
+    header.masthead h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  .showcase .showcase-text {
+    padding: 3rem;
+  }
+  
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+  }
+  
+  .features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  .features-icons .features-icons-item {
+    max-width: 20rem;
+  }
+  
+  .features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+  }
+  
+  .features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+  }
+  
+  .features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+  }
+  
+  .testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  .testimonials .testimonial-item {
+    max-width: 18rem;
+  }
+  
+  .testimonials .testimonial-item img {
+    max-width: 12rem;
+    -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+  }
+  
+  .call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  .call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  
+  footer.footer {
+    padding-top: 0.5rem;
+    padding-bottom: 4rem;
+  }
+  
+  .form-row {
+    margin: 0 !important;
+  }
+
+ .buscar::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 1; /* Firefox */
+ }
+  .buscar:-ms-input-placeholder { /* Internet Explorer 10-11 */ }
+  
+  .buscar::-ms-input-placeholder { /* Microsoft Edge */ }
+
+  @media (max-width: 500px) {
+    .buscar {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav {
+        margin: 0 auto !important;
+    }
+  }
+
+  @media (max-width: 960px){
+    .mt-md{
+      margin-top: 40px !important;
+    }
+    .myList{
+      text-align: center !important;
+    }
+  }
+
+  .myList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .myList li{
+    width: 100%;
+    border: none; 
+    background-color: unset;
+    margin-bottom: 0.6em;
+  }
+
+  .mySearch{
+    padding-bottom: 220px;
+  }
+
+  .nav-link{
+    padding: 4px;
+  }
+
+  .formInput{
+    text-align: center; 
+    border-radius: 25px 25px 25px 25px; 
+    font-weight: normal;
+  }
+
+  .registerButton{
+    width: 65%; 
+    border-radius: 25px 25px 25px 25px; 
+    padding: 6px 30px 6px 30px;
+  }
+  
+  .jobex{
+    color: #ffffff !important;
+    font-size: 18px;
+  }
+
+  .headerButton{
+    padding: 0px; 
+    border: 1px solid #8a8a8a; 
+    color: #8a8a8a
+}
+
+.myAccountButton i{
+  padding: 5px; 
+  border-radius: 14px; 
+  background: #009DBE; 
+  color: white;
+}
+
+.myAccountButton i:hover{
+  background: #49d1ff; 
+}
+
+.downloadAppButton{
+  border: 1px solid #8a8a8a; 
+  border-radius: 8px; 
+  color: #202020;
+  width: 110px !important;
+}
+
+.logo{
+  margin: 160px 40px 40px 40px;
+}
+
+.container{
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.navbar{
+  background-color: #FFFFFF !important;
+}
+
+.footer{
+  background-color: #FAFAFA !important;
+}

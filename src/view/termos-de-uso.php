@@ -13,8 +13,6 @@
     <meta name="keywords" content="<?php echo $pageKeywords; ?>">
     <title><?php echo $pageTitle; ?></title>
 
-    <link rel="icon" href="../../img/logo_icon.png" />
-
     <!-- Bootstrap core CSS -->
     <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 

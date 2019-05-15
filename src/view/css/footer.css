@@ -1,0 +1,27 @@
+.myFooter{
+    background-color: #262626 !important;  
+}
+
+.myFooter a{
+    color: #262626 !important;  
+}
+
+.myLogo{
+    height: 60px;
+}
+.downloadText{
+    padding-left: 0;
+    margin-top: 2.5em; 
+    color:#ffffff; 
+    font-size: 20px;
+}
+
+.downloadContainer{
+    width: fit-content;
+}
+
+@media (max-width: 940px){
+    .downloadContainer{
+        width: 100% !important;
+    }
+}

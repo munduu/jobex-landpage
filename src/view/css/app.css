@@ -1,0 +1,37 @@
+.textBlue{
+    font-size: 28px;
+    color: #009DBE;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.textBlack{
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px){
+    .textBlue{
+        font-size: 18px;
+    }
+    .textBlack{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 765px){
+    .textBlue{
+        font-size: 22px;
+    }
+    .textBlack{
+        font-size: 22px;
+    }
+}
+
+.appDownloadButton img{
+    opacity: 0.7;
+}
+.appDownloadButton img:hover{
+    opacity: 1;
+}

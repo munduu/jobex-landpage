@@ -13,8 +13,6 @@
   <meta name="keywords" content="<?php echo $pageKeywords; ?>">
   <title><?php echo $pageTitle; ?></title>
 
-  <link rel="icon" href="../../img/logo_icon.png" />
-
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -81,14 +79,14 @@
       <hr>
       <li><i class="fas fa-pen-square"></i><a href="../../cadastrar/">Cadastre-se grátis</a></li>
       <hr>
-      <li><i class="fas fa-calendar-alt"></i>Bem poucos cliques você encontra um Profissional Independente. É você quem decide quando, onde e por quem deseja ser atendido(a).</li>
+      <li><i class="fas fa-calendar-alt"></i>Adquira créditos e começe a aparecer no radar dos clientes. Usando o calendário inteligente, você gerencia serviços, datas, horários e locais de sua preferência.</li>
       <hr>
-      <li><i class="fas fa-clock"></i>Comece hoje a poupar tempo!</li>
+      <li><i class="fas fa-clock"></i>Comece hoje a multiplicar clientes!</li>
       <hr>
     </ul>
     <!-- BUTTONS -->
     <a href="../../cadastrar/"><button type="submit" class="btn-lg btn btn-primary btDownload mr-2">Cadastre-se grátis</button></a>
-    <a href="../../app/"><button type="submit" class="btn-lg btn btn-primary btDownload">Baixe o App Jobex</button></a>
+    <!--<a href="../../app/"><button type="submit" class="btn-lg btn btn-primary btDownload">Baixe o App Jobex</button></a>-->
   </div>
   <!-- END CONTENT -->
 

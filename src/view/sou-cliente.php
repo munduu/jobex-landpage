@@ -13,8 +13,6 @@
   <meta name="keywords" content="<?php echo $pageKeywords; ?>">
   <title><?php echo $pageTitle; ?></title>
 
-  <link rel="icon" href="../../img/logo_icon.png" />
-
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -83,13 +81,13 @@
       <hr>
       <li><i class="fas fa-pen-square"></i><a href="../../cadastrar/">Cadastre-se grátis</a></li>
       <hr>
-      <li><i class="fas fa-calendar-alt"></i>Bem poucos cliques você encontra um Profissional Independente. É você quem decide quando, onde e por quem deseja ser atendido(a).</li>
+      <li><i class="fas fa-calendar-alt"></i>Em poucos cliques você encontra um Profissional Independente. É você quem decide quando, onde e por quem deseja ser atendido(a).</li>
       <hr>
       <li><i class="fas fa-clock"></i>Comece hoje a poupar tempo!</li>
       <hr>
     </ul>
     <!-- BUTTONS -->
-    <a href="../../app/"><button type="submit" class="btn-lg btn btn-primary btDownload">Baixe o App Jobex</button></a>
+    <a href="../.././"><button type="submit" class="btn-lg btn btn-primary btDownload">Buscar Profissional</button></a>
   </div>
 
 

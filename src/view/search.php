@@ -12,8 +12,6 @@
   <meta name="keywords"content="<?php echo $pageKeywords;?>">
   <title><?php echo $pageTitle;?></title>
 
-  <link rel="icon" href="../../img/logo_icon.png" />
-
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -47,7 +45,7 @@
           <div class="form-row text-center">
               <div class="input-group mb-3">
                 <input id="tags" type="text" class="form-control text-center buscar searchBox" autocomplete="off" value=""
-                  placeholder="buscar profissional" aria-label="buscar profissional" aria-describedby="basic-addon2">
+                  placeholder="" aria-label="buscar profissional" aria-describedby="basic-addon2">
                 <input id="tagid"type="hidden">
                 <div class="input-group-append">
                   <button class="btn btn-outline-secondary buscar searchButton" type="button">

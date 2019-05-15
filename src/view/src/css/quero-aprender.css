@@ -1,0 +1,489 @@
+.backgroundImage {
+    width: 100%;
+}
+
+.blueSubtitle {
+    color: #0759BF;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+.OportunitySpecialText {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #01B2F4;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.OportunitySpecialText span {
+    color: #000000 !important;
+}
+
+.content {
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.toggleIcon {
+    color: #000000 !important;
+}
+
+.myHeader {
+    width: 100% !important;
+    background: none !important;
+    position: absolute;
+    top: 30px;
+    z-index: 100;
+    margin: 0 !important;
+}
+
+.navbar-nav a:hover {
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #ffffff38;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: all .6s;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+}
+
+.topLogoContainer {
+    width: 35%;
+}
+
+.topMenuContainer {
+    width: 65%;
+}
+
+.myHeader a {
+    color: #0f0f0f !important;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.infoContainer {
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 58%;
+    max-width: 1700px;
+}
+
+.infoContainer p {
+    text-align: justify;
+    padding: 0;
+}
+
+.myMenuHeader {
+    margin: 0;
+}
+
+@media (max-width: 969px) {
+    .navbar-nav {
+        background-color: #ffffff54 !important;
+    }
+}
+
+.specialText {
+    font-size: 30px;
+    color: #0DC5E6;
+    font-weight: bolder;
+}
+
+.specialText span {
+    font-size: 30px;
+    color: #000000 !important;
+}
+
+.master {
+    display: block !important;
+    font-size: 18px;
+    font-weight: bold;
+    width: fit-content !important;
+}
+
+.masterCircle {
+    display: inline-block !important;
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+}
+
+.betina {
+    background-image: url('https://abrilclaudia.files.wordpress.com/2019/03/bettina.jpg?quality=85&strip=info&w=502');
+}
+
+.rafael {
+    background-image: url('https://www.reedsmith.com/-/media/images/professionals/s/santoshernandez-rafael-a/highresolutionimage/santoshernandezra.jpg');
+}
+
+.otavio {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxa4QvUVf73wZEyNx1x9nmAc6H5FMNSb3UKPm7uGZBF4UWdAwz');
+}
+
+.masterLink {
+    color: #0759BF;
+    font-size: 14px;
+}
+
+.plans {
+    background-color: #101BAA;
+    padding: 34px 200px 70px 200px;
+    background-image: url('../../img/fundo-azul-quero-aprender.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.plansTitle {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 34px;
+}
+
+.planCard {
+    margin-bottom: 50px !important;
+    position: relative;
+    display: inline-block;
+    background-color: #EDEDEE;
+    width: 250px;
+    border-radius: 2%;
+    text-align: center;
+    padding: 20px;
+    -webkit-box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+    box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+}
+
+.cardTitle {
+    color: #707076;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.cardIcon {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.cardIcon img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.cardDesc {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #707076;
+}
+
+.miniTextCard {
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+.cardPriceBlueText {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    display: block;
+    margin-top: 40px !important;
+    border-radius: 25px;
+    background-color: #ffffff;
+    padding: 9px 40px 9px 40px;
+    -webkit-box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+    box-shadow: 7px 9px 5px -5px rgba(0, 0, 0, 0.39);
+}
+
+.cardPriceBlueText:hover {
+    background-color: #fafafa;
+    font-weight: bold !important;
+    text-decoration: none;
+}
+
+.cardPrice {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.cardPrice span {
+    font-size: 26px;
+    line-height: 22px;
+}
+
+.cardPriceBlueText {
+    line-height: 18px;
+    font-size: 22px !important;
+    color: #00A1FE;
+    margin: 0;
+}
+
+@media (max-width: 400px) {
+    .myMenuHeader {
+        margin-top: 5px !important;
+        font-size: 14px !important;
+    }
+    .navbar-nav {
+        background-color: #ffffff54 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .OportunitySpecialText {
+        margin-top: 1em !important;
+        margin-bottom: 0 !important;
+    }
+    .backgroundTextBlock {
+        visibility: hidden !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .infoContainer, .plans {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .myHeader {
+        text-align: left !important;
+    }
+    .infoContainer {
+        margin-top: 65% !important;
+    }
+}
+
+@media (max-width: 720px) {
+    .headerLogo {
+        text-align: left !important;
+    }
+    .myMenuHeader {
+        margin-top: 40px;
+    }
+    .myMenuHeader a {
+        color: #ffffff !important;
+        letter-spacing: 3px !important;
+    }
+    .myMenuHeader a:hover {
+        color: #dadada !important;
+    }
+    .backgroundTextBlock h1 {
+        font-size: 24px !important;
+        letter-spacing: 2px !important;
+    }
+    .backgroundTextBlock p {
+        font-size: 14px !important;
+        letter-spacing: 0px !important;
+    }
+    .myHeader {
+        top: 15px;
+    }
+    .infoContainer, .plans {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+}
+
+@media (min-width: 684px) and (max-width: 1000px) {
+    .infoContainer, .plans {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .backgroundTextBlock h1 {
+        font-size: 24px !important;
+        letter-spacing: 2px !important;
+    }
+    .backgroundTextBlock p {
+        font-size: 14px !important;
+        letter-spacing: 0px !important;
+    }
+}
+
+.myMenuHeader a {
+    color: #000000;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.myMenuHeader a:hover {
+    color: #313131;
+    text-decoration: none;
+    letter-spacing: 3px !important;
+}
+
+.headerLogo {
+    text-align: center;
+}
+
+.headerLogo img {
+    max-width: 160px;
+}
+
+.backgroundTextBlock {
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 100%;
+}
+
+.backgroundTextBlock h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.backgroundTextBlock p {
+    font-size: 26px;
+    letter-spacing: 0px;
+}
+
+.myFooter {
+    background-color: #0096F3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center !important;
+}
+
+.socialBar {
+    margin-top: 1em;
+    color: #ffffff !important;
+}
+
+.socialBar i {
+    color: #359FC2;
+    background-color: #ffffff;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+.socialBar i:hover {
+    color: #49d1ff;
+    background-color: #ffffff;
+}
+
+.socialBar a {
+    color: #ffffff !important;
+}
+
+.footerSubscribeText {
+    color: #ffffff;
+}
+
+.subscribeButton {
+    background-color: #0C0CB9;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 94, 0);
+}
+
+.subscribeGroup {
+    width: fit-content;
+    margin: 0 auto !important;
+    float: none !important;
+    max-width: 350px !important;
+}
+
+.inputEmail {
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    max-width: 300px !important;
+}
+
+.downloadAppButton {
+    color: #ffffff;
+    background-color: #000000;
+    border: 0 !important;
+    width: 110px !important;
+    border-radius: 5px;
+}
+
+/* Carousel */
+
+@media (max-width: 600px) {
+    .courseText {
+        position: absolute;
+        top: 75%;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.courseCarousel img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carouselCard {
+    position: relative;
+}
+
+.cardContainer {
+    display: inline-block;
+    background-color: red;
+}
+
+.courseText {
+    position: absolute;
+    bottom: 13px;
+    left: 26px;
+}
+
+.courseLink a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.courseName {
+    background-color: #0961AB;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.nextArrow {
+    position: absolute;
+    font-size: 80px;
+    top: 50%;
+    right: -85px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    /*-webkit-text-stroke: 7px #ffffff;*/
+}
+
+.previousArrow {
+    position: absolute;
+    font-size: 80px;
+    top: 50%;
+    left: -40px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}

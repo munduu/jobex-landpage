@@ -1,0 +1,36 @@
+.formLogin input{
+    width: 100%;
+    
+}
+
+.formInput{
+    text-align: center; 
+    border-radius: 25px 25px 25px 25px; 
+    font-weight: normal;
+}
+
+.formLogin{
+    max-width: 350px;
+}
+.btnJoin{
+    width: 100%;
+}
+.registerLink{
+    margin-top: 50px;
+    font-size: 28px;
+    color: #646464;
+    font-weight: bolder;
+    text-align: center;
+}
+.textLoginSocial{
+    margin-top: 50px;
+    color: #646464;
+    font-size: 14px;
+}
+.registerText{
+    font-size: 26px;
+}
+
+#enterLogin{
+    cursor: pointer; 
+}

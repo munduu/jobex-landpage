@@ -1,0 +1,71 @@
+.myFooter {
+    background-color: #262626 !important;
+}
+
+.myFooter a {
+    color: #ffffff;
+}
+
+.myLogo {
+    height: 60px;
+}
+
+.downloadText {
+    margin-top: -9px;
+    padding-left: 0;
+    margin-bottom: 4px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.downloadContainer {
+    top: -14px;
+    width: fit-content;
+}
+
+.downloadContainer button {
+    width: fit-content;
+}
+
+.socialBar {
+    margin-top: 0;
+}
+
+.socialBar i {
+    color: #ffffff;
+    background-color: #359FC2;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+.downloadAppButton {
+    color: #4e4e4e !important;
+}
+
+.socialBar i:hover {
+    color: #ffffff;
+    background-color: #49d1ff;
+}
+
+@media (max-width: 991px) {
+    .registerButtonContainerLg{
+        visibility: hidden !important;
+    }
+    .registerButtonContainerSm{
+        visibility: visible !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .downloadText {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 940px) {
+    .downloadContainer {
+        width: 100% !important;
+    }
+}

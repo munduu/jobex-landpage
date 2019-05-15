@@ -11,17 +11,14 @@
 }
 
 .downloadText {
-    margin-top: -9px;
+    margin-top: 10px;
     padding-left: 0;
     margin-bottom: 4px;
     color: #ffffff;
     font-size: 20px;
 }
 
-.downloadContainer {
-    top: -14px;
-    width: fit-content;
-}
+
 
 .downloadContainer button {
     width: fit-content;
@@ -62,7 +59,6 @@
 @media (min-width: 576px) {
 
     .downloadText {
-        padding-left: 40px;
     }
 
 }

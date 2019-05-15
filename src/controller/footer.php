@@ -90,8 +90,8 @@
     </div>
     <div class="row" class="footerRow">
       <!-- DOWNLOAD BAR -->
-      <div class="downloadContainer text-center text-sm-left text-md-left col-12 col-sm-4">
-        <p class="downloadText text-center text-sm-left w-100">Baixe grátis o APP</p>
+      <div class="downloadContainer text-center text-lg-left col-12 col-sm-12 col-lg-4">
+        <p class="downloadText w-100">Baixe grátis o APP</p>
         <a href="http://bit.ly/jobex-applestore">
           <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
             <i class="fab fa-apple mr-1"></i>App Store
@@ -104,7 +104,7 @@
         </a>
       </div>
       <!-- SOCIAL BAR -->
-      <div class="col-12 text-center socialBar col-12 col-sm-4 mt-3">
+      <div class="col-12 text-center socialBar col-12 col-sm-12 col-lg-4 mt-3">
         <a href="https://www.facebook.com/jobexbrasil/" style="margin-right:15px;"><i class="fab fa-facebook-f mr-2"></i></a>
         <a href="https://www.instagram.com/jobexbrasil/"><i class="fab fa-instagram mr-2"></i></a>
         <a href="https://www.youtube.com/results?search_query=JobexBrasil" style="margin-left:15px;"><i class="fab fa-youtube"></i></a>

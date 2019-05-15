@@ -8,7 +8,7 @@
   <div class="container">
     <div class="row grid">
       <!-- APP DOWNLOAD -->
-      <div class="col-lg-4 myList mb-2">
+      <div class="col-lg-4 myList mb-2 text-center">
         <img class="myLogo" src="<?php if ($pageName == 'index') {
                                     echo './img/logo-dark.png';
                                   } else {
@@ -75,10 +75,10 @@
             <a href="#">Cadastre seu e-mail para receber novidades</a>
           </li>
           <li>
-            <input type="text" class="form-control buscar formInput" placeholder="*nome">
+            <input type="text" class="form-control buscar formInput m-auto" placeholder="*nome">
           </li>
           <li>
-            <input type="email" class="form-control buscar formInput" placeholder="*e-mail">
+            <input type="email" class="form-control buscar formInput m-auto" placeholder="*e-mail">
           </li>
           <li class="d-block d-lg-none">
             <div class="text-center">
@@ -92,16 +92,18 @@
       <!-- DOWNLOAD BAR -->
       <div class="downloadContainer text-center text-lg-left col-12 col-sm-12 col-lg-4">
         <p class="downloadText w-100">Baixe grátis o APP</p>
-        <a href="http://bit.ly/jobex-applestore">
-          <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
-            <i class="fab fa-apple mr-1"></i>App Store
-          </button>
-        </a>
-        <a href="http://bit.ly/jobex-googleplay">
-          <button type="button" class="btn btn-light btn-sm downloadAppButton">
-            <i class="fab fa-google-play mr-1"></i>Google Play
-          </button>
-        </a>
+        <div class="text-center">
+          <a href="http://bit.ly/jobex-applestore">
+            <button type="button" class="btn btn-light btn-sm mr-2 downloadAppButton">
+              <i class="fab fa-apple mr-1"></i>App Store
+            </button>
+          </a>
+          <a href="http://bit.ly/jobex-googleplay">
+            <button type="button" class="btn btn-light btn-sm downloadAppButton">
+              <i class="fab fa-google-play mr-1"></i>Google Play
+            </button>
+          </a>
+        </div>
       </div>
       <!-- SOCIAL BAR -->
       <div class="col-12 text-center socialBar col-12 col-sm-12 col-lg-4 mt-3">

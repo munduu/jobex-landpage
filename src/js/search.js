@@ -123,10 +123,10 @@ $(function () {
               '<i id="star5_detail' + id + '" class="fa fa-star" aria-hidden="true"></i>'+
             '</p>'+
             '<p class="card-text"><strong>Telefone:</strong> ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
-            '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
+            '<p class="card-text"><strong>Sobre:</strong> '+ result.result.perfil[i].obs +'</p>'+
             '<p class="card-text"><strong>Aceita Cartão:</strong> '+ aceita_cartao +'</p>'+
             '<p class="card-text"><strong>Cobra Visita?</strong> '+ cobra_visita +'</p>'+
-            '<p class="card-text"><strong>Pessoa jurídica?</strong> '+ fisica_juridica +'</p>'+
+            '<p class="card-text"><strong>Pessoa Jurídica?</strong> '+ fisica_juridica +'</p>'+
           '</div>'+
         '</div>');
 

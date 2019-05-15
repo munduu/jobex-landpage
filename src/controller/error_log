@@ -1,0 +1,11 @@
+[26-Apr-2019 19:25:09 UTC] PHP Notice:  Undefined index: senha in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/extrato.php on line 17
+[26-Apr-2019 19:25:33 UTC] PHP Notice:  Undefined index: senha in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/extrato.php on line 17
+[26-Apr-2019 19:27:35 UTC] PHP Notice:  Undefined index: senha in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/extrato.php on line 17
+[30-Apr-2019 18:33:11 UTC] PHP Warning:  require_once(phpmail/class.phpmailer.php): failed to open stream: No such file or directory in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/contato.php on line 3
+[30-Apr-2019 18:33:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'phpmail/class.phpmailer.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/contato.php on line 3
+[30-Apr-2019 18:35:51 UTC] PHP Notice:  Undefined variable: email in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/contato.php on line 16
+[30-Apr-2019 18:35:51 UTC] PHP Notice:  Undefined variable: tmp in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/contato.php on line 16
+[30-Apr-2019 18:35:51 UTC] PHP Notice:  Undefined variable: email in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/contato.php on line 16
+[30-Apr-2019 18:35:51 UTC] PHP Notice:  Undefined variable: tmp in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/contato.php on line 16
+[30-Apr-2019 18:35:51 UTC] PHP Notice:  Undefined variable: texto in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/contato.php on line 27
+[30-Apr-2019 18:35:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/dik1v746694b/public_html/jobex.com.br/landingpage/src/controller/phpmail/PHPMailerAutoload.php on line 45

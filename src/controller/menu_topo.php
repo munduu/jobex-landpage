@@ -16,7 +16,7 @@
 
     <div class="collapse navbar-collapse menuContainer" id="navbarSupportedContent">
       <!-- LEFT -->
-      <ul class="navbar-nav navbar-left myMenu">
+      <ul class="navbar-nav navbar-left myMenu mr-auto">
         <li class="nav-item" id="logoToggle">
           <a class="nav-link <?php if ($pageName=='index'){ echo 'activeHeader'; }?>" href="<?php if ($pageName=='index'){ echo '#'; }else{ echo '../../';} ?>">Home</a>
         </li>

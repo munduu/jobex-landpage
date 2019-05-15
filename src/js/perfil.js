@@ -55,23 +55,21 @@ $(function() {
           '<div id="img_perfil_detail'+ result.result.perfil[i].id_user +'" class="card-header"></div>'+
           '<div class="card-body">'+
               '<h2 class="card-title" style="color:#0000ff;">'+ result.result.perfil[i].nome +'</h2>'+
+              '<div style="text-align:center;"  class="card">'+
+                '<div class="card-header"><h4>Saldo</h4></div>'+
+                    '<ul class="list-group list-group-flush">'+
+                        '<li class="list-group-item"><span style=" color: #009DBE"><strong>J$</strong></span> <span class="saldo"></span> = <span style=" color: #009DBE"><strong>R$</strong></span> <span class="saldo"></span><br> <span style=" color: #009DBE"><strong>Dias</strong></span>: <span class="dias"></span></li>'+
+                    '</ul>'+
+                '</div>'+
+              '</div>'+
               '<div class="row">'+
-                '<div class="col-8">'+
+                '<div class="col">'+
                   '<p class="card-text"><strong>Telefone:</strong> ('+ result.result.perfil[i].area +') '+ result.result.perfil[i].telefone +'</p>'+
                   '<p class="card-text"><strong>E-mail:</strong> '+ result.result.perfil[i].email +'</p>'+
-                  '<p class="card-text"><strong>Observação:</strong> '+ result.result.perfil[i].obs +'</p>'+
+                  '<p class="card-text"><strong>Sobre:</strong> '+ result.result.perfil[i].obs +'</p>'+
                   '<p class="card-text"><strong>Aceita Cartão:</strong> '+ aceita_cartao +'</p>'+
                   '<p class="card-text"><strong>Cobra Visita?</strong> '+ cobra_visita +'</p>'+
                   '<p class="card-text"><strong>Emite Nota?</strong> '+ mei +'</p>'+
-                '</div>'+
-                '<div class="col-4">'+
-                  '<div class="card">'+
-                    '<div class="card-header"><h4>Saldo</h4></div>'+
-                    '<ul class="list-group list-group-flush">'+
-                      '<li class="list-group-item"><span style=" color: #009DBE"><strong>J$</strong></span> <span class="saldo"></span> = <span style=" color: #009DBE"><strong>R$</strong></span> <span class="saldo"></span></li>'+
-                      '<li class="list-group-item"><span style=" color: #009DBE"><strong>Dias:</strong></span> <span class="dias"></span></li>'+
-                    '</ul>'+
-                  '</div>'+
                 '</div>'+
               '</div>'+
           '</div>'+

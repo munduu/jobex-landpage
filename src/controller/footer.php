@@ -75,10 +75,10 @@
             <a href="#">Cadastre seu e-mail para receber novidades</a>
           </li>
           <li>
-            <input id="newsBottonNome" type="text" class="form-control buscar formInput" placeholder="*nome">
+            <input type="text" class="form-control buscar formInput" placeholder="*nome">
           </li>
           <li>
-            <input id="newsBottonEmail" type="email" class="form-control buscar formInput" placeholder="*e-mail">
+            <input type="email" class="form-control buscar formInput" placeholder="*e-mail">
           </li>
           <li class="d-block d-lg-none">
             <div class="text-center">

@@ -149,7 +149,7 @@
 
   @media (min-width: 768px) {
     .navbar-nav {
-        margin: 0 auto !important;  
+        /*margin: 0 auto !important;*/
     }
   }
 

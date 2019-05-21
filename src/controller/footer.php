@@ -75,10 +75,10 @@
             <a href="#">Cadastre seu e-mail para receber novidades</a>
           </li>
           <li>
-            <input type="text" class="form-control buscar formInput m-auto" placeholder="*nome">
+            <input type="text" class="form-control buscar formInput formInputFooter m-auto" placeholder="*nome">
           </li>
           <li>
-            <input type="email" class="form-control buscar formInput m-auto" placeholder="*e-mail">
+            <input type="email" class="form-control buscar formInput formInputFooter m-auto" placeholder="*e-mail">
           </li>
           <li class="d-block d-lg-none">
             <div class="text-center">

@@ -73,7 +73,7 @@ $(function() {
                 '</div>'+
               '</div>'+
           '</div>'+
-          '<div class="card-footer text-muted">'+
+          '<div class="card-footer text-muted text-center">'+
             '<a class="btn btn-primary formInput" style="margin:15px;" href="../../extrato" role="button" aria-pressed="true"><i class="fa fa-plus-circle"></i> Extrato Geral</a>'+
             '<a class="btn btn-primary formInput" style="margin:15px;" href="../../saque" role="button" aria-pressed="true"><i class="fa fa-arrow-alt-circle-down"></i> Saque</a>'+
             '<a class="btn btn-primary formInput" style="margin:15px;" href="../../transferir" role="button" aria-pressed="true"><i class="fa fa-exchange-alt"></i> Transferir Créditos</a>'+

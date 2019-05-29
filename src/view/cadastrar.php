@@ -42,14 +42,15 @@
     <p class="BlueBigText">Cadastre-se grátis</p>
     <!-- REGISTER FORM -->
     <form class="formRegister row justify-content-center align-self-center m-auto">
-      <input type="text" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2"
-        placeholder="Nome">
-      <input type="text" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2"
-        placeholder="Email">
-      <input type="text" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2"
-        placeholder="Senha">
-      <input type="text" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2 mb-3"
-        placeholder="Repetir senha">
+      <select id="selectType" class="formInput mr-auto ml-auto" style="">
+        <option value="">Selecione uma Opção</option>
+        <option value="Sou Cliente">Sou Cliente</option>
+        <option value="Sou Profissional">Sou Profissional</option>
+      </select>
+      <input id="inputNome" type="text" value="" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2" placeholder="Nome">
+      <input id="inputEmail" type="text" value="" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2" placeholder="Email">
+      <input id="inputSenha" type="password" value="" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2" placeholder="Senha">
+      <input id="inputRSenha" type="password" value="" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2 mb-3" placeholder="Repetir senha">
       <!-- CHECKBOX TERMS -->
       <div class="w-100 text-center mt-3 mb-3">
         <input type="checkbox" id="checkTerms">
@@ -59,7 +60,7 @@
       </div>
       <!-- REGISTER BUTTON -->
       <div class="w-100 text-center mt-3">
-        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <button id="enterRegister" type="button" class="btn btn-primary">Cadastrar</button>
       </div>
 
 
@@ -76,7 +77,7 @@
   <script src="../../vendor/jquery/jquery.min.js"></script>
   <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="../js/minha-conta.js"></script>
+  <script src="../js/cadastrar.js"></script>
 </body>
 
 </html>

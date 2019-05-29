@@ -42,15 +42,15 @@
     <p class="BlueBigText">Cadastre-se grátis</p>
     <!-- REGISTER FORM -->
     <form class="formRegister row justify-content-center align-self-center m-auto">
-      <select id="selectType" class="formInput mr-auto ml-auto" style="">
+      <select id="selectType" class="form-control formInput mr-auto ml-auto" style="">
         <option value="">Selecione uma Opção</option>
         <option value="Sou Cliente">Sou Cliente</option>
         <option value="Sou Profissional">Sou Profissional</option>
       </select>
-      <input id="inputNome" type="text" value="" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2" placeholder="Nome">
-      <input id="inputEmail" type="text" value="" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2" placeholder="Email">
-      <input id="inputSenha" type="password" value="" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2" placeholder="Senha">
-      <input id="inputRSenha" type="password" value="" class="form-control formInput col-12 col-sm-6 col-md-6 mr-auto ml-auto mt-2 mb-3" placeholder="Repetir senha">
+      <input id="inputNome" type="text" value="" class="form-control formInput col-12 col-sm-6 mt-2 mr-auto" placeholder="Nome">
+      <input id="inputEmail" type="text" value="" class="form-control formInput col-12 col-sm-6 mt-2 ml-auto" placeholder="Email">
+      <input id="inputSenha" type="password" value="" class="form-control formInput col-12 col-sm-6 mt-2 mr-auto" placeholder="Senha">
+      <input id="inputRSenha" type="password" value="" class="form-control formInput col-12 col-sm-6 mt-2 mb-3 ml-auto" placeholder="Repetir senha">
       <!-- CHECKBOX TERMS -->
       <div class="w-100 text-center mt-3 mb-3">
         <input type="checkbox" id="checkTerms">

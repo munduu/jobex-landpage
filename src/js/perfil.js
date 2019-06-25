@@ -1,4 +1,4 @@
-var url_geral = 'http://v22.soujobex.com.br/';
+var url_geral = 'http://soujobex.com.br/';
 
 $(function() {
 
@@ -38,7 +38,7 @@ $(function() {
 
   if($.urlParam('id_user')){
 
-    $.get(url_geral+"perfil-profissional-land", { id_user: $.urlParam('id_user') }, function(result){
+    $.get("../controller/perfil_profissional.php", { id_user: $.urlParam('id_user') }, function(result){
 
         console.log(result);
 

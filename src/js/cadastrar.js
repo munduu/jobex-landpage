@@ -4,7 +4,10 @@ $(function() {
       var email  = $('#inputEmail').val();
       var senha  = $('#inputSenha').val();
       var rsenha = $('#inputRSenha').val();
+      var selectType = $('#selectType').val();
   
+      if(selectType == ''){ alert('Tipo Vazio!'); return false; }
+      
       if(nome == ''){ alert('Nome Vazio!'); return false; } 
       if(email == ''){ alert('E-mail Vazio!'); return false; } 
       if(senha == ''){ alert('Senha Vazia!'); return false; } 
@@ -14,7 +17,7 @@ $(function() {
       if(senha != rsenha){ alert('Senha e Repetir Senha divirgentes!'); return false; }
       if($( "#checkTerms" ).prop( "checked" )== false) { alert('Necessário concordar com Termos de Uso!'); return false; }
   
-      $.get("../controller/cadastrar.php?nome="+nome+"&email="+email+"&senha="+senha, function(result){
+      $.get("../controller/cadastrar.php?nome="+nome+"&email="+email+"&senha="+senha+"&selectType="+selectType, function(result){
           console.log(result)
           if(result.success==true){
             window.location.href = "../controller/bemvindo.php?email=" + email;

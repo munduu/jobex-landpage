@@ -1,6 +1,6 @@
 $(function() {
 //lista profissões
-    $.get("http://v22.soujobex.com.br/planos", function(result){
+    $.get("http://soujobex.com.br/planos", function(result){
         for(var i = 0; i < result.result.list.data.length; i++) {
             $('#planos').append('<button type="button" class="btn planosLink" onclick="window.location=\'../../comprar-creditos?id='+ result.result.list.data[i].id +'\';">'+
                 '<div class="row align-items-center mb-3">'+

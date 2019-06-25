@@ -1,4 +1,4 @@
-var url_geral = 'http://v22.soujobex.com.br/';
+var url_geral = 'http://soujobex.com.br/';
 
 $(function () {
 
@@ -25,7 +25,7 @@ $(function () {
       $('#search').show();
       $('#searchDetail').hide();
 
-      $.post(url_geral + "proposta/selecionar-profissional-land", { grupo: $.urlParam('tag') }, function (result) {
+      $.post("../controller/seleciona_profissional.php", { grupo: $.urlParam('tag') }, function (result) {
       for (var i = 0; i < result.result.list.data.length; i++) {
 
         let stars = (result.result.list.data[i].media_stars != null) ? result.result.list.data[i].media_stars : 1;
@@ -98,7 +98,7 @@ $(function () {
     $('#search').hide();
     $('#searchDetail').show();
 
-    $.get(url_geral+"perfil-profissional-land", { id_user: $.urlParam('id_user') }, function(result){
+    $.post("../controller/perfil_profissional.php", { id_user: $.urlParam('id_user') }, function(result){
 
         console.log(result);
 
@@ -191,7 +191,8 @@ $(function () {
   //lista profissões
   var availableTags = []
   var e = []
-  $.post(url_geral + "servicosLand", function (result) {
+  
+  $.post("../controller/search.php", function (result) {
     for (var i = 0; i < result.result.list.data.length; i++) {
       e[i] = { "label": result.result.list.data[i].nome, "value": result.result.list.data[i].id }
     }
@@ -207,7 +208,7 @@ $(function () {
   });
 
   function searchTag(tag){
-    $.post(url_geral + "servicosLand", {search: tag}, function (result) {
+    $.post("../controller/search.php", {search: tag}, function (result) {
       $('#tags').val(result.result.list.data[0].nome);
       $('#tagid').val(result.result.list.data[0].id);
       window.location.href = './search.php?tag=' + result.result.list.data[0].id + '&name=' + result.result.list.data[0].nome + '';
@@ -259,7 +260,8 @@ $(function () {
   });
 
   if ($.urlParam('tag')) {
-    $.get(url_geral + "especialidades", { id_grupo: $.urlParam('tag') }, function (result) {
+    $.get("../controller/especialidades.php", { id_grupo: $.urlParam('tag') }, function (result) {
+      if(result.result)
       for (var i = 0; i < result.result.list.length; i++) {
         //console.log(result.result.list[i].nome);
         $('#buscaEspecialidades').append('<option value="' + result.result.list[i].id + '">' + result.result.list[i].nome + '</option>')

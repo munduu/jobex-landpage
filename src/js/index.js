@@ -3,7 +3,7 @@ $(function() {
   //lista profissões
   var availableTags = []
   var e = []
-  $.post("http://v22.soujobex.com.br/servicosLand", function(result){
+  $.post("./src/controller/search.php", function(result){
     for(var i = 0; i < result.result.list.data.length; i++) {
       let nome = result.result.list.data[i].nome[0].toUpperCase() + result.result.list.data[i].nome.substring(1);
       e[i] = {"label": nome,"value": result.result.list.data[i].id}
@@ -20,7 +20,7 @@ $(function() {
   });
 
   function searchTag(tag){
-    $.post(url_geral + "servicosLand", {search: tag}, function (result) {
+    $.post("./src/controller/search.php", {search: tag}, function (result) {
       $('#tags').val(result.result.list.data[0].nome);
       $('#tagid').val(result.result.list.data[0].id);
       window.location.href = './src/view/search.php?tag=' + result.result.list.data[0].id + '&name=' + result.result.list.data[0].nome + '';

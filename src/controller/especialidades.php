@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://soujobex.com.br/bank-list",
+  CURLOPT_URL => "http://soujobex.com.br/especialidades?id_grupo=$_POST[id_grupo]",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -13,8 +13,6 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTPHEADER => array(
     "Content-Type: application/json",
     "cache-control: no-cache",
-    "email: $_POST[email]",
-    "senha: $_POST[senha]"
   ),
 ));
 
@@ -22,7 +20,7 @@ $response = curl_exec($curl);
 $err = curl_error($curl);
 
 curl_close($curl);
-
+header('Content-Type: application/json');
 if ($err) {
   echo "cURL Error #:" . $err;
 } else {

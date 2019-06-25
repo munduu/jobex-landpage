@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://soujobex.com.br/bank-list",
+  CURLOPT_URL => "http://soujobex.com.br/api_site/blogList.php",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -12,9 +12,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => "GET",
   CURLOPT_HTTPHEADER => array(
     "Content-Type: application/json",
-    "cache-control: no-cache",
-    "email: $_POST[email]",
-    "senha: $_POST[senha]"
+    "cache-control: no-cache"
   ),
 ));
 

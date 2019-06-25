@@ -1,4 +1,6 @@
 <?php 
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: *");
 $pageTitle = 'Jobex - Busca por Profissionais';
 $pageDescription = 'Seu tempo vale Ouro! A Jobex é uma plataforma para profissionais que desejam divulgar seus serviços em sua cidade e para clientes que procuram por profissionais independentes em sua região! Nossa missão é fazer você poupar tempo, seja profissional ou cliente, queremos conectar os melhores profissionais aos clientes mais exigentes e gerar negócios reais. Baixe agora nosso APP na Apple Store, ou Play Store.';
 $pageAuthor = 'Munduu - Tecnolgia';

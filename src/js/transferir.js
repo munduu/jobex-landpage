@@ -1,4 +1,4 @@
-var url_geral = 'http://v22.soujobex.com.br/';
+var url_geral = 'http://soujobex.com.br/';
 
 $(function() {
 

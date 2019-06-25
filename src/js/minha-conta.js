@@ -1,10 +1,10 @@
-var url_geral = 'http://v22.soujobex.com.br/';
+var url_geral = 'http://soujobex.com.br/';
 
 $(function() {
 
   if(readCookie('id_user')){
 
-    $.get(url_geral+"perfil-profissional-land", { id_user: readCookie('id_user') }, function(result){
+    $.get("../controller/perfil_profissional.php", { id_user: readCookie('id_user') }, function(result){
 
         console.log(result);
 

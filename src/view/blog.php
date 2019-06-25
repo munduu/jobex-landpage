@@ -1,5 +1,6 @@
 <?php include('../../src/controller/config.php'); ?>
 <?php $pageName = 'blog'; ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -35,70 +36,7 @@
   <?php include('../controller/menu_topo.php'); ?>
 
   <!-- CONTENT -->
-  <div class="container blogContainer">
-    <!-- FIRST POST -->
-    <div class="blog-post mt-3">
-      <img src="../../img/blog.jpg" class="img-fluid">
-      <div class="row">
-        <div class="col-1">
-          <strong class="postDay">14</strong><br>
-          <span class="postMonth">jan</span>
-        </div>
-        <div class="col-11">
-          <h2 class="postTitle">Afinal, como fazer a reforma de casa sem estresse?</h2>
-        </div>
-      </div>
-
-      <p class="postPreview">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.
-        O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500... <a href="#">Leia
-          a matéria completa!</a></p>
-      <hr>
-      <!-- POST FOOTER-->
-      <div class="row container-fluid">
-        <div class="col-12 col-sm-12 col-md-5 my-auto">
-          <span class="postTime">08:06</span>
-          <span class="postCategory">Reforma, Bem-Estar</span>
-        </div>
-        <div class="col-12 col-sm-12 col-md-7 my-auto postSocial text-right">
-          <span class="postLikes">21</span> Curtidas/<span class="postShare"><a href="#">Compartilhar</a></span>/<span
-            class="postComentaries">0</span> comentários
-        </div>
-      </div>
-      <!-- END POST FOOTER -->
-    </div>
-    <!-- END FIRST POST -->
-    <!-- SECOND POST -->
-    <div class="blog-post mt-4">
-      <img src="../../img/blog.jpg" class="img-fluid">
-      <div class="row flex-nowrap">
-        <div class="col-1 col-xs-2">
-          <strong class="postDay">17</strong><br>
-          <span class="postMonth">fev</span>
-        </div>
-        <div class="col-11 col-xs-10">
-          <h2 class="postTitle">Afinal, como fazer a reforma de casa sem estresse?</h2>
-        </div>
-      </div>
-
-      <p class="postPreview">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.
-        O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500... <a href="#">Leia
-          a matéria completa!</a></p>
-      <hr>
-    </div>
-    <!-- POST FOOTER-->
-    <div class="row container-fluid">
-      <div class="col-12 col-sm-12 col-md-5 my-auto">
-        <span class="postTime">08:06</span>
-        <span class="postCategory">Reforma, Bem-Estar</span>
-      </div>
-      <div class="col-12 col-sm-12 col-md-7 my-auto postSocial text-right">
-        <span class="postLikes">21</span> Curtidas/<span class="postShare"><a href="#">Compartilhar</a></span>/<span
-          class="postComentaries">0</span> comentários
-      </div>
-    </div>
-    <!-- END POST FOOTER -->
-    <!-- END SECOND POST -->
-  </div>
+  <div class="container blogContainer listG"></div>
   <!-- END CONTENT -->
 
   <!-- FOOTER -->
@@ -108,6 +46,7 @@
   <script src="../../vendor/jquery/jquery.min.js"></script>
   <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="../js/blog.js"></script>
   <script src="../js/minha-conta.js"></script>
 </body>
 
